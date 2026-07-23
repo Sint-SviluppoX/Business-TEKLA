@@ -1,0 +1,1043 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tabsezd">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tb_codsezd" type="xs:int" minOccurs="0" />
+                <xs:element name="tb_dessezd" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TABSEZD_version">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="version" type="xs:string" minOccurs="0" />
+                <xs:element name="major" type="xs:int" minOccurs="0" />
+                <xs:element name="minor" type="xs:int" minOccurs="0" />
+                <xs:element name="minorc" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tabsezd>
+    <tb_codsezd>14100</tb_codsezd>
+    <tb_dessezd>UD FOGGIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>14101</tb_codsezd>
+    <tb_dessezd>UD FOGGIA SOT MANFREDONIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>15100</tb_codsezd>
+    <tb_dessezd>UD BRINDISI SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>16100</tb_codsezd>
+    <tb_dessezd>UD LECCE SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>16101</tb_codsezd>
+    <tb_dessezd>UD LECCE SOT GALLIPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>16102</tb_codsezd>
+    <tb_dessezd>UD LECCE SOT OTRANTO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>17100</tb_codsezd>
+    <tb_dessezd>UD TARANTO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>18100</tb_codsezd>
+    <tb_dessezd>UD BARI SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>18102</tb_codsezd>
+    <tb_dessezd>UD BARI SOT BARLETTA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>18103</tb_codsezd>
+    <tb_dessezd>UD BARI SOT TRANI (SOPPRESSA 01.07.2018)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>18104</tb_codsezd>
+    <tb_dessezd>UD BARI SOT MOLFETTA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>18105</tb_codsezd>
+    <tb_dessezd>UD BARI SOT MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>18106</tb_codsezd>
+    <tb_dessezd>UD BARI SOT INTERPORTO DI BARI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>19100</tb_codsezd>
+    <tb_dessezd>UD POTENZA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>19101</tb_codsezd>
+    <tb_dessezd>UD POTENZA SOT FERRANDINA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>19102</tb_codsezd>
+    <tb_dessezd>UD POTENZA SOT MATERA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>22300</tb_codsezd>
+    <tb_dessezd>UD REGGIO EMILIA SEZIONE OPERATIVA CENTRALE (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>24100</tb_codsezd>
+    <tb_dessezd>UD FORLI' CESENA SEZIONE OPERATIVA CENTRALE (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>24101</tb_codsezd>
+    <tb_dessezd>UD FORLI' CESENA SOT CESENA (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>25100</tb_codsezd>
+    <tb_dessezd>UD MODENA SEZIONE OPERATIVA CENTRALE (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>25101</tb_codsezd>
+    <tb_dessezd>UD MODENA SOT CARPI (SOPPRESSA 01.03.2012)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>26100</tb_codsezd>
+    <tb_dessezd>UD RIMINI SEZIONE OPERATIVA CENTRALE (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>26101</tb_codsezd>
+    <tb_dessezd>UD RIMINI SOT AEROPORTO MIRAMARE F.FELLINI (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>27100</tb_codsezd>
+    <tb_dessezd>UD FERRARA SEZIONE OPERATIVA CENTRALE (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>27101</tb_codsezd>
+    <tb_dessezd>UD FERRARA SOT PORTO GARIBALDI (SOPPRESSA 01.05.2012)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>28100</tb_codsezd>
+    <tb_dessezd>UADM EMILIA 3 PARMA SEZIONE UFFICIO ACCISE DOGANE MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>29100</tb_codsezd>
+    <tb_dessezd>UADM EMILIA 2 PIACENZA SEZIONE UFFICIO ACCISE DOGANE MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>34101</tb_codsezd>
+    <tb_dessezd>UD BOLZANO SOT RESIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>34102</tb_codsezd>
+    <tb_dessezd>UD BOLZANO SOT AEROPORTO SAN GIACOMO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>34103</tb_codsezd>
+    <tb_dessezd>UD BOLZANO SOT MM.GG.BOLZANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>34104</tb_codsezd>
+    <tb_dessezd>UD BOLZANO SOT BRESSANONE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>34105</tb_codsezd>
+    <tb_dessezd>UD BOLZANO SOT BRUNICO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>34106</tb_codsezd>
+    <tb_dessezd>UD BOLZANO SOT CAMPO DI TRENS-FREIENFELD</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>34107</tb_codsezd>
+    <tb_dessezd>UD BOLZANO SOT MERANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>34108</tb_codsezd>
+    <tb_dessezd>UD BOLZANO SOT TUBRE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>35100</tb_codsezd>
+    <tb_dessezd>UD TRENTO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>35101</tb_codsezd>
+    <tb_dessezd>UD TRENTO SOT RONCAFORT</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>43100</tb_codsezd>
+    <tb_dessezd>UD SASSARI SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>43101</tb_codsezd>
+    <tb_dessezd>UD SASSARI SOT PORTO TORRES</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>43102</tb_codsezd>
+    <tb_dessezd>UD SASSARI SOT ALGHERO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>43103</tb_codsezd>
+    <tb_dessezd>UD SASSARI SOT LA MADDALENA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>43104</tb_codsezd>
+    <tb_dessezd>UD SASSARI SOT OLBIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>44100</tb_codsezd>
+    <tb_dessezd>UD CAGLIARI SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>44101</tb_codsezd>
+    <tb_dessezd>UD CAGLIARI SOT AEROPORTO ELMAS</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>44102</tb_codsezd>
+    <tb_dessezd>UD CAGLIARI SOT ARBATAX (SOPPRESSA 01.12.2015)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>44103</tb_codsezd>
+    <tb_dessezd>UD CAGLIARI SOT PORTO DI ORISTANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>44104</tb_codsezd>
+    <tb_dessezd>UD CAGLIARI SOT PORTOVESME</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>44105</tb_codsezd>
+    <tb_dessezd>UD CAGLIARI SOT SARROCH (SOPPRESSA 01.09.2012)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>44106</tb_codsezd>
+    <tb_dessezd>UD CAGLIARI SOT PORTO CANALE DI CAGLIARI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>51200</tb_codsezd>
+    <tb_dessezd>UD AREZZO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>51201</tb_codsezd>
+    <tb_dessezd>UD AREZZO SOT SIENA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>54100</tb_codsezd>
+    <tb_dessezd>UD PISA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>54101</tb_codsezd>
+    <tb_dessezd>UD PISA SOT AEROPORTO DI PISA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>54102</tb_codsezd>
+    <tb_dessezd>UD PISA SOT VIAREGGIO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>54103</tb_codsezd>
+    <tb_dessezd>UD PISA SOT LUCCA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>54104</tb_codsezd>
+    <tb_dessezd>UD PISA SOT MARINA DI CARRARA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>55100</tb_codsezd>
+    <tb_dessezd>UD LIVORNO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>55101</tb_codsezd>
+    <tb_dessezd>UD LIVORNO SOT PIOMBINO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>55102</tb_codsezd>
+    <tb_dessezd>UD LIVORNO SOT PORTOFERRAIO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>55103</tb_codsezd>
+    <tb_dessezd>UD LIVORNO SOT GROSSETO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>56100</tb_codsezd>
+    <tb_dessezd>UD PRATO E PISTOIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>56101</tb_codsezd>
+    <tb_dessezd>UD PRATO SOT MONTALE (SOPPRESSA 01.08.2013)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>57100</tb_codsezd>
+    <tb_dessezd>UD FIRENZE SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>58100</tb_codsezd>
+    <tb_dessezd>UD TERNI SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>66100</tb_codsezd>
+    <tb_dessezd>UD SAVONA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>66102</tb_codsezd>
+    <tb_dessezd>UD SAVONA SOT ALBENGA (SOPPRESSA 01.01.2017)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>67100</tb_codsezd>
+    <tb_dessezd>UD IMPERIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>67101</tb_codsezd>
+    <tb_dessezd>UD IMPERIA SOT SANREMO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>67102</tb_codsezd>
+    <tb_dessezd>UD IMPERIA SOT VENTIMIGLIA (SOPPRESSA 01.07.2012)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>68100</tb_codsezd>
+    <tb_dessezd>UD LA SPEZIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>69101</tb_codsezd>
+    <tb_dessezd>UD GENOVA SOT AEROPORTO (SOPPRESSA 01.12.2014)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>69102</tb_codsezd>
+    <tb_dessezd>UD GENOVA SOT PASSO NUOVO (SOPPRESSA 01.12.2014)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>75130</tb_codsezd>
+    <tb_dessezd>ORIA VALSOLDA CENTRALE (SOPPRESSA 18.10.2007)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>79100</tb_codsezd>
+    <tb_dessezd>UD MANTOVA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>84100</tb_codsezd>
+    <tb_dessezd>UD SALERNO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>85100</tb_codsezd>
+    <tb_dessezd>UD CATANZARO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>85101</tb_codsezd>
+    <tb_dessezd>UD CATANZARO SOT AEROPORTO LAMEZIA TERME</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>85102</tb_codsezd>
+    <tb_dessezd>UD CATANZARO SOT COSENZA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>85103</tb_codsezd>
+    <tb_dessezd>UD CATANZARO SOT CROTONE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>85104</tb_codsezd>
+    <tb_dessezd>UD CATANZARO SOT CORIGLIANO CALABRO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>86100</tb_codsezd>
+    <tb_dessezd>UD GIOIA TAURO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>87100</tb_codsezd>
+    <tb_dessezd>UD REGGIO CALABRIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>87102</tb_codsezd>
+    <tb_dessezd>UD REGGIO CALABRIA SOT VIBO VALENTIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>88100</tb_codsezd>
+    <tb_dessezd>UD CASERTA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>89100</tb_codsezd>
+    <tb_dessezd>UD BENEVENTO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>89101</tb_codsezd>
+    <tb_dessezd>UD BENEVENTO SOT AVELLINO (SOPPRESSA 01.07.2021)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>96100</tb_codsezd>
+    <tb_dessezd>UD PORTO EMPEDOCLE SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>96101</tb_codsezd>
+    <tb_dessezd>UD PORTO EMPEDOCLE SOT GELA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>96102</tb_codsezd>
+    <tb_dessezd>UD PORTO EMPEDOCLE SOT SCIACCA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>96104</tb_codsezd>
+    <tb_dessezd>UD PORTO EMPEDOCLE SOT LAMPEDUSA (SOPPRESSA 01.04.2021)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>96105</tb_codsezd>
+    <tb_dessezd>UD PORTO EMPEDOCLE SOT CALTANISSETTA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>97100</tb_codsezd>
+    <tb_dessezd>UD TRAPANI SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>97101</tb_codsezd>
+    <tb_dessezd>UD TRAPANI SOT MARSALA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>97102</tb_codsezd>
+    <tb_dessezd>UD TRAPANI SOT MAZARA DEL VALLO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>97104</tb_codsezd>
+    <tb_dessezd>UD TRAPANI SOT PANTELLERIA (SOPPRESSA 01.04.2021)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>98100</tb_codsezd>
+    <tb_dessezd>UD MESSINA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>98101</tb_codsezd>
+    <tb_dessezd>UD MESSINA SOT MILAZZO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>98102</tb_codsezd>
+    <tb_dessezd>UD MESSINA SOT GIARDINI NAXOS</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>98103</tb_codsezd>
+    <tb_dessezd>UD MESSINA SOT LIPARI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>98104</tb_codsezd>
+    <tb_dessezd>UD MESSINA SOT SANTA AGATA DI MILITELLO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>99100</tb_codsezd>
+    <tb_dessezd>UD SIRACUSA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>99101</tb_codsezd>
+    <tb_dessezd>UD SIRACUSA SOT AUGUSTA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>99102</tb_codsezd>
+    <tb_dessezd>UD SIRACUSA SOT POZZALLO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>99103</tb_codsezd>
+    <tb_dessezd>UD SIRACUSA SOT RAGUSA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>105100</tb_codsezd>
+    <tb_dessezd>UD GAETA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>105101</tb_codsezd>
+    <tb_dessezd>UD GAETA SOT APRILIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>105104</tb_codsezd>
+    <tb_dessezd>UD GAETA SOT LATINA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>106100</tb_codsezd>
+    <tb_dessezd>UD AVEZZANO SEZIONE OPERATIVA CENTRALE (SOPPRESSA 01.05.2012)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>106101</tb_codsezd>
+    <tb_dessezd>UD AVEZZANO SOT L'AQUILA (SOPPRESSA 01.05.2012)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>107100</tb_codsezd>
+    <tb_dessezd>UD PERUGIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>107103</tb_codsezd>
+    <tb_dessezd>UD PERUGIA SOT TERNI (SOPPRESSA 19.07.2021)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>108100</tb_codsezd>
+    <tb_dessezd>UD TERNI SEZIONE OPERATIVA CENTRALE (SOPPRESSA 01.01.2011)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>108101</tb_codsezd>
+    <tb_dessezd>UD TERNI SOT RIETI (SOPPRESSA 01.01.2011)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>116100</tb_codsezd>
+    <tb_dessezd>UD BIELLA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>116101</tb_codsezd>
+    <tb_dessezd>UD BIELLA SOT MM.GG. SAIMA AVANDERO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>117100</tb_codsezd>
+    <tb_dessezd>UD VERCELLI SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>117101</tb_codsezd>
+    <tb_dessezd>UD VERCELLI SOT MM.GG. DOGANALI VERCELLI (SOPPRESSA 01.04.2015)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>117102</tb_codsezd>
+    <tb_dessezd>UD VERCELLI SOT MM.GG. DEI TRAFORI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>118100</tb_codsezd>
+    <tb_dessezd>UD AOSTA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>119100</tb_codsezd>
+    <tb_dessezd>UD VERBANO-CUSIO-OSSOLA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>126100</tb_codsezd>
+    <tb_dessezd>UD PORDENONE SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>127100</tb_codsezd>
+    <tb_dessezd>UD GORIZIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>127101</tb_codsezd>
+    <tb_dessezd>UD GORIZIA SOT MONFALCONE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>127102</tb_codsezd>
+    <tb_dessezd>UD GORIZIA SOT RONCHI DEI LEGIONARI - AEROPORTO GIULIANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>128101</tb_codsezd>
+    <tb_dessezd>UD UDINE SOT PONTEBBA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>128102</tb_codsezd>
+    <tb_dessezd>UD UDINE SOT PORTO NOGARO - CERVIGNANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>128103</tb_codsezd>
+    <tb_dessezd>UD UDINE SOT ZONA ARTIGIANALE UDINESE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>129101</tb_codsezd>
+    <tb_dessezd>UD TRIESTE SOT FERNETTI (SOPPRESSA 01.01.2017)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>129102</tb_codsezd>
+    <tb_dessezd>UD TRIESTE SOT PORTO INDUSTRIALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>129103</tb_codsezd>
+    <tb_dessezd>UD TRIESTE SOT PUNTO FRANCO NUOVO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>129104</tb_codsezd>
+    <tb_dessezd>UD TRIESTE SOT PUNTO FRANCO VECCHIO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>134100</tb_codsezd>
+    <tb_dessezd>UD TREVISO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>134102</tb_codsezd>
+    <tb_dessezd>UD TREVISO SOT SEDICO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>135100</tb_codsezd>
+    <tb_dessezd>UD VICENZA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>136100</tb_codsezd>
+    <tb_dessezd>UD VERONA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>136101</tb_codsezd>
+    <tb_dessezd>UD VERONA SOT AEROPORTO VALERIO CATULLO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>136102</tb_codsezd>
+    <tb_dessezd>UD VERONA SOT MAGAZZINI GENERALI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>137100</tb_codsezd>
+    <tb_dessezd>UD VENEZIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>137101</tb_codsezd>
+    <tb_dessezd>UD VENEZIA SOT AEROPORTO MARCO POLO DI TESSERA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>137102</tb_codsezd>
+    <tb_dessezd>UD VENEZIA SOT CHIOGGIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>137103</tb_codsezd>
+    <tb_dessezd>UD VENEZIA SOT INTERPORTO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>137104</tb_codsezd>
+    <tb_dessezd>UD VENEZIA SOT PORTOGRUARO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>137105</tb_codsezd>
+    <tb_dessezd>UD VENEZIA SOT MARITTIMA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>138100</tb_codsezd>
+    <tb_dessezd>UD PADOVA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>138101</tb_codsezd>
+    <tb_dessezd>UD PADOVA SOT ROVIGO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>221100</tb_codsezd>
+    <tb_dessezd>UADM ROMAGNA 1 RAVENNA SEZIONE UFFICIO ACCISE DOGANE MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>221101</tb_codsezd>
+    <tb_dessezd>UD RAVENNA SOT LUGO - FAENZA (SOPPRESSA 01.01.2017)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>222100</tb_codsezd>
+    <tb_dessezd>UD BOLOGNA SEZIONE OPERATIVA CENTRALE (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>222101</tb_codsezd>
+    <tb_dessezd>UD BOLOGNA SOT AEROPORTO G. MARCONI (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>222102</tb_codsezd>
+    <tb_dessezd>UD BOLOGNA SOT INTERPORTO (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>223100</tb_codsezd>
+    <tb_dessezd>UADM EMILIA 1 BOLOGNA SEZIONE UFFICIO ACCISE DOGANE MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>223101</tb_codsezd>
+    <tb_dessezd>UADM EMILIA 1 BOLOGNA DISTACCAMENTO LOCALE-AEROPORTO DI BOLOGNA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>223102</tb_codsezd>
+    <tb_dessezd>UADM EMILIA 1 BOLOGNA DISTACCAMENTO LOCALE-INTERPORTO DI BOLOGNA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>223103</tb_codsezd>
+    <tb_dessezd>UADM EMILIA 1 BOLOGNA AREA TERRITORIALE FERRARA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>224100</tb_codsezd>
+    <tb_dessezd>UADM EMILIA 4 MODENA SEZIONE UFFICIO ACCISE DOGANE MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>224101</tb_codsezd>
+    <tb_dessezd>UADM EMILIA 4 MODENA AREA TERRITORIALE REGGIO EMILIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>225100</tb_codsezd>
+    <tb_dessezd>UADM ROMAGNA 2 RIMINI SEZIONE UFFICIO ACCISE DOGANE MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>225101</tb_codsezd>
+    <tb_dessezd>UADM ROMAGNA 2 RIMINI AREA TERRITORIALE FORLI'-CESENA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>261101</tb_codsezd>
+    <tb_dessezd>UD GENOVA 1 SOT PASSO NUOVO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>262101</tb_codsezd>
+    <tb_dessezd>UD GENOVA 2 SOT AEROPORTO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>262102</tb_codsezd>
+    <tb_dessezd>UD GENOVA 2 SOT PRA'</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>263100</tb_codsezd>
+    <tb_dessezd>UD RIVALTA SCRIVIA-R.PORTO GE SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>263101</tb_codsezd>
+    <tb_dessezd>UD RIVALTA SCRIVIA-R.PORTO GE SOT POZZOLO FORMIGARO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>271100</tb_codsezd>
+    <tb_dessezd>UD PAVIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>271102</tb_codsezd>
+    <tb_dessezd>UD PAVIA SOT VIGEVANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>271103</tb_codsezd>
+    <tb_dessezd>UD PAVIA SOT VOGHERA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>272100</tb_codsezd>
+    <tb_dessezd>UD TIRANO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>272102</tb_codsezd>
+    <tb_dessezd>UD TIRANO SOT SONDRIO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>272103</tb_codsezd>
+    <tb_dessezd>UD TIRANO SOT VILLA DI CHIAVENNA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>273100</tb_codsezd>
+    <tb_dessezd>UD VARESE SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>273101</tb_codsezd>
+    <tb_dessezd>UD VARESE SOT BUSTO ARSIZIO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>273102</tb_codsezd>
+    <tb_dessezd>UD VARESE SOT GAGGIOLO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>273104</tb_codsezd>
+    <tb_dessezd>UD VARESE SOT LUINO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>273105</tb_codsezd>
+    <tb_dessezd>UD VARESE SOT PONTE TRESA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>273107</tb_codsezd>
+    <tb_dessezd>UD VARESE-MALPENSA SOT MALPENSA (SOPPRESSA 01.01.2010)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>274100</tb_codsezd>
+    <tb_dessezd>UD BRESCIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>274101</tb_codsezd>
+    <tb_dessezd>UD BRESCIA SOT CREMONA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>275100</tb_codsezd>
+    <tb_dessezd>UD COMO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>275102</tb_codsezd>
+    <tb_dessezd>UD COMO SOT LECCO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>275103</tb_codsezd>
+    <tb_dessezd>UD COMO SOT MONTANO LUCINO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>275104</tb_codsezd>
+    <tb_dessezd>UD COMO SOT ORIA VALSOLDA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>275105</tb_codsezd>
+    <tb_dessezd>UD COMO SOT PONTE CHIASSO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>276100</tb_codsezd>
+    <tb_dessezd>UD BERGAMO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>277100</tb_codsezd>
+    <tb_dessezd>UD MILANO 1 SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>277101</tb_codsezd>
+    <tb_dessezd>UD MILANO 1 SOT LINATE (SOPPRESSA 01.01.2013)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>277102</tb_codsezd>
+    <tb_dessezd>UD MILANO 1 SOT O.N.T.</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>278100</tb_codsezd>
+    <tb_dessezd>UD MILANO 2 SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>278101</tb_codsezd>
+    <tb_dessezd>UD MILANO 2 SOT CONCOREZZO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>278103</tb_codsezd>
+    <tb_dessezd>UD MILANO 2 SOT LAINATE (SOPPRESSA 01.11.2009)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>278104</tb_codsezd>
+    <tb_dessezd>.D MILANO 2 SOT TURBIGOLO (SOPPRESSA 01.01.2013)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>278105</tb_codsezd>
+    <tb_dessezd>UD MILANO 2 SOT RHO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>278106</tb_codsezd>
+    <tb_dessezd>UD MILANO 2 SOT TURBIGO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>278107</tb_codsezd>
+    <tb_dessezd>UD MILANO 2 SOT VITTUONE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>279100</tb_codsezd>
+    <tb_dessezd>UD MALPENSA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>281100</tb_codsezd>
+    <tb_dessezd>UD NAPOLI 1 SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>281102</tb_codsezd>
+    <tb_dessezd>UD NAPOLI 1 SOT STAZIONE MARITTIMA (SOPPRESSA 01.01.2013)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>281103</tb_codsezd>
+    <tb_dessezd>UD NAPOLI 1 SOT AEROPORTO DI CAPODICHINO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>282100</tb_codsezd>
+    <tb_dessezd>UD NAPOLI 2 SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>282102</tb_codsezd>
+    <tb_dessezd>UD NAPOLI 2 SOT CAPRI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>282103</tb_codsezd>
+    <tb_dessezd>UD NAPOLI 2 SOT NOLA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>282104</tb_codsezd>
+    <tb_dessezd>UD NAPOLI 2 SOT POZZUOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>282105</tb_codsezd>
+    <tb_dessezd>UD NAPOLI 2 SOT TORRE ANNUNZIATA-CASTELLAMMARE DI STABIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>291100</tb_codsezd>
+    <tb_dessezd>UD CATANIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>291101</tb_codsezd>
+    <tb_dessezd>UD CATANIA SOT AEROPORTO DI FONTANAROSSA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>291102</tb_codsezd>
+    <tb_dessezd>UD CATANIA SOT RIPOSTO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>292100</tb_codsezd>
+    <tb_dessezd>UD PALERMO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>292102</tb_codsezd>
+    <tb_dessezd>UD PALERMO SOT TERMINI IMERESE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>293100</tb_codsezd>
+    <tb_dessezd>UD CANALE DI SICILIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>293101</tb_codsezd>
+    <tb_dessezd>UD CANALE DI SICILIA SOT PANTELLERIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>301100</tb_codsezd>
+    <tb_dessezd>UD CIVITAVECCHIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>301101</tb_codsezd>
+    <tb_dessezd>UD CIVITAVECCHIA SOT VITERBO (SOPPRESSA 19.07.2021)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>302100</tb_codsezd>
+    <tb_dessezd>UD FROSINONE SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>303100</tb_codsezd>
+    <tb_dessezd>UD CAMPOBASSO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>303101</tb_codsezd>
+    <tb_dessezd>UD CAMPOBASSO SOT TERMOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>304100</tb_codsezd>
+    <tb_dessezd>UD PESCARA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>304102</tb_codsezd>
+    <tb_dessezd>UD PESCARA SOT GIULIANOVA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>304103</tb_codsezd>
+    <tb_dessezd>UD PESCARA SOT ORTONA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>304104</tb_codsezd>
+    <tb_dessezd>UD PESCARA SOT VASTO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>305100</tb_codsezd>
+    <tb_dessezd>UADM MARCHE 1 ANCONA SEZIONE UFFICIO ACCISE DOGANE MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>305101</tb_codsezd>
+    <tb_dessezd>UADM MARCHE 1 ANCONA REPARTO LOCALE AEROPORTO DI ANCONA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>305102</tb_codsezd>
+    <tb_dessezd>UD ANCONA SOT CIVITANOVA MARCHE (SOPPRESSA 01.06.2010)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>305103</tb_codsezd>
+    <tb_dessezd>UADM MARCHE 1 ANCONA AREA TERRITORIALE FABRIANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>305104</tb_codsezd>
+    <tb_dessezd>UD ANCONA SOT FANO (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>305105</tb_codsezd>
+    <tb_dessezd>UD ANCONA SOT PESARO (SOPPRESSA 01.05.2025)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>305106</tb_codsezd>
+    <tb_dessezd>UADM MARCHE 1 ANCONA UADM MARCHE 1 AN AREA TERRITORIALE PESARO-FANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>306100</tb_codsezd>
+    <tb_dessezd>UD ROMA 1 SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>306101</tb_codsezd>
+    <tb_dessezd>UD ROMA 1 SOT CIAMPINO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>306102</tb_codsezd>
+    <tb_dessezd>UD ROMA 1 SOT POMEZIA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>306103</tb_codsezd>
+    <tb_dessezd>UD ROMA 1 SOT ROMA EST</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>306104</tb_codsezd>
+    <tb_dessezd>UD ROMA 1 SOT RIETI (SOPPRESSA 19.07.2021)</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>307100</tb_codsezd>
+    <tb_dessezd>UD ROMA 2 SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>308100</tb_codsezd>
+    <tb_dessezd>UADM MARCHE 2 CIV. MARCHE SEZIONE UFFICIO ACCISE DOGANE MONOPOLI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>308101</tb_codsezd>
+    <tb_dessezd>UADM MARCHE 2 CIV. MARCHE AREA TERRITORIALE SAN BENEDETTO DEL TRONTO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>309100</tb_codsezd>
+    <tb_dessezd>UD L'AQUILA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>309101</tb_codsezd>
+    <tb_dessezd>UD L'AQUILA SOT AVEZZANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>311100</tb_codsezd>
+    <tb_dessezd>UD CUNEO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>311101</tb_codsezd>
+    <tb_dessezd>UD CUNEO SOT ALBA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>312100</tb_codsezd>
+    <tb_dessezd>UD NOVARA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>312101</tb_codsezd>
+    <tb_dessezd>UD NOVARA SOT ARONA</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>312102</tb_codsezd>
+    <tb_dessezd>UD NOVARA SOT NOVARA BOSCHETTO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>313100</tb_codsezd>
+    <tb_dessezd>UD ALESSANDRIA SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>313101</tb_codsezd>
+    <tb_dessezd>UD ALESSANDRIA SOT ASTI</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>313102</tb_codsezd>
+    <tb_dessezd>UD ALESSANDRIA SOT POZZOLO FORMIGARO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>314100</tb_codsezd>
+    <tb_dessezd>UD TORINO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>314101</tb_codsezd>
+    <tb_dessezd>UD TORINO SOT CASELLE TORINESE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>314102</tb_codsezd>
+    <tb_dessezd>UD TORINO SOT ORBASSANO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>321100</tb_codsezd>
+    <tb_dessezd>UD FERNETTI-RETROPORTO TRIESTE SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>321101</tb_codsezd>
+    <tb_dessezd>UD FERNETTI-RETROPORTO TRIESTE SOT PROSECCO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>371100</tb_codsezd>
+    <tb_dessezd>UD MILANO 3 SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>371102</tb_codsezd>
+    <tb_dessezd>UD MILANO 3 SOT PIOLTELLO</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>401100</tb_codsezd>
+    <tb_dessezd>UD VITERBO SEZIONE OPERATIVA CENTRALE</tb_dessezd>
+  </tabsezd>
+  <tabsezd>
+    <tb_codsezd>401101</tb_codsezd>
+    <tb_dessezd>UD VITERBO SOT RIETI</tb_dessezd>
+  </tabsezd>
+  <TABSEZD_version>
+    <version>20250626</version>
+    <major>23</major>
+    <minor>282</minor>
+    <minorc>63</minorc>
+  </TABSEZD_version>
+</NewDataSet>

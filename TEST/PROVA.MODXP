@@ -1,0 +1,186 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CAMPI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="nometab" type="xs:string" />
+                <xs:element name="nomecampo" type="xs:string" />
+                <xs:element name="posiz" type="xs:int" minOccurs="0" />
+                <xs:element name="tipo" type="xs:string" minOccurs="0" />
+                <xs:element name="identity" type="xs:string" minOccurs="0" />
+                <xs:element name="default" type="xs:string" minOccurs="0" />
+                <xs:element name="maxlen" type="xs:int" minOccurs="0" />
+                <xs:element name="nullo" type="xs:string" minOccurs="0" />
+                <xs:element name="validation" type="xs:string" minOccurs="0" />
+                <xs:element name="descr" type="xs:string" minOccurs="0" />
+                <xs:element name="validationName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="NOME_PERSONALIZZAZIONE">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NOME" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//CAMPI" />
+        <xs:field xpath="nometab" />
+        <xs:field xpath="nomecampo" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <CAMPI>
+    <nometab>movoff</nometab>
+    <nomecampo>mo_hhlarg</nomecampo>
+    <posiz>104</posiz>
+    <tipo>float</tipo>
+    <identity>N</identity>
+    <default>((0))</default>
+    <maxlen>8</maxlen>
+    <nullo>False</nullo>
+    <validation />
+    <descr>Larghezza articolo offerta</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movoff</nometab>
+    <nomecampo>mo_hhlung</nomecampo>
+    <posiz>105</posiz>
+    <tipo>float</tipo>
+    <identity>N</identity>
+    <default>((0))</default>
+    <maxlen>8</maxlen>
+    <nullo>False</nullo>
+    <validation />
+    <descr>Lunghezza articolo offerta</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movoff</nometab>
+    <nomecampo>mo_hhcolore</nomecampo>
+    <posiz>106</posiz>
+    <tipo>varchar</tipo>
+    <identity>N</identity>
+    <default>(' ')</default>
+    <maxlen>255</maxlen>
+    <nullo>False</nullo>
+    <validation />
+    <descr>Colore articolo offerta</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movoff</nometab>
+    <nomecampo>mo_hhnumvoce</nomecampo>
+    <posiz>107</posiz>
+    <tipo>varchar</tipo>
+    <identity>N</identity>
+    <default />
+    <maxlen>50</maxlen>
+    <nullo>True</nullo>
+    <validation />
+    <descr>Numero voce Tekla collegata alla riga offerta</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movofftc</nometab>
+    <nomecampo>mo_hhcolore</nomecampo>
+    <posiz>32</posiz>
+    <tipo>varchar</tipo>
+    <identity>N</identity>
+    <default>(' ')</default>
+    <maxlen>255</maxlen>
+    <nullo>False</nullo>
+    <validation />
+    <descr>Colore articolo offerta</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movofftc</nometab>
+    <nomecampo>mo_hhlarg</nomecampo>
+    <posiz>33</posiz>
+    <tipo>float</tipo>
+    <identity>N</identity>
+    <default>((0))</default>
+    <maxlen>8</maxlen>
+    <nullo>False</nullo>
+    <validation />
+    <descr>Larghezza articolo offerta</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movofftc</nometab>
+    <nomecampo>mo_hhlung</nomecampo>
+    <posiz>34</posiz>
+    <tipo>float</tipo>
+    <identity>N</identity>
+    <default>((0))</default>
+    <maxlen>8</maxlen>
+    <nullo>False</nullo>
+    <validation />
+    <descr>Lunghezza articolo offerta</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movord</nometab>
+    <nomecampo>mo_hhislavo</nomecampo>
+    <posiz>223</posiz>
+    <tipo>nvarchar</tipo>
+    <identity>N</identity>
+    <default>('N')</default>
+    <maxlen>1</maxlen>
+    <nullo>False</nullo>
+    <validation>([mo_hhislavo]='S' OR [mo_hhislavo]='N')</validation>
+    <descr>Flag Eseguita lavorazione</descr>
+    <validationName>CK_movord_mo_hhislavo</validationName>
+  </CAMPI>
+  <CAMPI>
+    <nometab>movord</nometab>
+    <nomecampo>mo_HhCodMacchina</nomecampo>
+    <posiz>224</posiz>
+    <tipo>int</tipo>
+    <identity>N</identity>
+    <default>((0))</default>
+    <maxlen>4</maxlen>
+    <nullo>False</nullo>
+    <validation />
+    <descr>Cod. Macchina</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movord</nometab>
+    <nomecampo>mo_HhdatLavo</nomecampo>
+    <posiz>225</posiz>
+    <tipo>datetime</tipo>
+    <identity>N</identity>
+    <default>('1900/01/01')</default>
+    <maxlen>8</maxlen>
+    <nullo>True</nullo>
+    <validation />
+    <descr>Data Ora Lavorazione</descr>
+    <validationName />
+  </CAMPI>
+  <CAMPI>
+    <nometab>movord</nometab>
+    <nomecampo>mo_hhnumvoce</nomecampo>
+    <posiz>226</posiz>
+    <tipo>varchar</tipo>
+    <identity>N</identity>
+    <default />
+    <maxlen>50</maxlen>
+    <nullo>True</nullo>
+    <validation />
+    <descr>Numero voce Tekla collegata alla riga impegno</descr>
+    <validationName />
+  </CAMPI>
+  <NOME_PERSONALIZZAZIONE>
+    <NOME>Import (19/05/2026)</NOME>
+  </NOME_PERSONALIZZAZIONE>
+</NewDataSet>

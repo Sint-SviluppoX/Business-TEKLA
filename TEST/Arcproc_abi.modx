@@ -1,0 +1,6268 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ABI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AbiAbi" type="xs:int" minOccurs="0" />
+                <xs:element name="AbiBanc" type="xs:string" minOccurs="0" />
+                <xs:element name="AbiAbichk" type="xs:short" minOccurs="0" />
+                <xs:element name="AbiCodalf" type="xs:string" minOccurs="0" />
+                <xs:element name="AbiStato" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="ABI_version">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="version" type="xs:string" minOccurs="0" />
+                <xs:element name="major" type="xs:int" minOccurs="0" />
+                <xs:element name="minor" type="xs:int" minOccurs="0" />
+                <xs:element name="minorc" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ABI>
+    <AbiAbi>1000</AbiAbi>
+    <AbiBanc>BANCA D'ITALIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1001</AbiAbi>
+    <AbiBanc>UFFICIO ITALIANO DEI CAMBI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1002</AbiAbi>
+    <AbiBanc>BANCA D'ITALIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1003</AbiAbi>
+    <AbiBanc>BANCA D'ITALIA - CONTO MONTETITOLI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1004</AbiAbi>
+    <AbiBanc>BANCA D'ITALIA - FONDO PENSIONI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1005</AbiAbi>
+    <AbiBanc>B.CA NAZIONALE DEL LAVORO   SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1010</AbiAbi>
+    <AbiBanc>BANCO DI NAPOLI S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1015</AbiAbi>
+    <AbiBanc>BANCO DI SARDEGNA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1020</AbiAbi>
+    <AbiBanc>BANCO DI SICILIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1025</AbiAbi>
+    <AbiBanc>SANPAOLO-IMI S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1030</AbiAbi>
+    <AbiBanc>MONTE DEI PASCHI DI SIENA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>1103</AbiAbi>
+    <AbiBanc>BUNDESBANK</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>2002</AbiAbi>
+    <AbiBanc>BANCA COMMERCIALE ITALIANA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>2008</AbiAbi>
+    <AbiBanc>UNICREDIT SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3000</AbiAbi>
+    <AbiBanc>ABAXBANK SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3001</AbiAbi>
+    <AbiBanc>BANCO AMBROSIANO VENETO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3002</AbiAbi>
+    <AbiBanc>BANCA DI ROMA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3003</AbiAbi>
+    <AbiBanc>ROYAL BANK OF SCOTLAND PLC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3005</AbiAbi>
+    <AbiBanc>AMERICAN EXPRESS BANK LTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3006</AbiAbi>
+    <AbiBanc>EUROPE ARAB BANK PLC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3009</AbiAbi>
+    <AbiBanc>FCE BANK PLC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3011</AbiAbi>
+    <AbiBanc>HYPO ALPE ADRIA BANK S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3013</AbiAbi>
+    <AbiBanc>UGBI BANK UNITED GARANTI BANK INT.NV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3015</AbiAbi>
+    <AbiBanc>FINECOBANK SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3017</AbiAbi>
+    <AbiBanc>INVEST BANCA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3018</AbiAbi>
+    <AbiBanc>NOVA LJUBLIANSKA BANKA D.D.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3019</AbiAbi>
+    <AbiBanc>CREDITO SICILIANO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3021</AbiAbi>
+    <AbiBanc>HSBC CONTINENTAL EUROPE, ITALY</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3023</AbiAbi>
+    <AbiBanc>BANCA WOOLWICH</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3025</AbiAbi>
+    <AbiBanc>BANCA PROFILO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3026</AbiAbi>
+    <AbiBanc>BANCA ITALEASE S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3027</AbiAbi>
+    <AbiBanc>AREA BANCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3028</AbiAbi>
+    <AbiBanc>DEPFA - DEUTSCHE PFANDBRIEFBANK</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3029</AbiAbi>
+    <AbiBanc>MERRYL LYNCH INTERNATIONAL BANK LTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3030</AbiAbi>
+    <AbiBanc>DEXIA CREDIOP SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3031</AbiAbi>
+    <AbiBanc>BANCA DI BERGAMO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3032</AbiAbi>
+    <AbiBanc>CREDITO EMILIANO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3034</AbiAbi>
+    <AbiBanc>B.CA AGRIC.COMM.IST.BANC.SAMMARINESE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3035</AbiAbi>
+    <AbiBanc>BANCA DEL GARDA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3037</AbiAbi>
+    <AbiBanc>PARTNER BANK AG</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3040</AbiAbi>
+    <AbiBanc>CREDIT SUISSE AG</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3041</AbiAbi>
+    <AbiBanc>UBS EUROPE SE SUCCURSALE ITALIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3043</AbiAbi>
+    <AbiBanc>BANCA INVESTIS S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3045</AbiAbi>
+    <AbiBanc>BANCA AKROS SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3047</AbiAbi>
+    <AbiBanc>BANCA CREDITO ATTIVO S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3048</AbiAbi>
+    <AbiBanc>BANCA DEL PIEMONTE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3049</AbiAbi>
+    <AbiBanc>BANCA SELLA SUD ARDITI GALATI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3051</AbiAbi>
+    <AbiBanc>BARCLAYS BANK IRELAND-MILAN BRANCH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3053</AbiAbi>
+    <AbiBanc>BANCAPERTA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3054</AbiAbi>
+    <AbiBanc>BNP PARIBAS PERSONAL FINANCE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3055</AbiAbi>
+    <AbiBanc>BAYERISCHE LANDESBANK</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3057</AbiAbi>
+    <AbiBanc>MERRILL LYNCH INTERNATIONAL BANKLTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3058</AbiAbi>
+    <AbiBanc>MEDIOBANCA PREMIER S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3059</AbiAbi>
+    <AbiBanc>BANCA CREDITO SARDO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3061</AbiAbi>
+    <AbiBanc>CITIBANK INTERNATIONAL PLC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3062</AbiAbi>
+    <AbiBanc>BANCA MEDIOLANUM SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3064</AbiAbi>
+    <AbiBanc>BANCA SELLA NORDEST BOVIO CALDERARI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3067</AbiAbi>
+    <AbiBanc>BANCA CARIME SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3069</AbiAbi>
+    <AbiBanc>INTESA SANPAOLO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3071</AbiAbi>
+    <AbiBanc>BANCA MANAGER S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3073</AbiAbi>
+    <AbiBanc>BHW BAUSPARKASSE A.G.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3074</AbiAbi>
+    <AbiBanc>FRANFINANCE S.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3075</AbiAbi>
+    <AbiBanc>BANCA GENERALI SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3078</AbiAbi>
+    <AbiBanc>B.CA ARTIGIAN.E INDUSTRIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3081</AbiAbi>
+    <AbiBanc>BAYERISCHE HYPO - UND VEREINSBANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3083</AbiAbi>
+    <AbiBanc>IW BANK S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3084</AbiAbi>
+    <AbiBanc>BANCA CESARE PONTI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3085</AbiAbi>
+    <AbiBanc>CATERPILLAR FINANCIAL CORPORATION FS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3086</AbiAbi>
+    <AbiBanc>B.D'INTERMEDIAZ.MOB. IMI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3087</AbiAbi>
+    <AbiBanc>BANCA FINNAT EURAMERICA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3089</AbiAbi>
+    <AbiBanc>CREDIT SUISSE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3090</AbiAbi>
+    <AbiBanc>ANTONVENETA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3091</AbiAbi>
+    <AbiBanc>BANK OF AMERICA SECURITIES LIMITED</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3093</AbiAbi>
+    <AbiBanc>BANK OF CHINA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3095</AbiAbi>
+    <AbiBanc>COMMERZBANK A. G.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3097</AbiAbi>
+    <AbiBanc>AAREAL BANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3098</AbiAbi>
+    <AbiBanc>BANCA C.STEINHAUSLIN &amp; C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3099</AbiAbi>
+    <AbiBanc>NEOS BANCA SPA.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3101</AbiAbi>
+    <AbiBanc>BANQUE PSA FINANCE SA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3102</AbiAbi>
+    <AbiBanc>BANCA ALETTI S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3103</AbiAbi>
+    <AbiBanc>RCI BANQUE S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3104</AbiAbi>
+    <AbiBanc>DEUTSCHE BANK S.P.A</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3105</AbiAbi>
+    <AbiBanc>VOLKSWAGEN BANK GMBH.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3109</AbiAbi>
+    <AbiBanc>DIEBOLD COMPUTER LEASING DCL S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3110</AbiAbi>
+    <AbiBanc>BANCA CREDIFARMA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3111</AbiAbi>
+    <AbiBanc>UNIONE DI BANCHE ITALIANE S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3115</AbiAbi>
+    <AbiBanc>FINDOMESTIC BANCA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3117</AbiAbi>
+    <AbiBanc>ON BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3118</AbiAbi>
+    <AbiBanc>BANCA DI LATINA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3119</AbiAbi>
+    <AbiBanc>UNIBANCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3122</AbiAbi>
+    <AbiBanc>BANCA DELLA VALLE D'AOSTA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3123</AbiAbi>
+    <AbiBanc>AGRILEASING SPA- BANCA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3124</AbiAbi>
+    <AbiBanc>BANCA DEL FUCINO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3126</AbiAbi>
+    <AbiBanc>CA INDOSUEZ WEALTH (ITALY) S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3127</AbiAbi>
+    <AbiBanc>UGF BANCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3131</AbiAbi>
+    <AbiBanc>UNICREDIT BANCA MOBILIARE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3133</AbiAbi>
+    <AbiBanc>CREDITO ITALIANO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3134</AbiAbi>
+    <AbiBanc>ALPEN BANK A.G.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3135</AbiAbi>
+    <AbiBanc>UNICREDITO ITALIANO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3136</AbiAbi>
+    <AbiBanc>B.LAVORO E PICCOLO RISPARMIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3137</AbiAbi>
+    <AbiBanc>COMMERZBANK ASSET MANAGEMENT ITALIA S.P.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3138</AbiAbi>
+    <AbiBanc>BANCA REALE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3139</AbiAbi>
+    <AbiBanc>BANCA PER SVILUPPO COOP.CREDITO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3140</AbiAbi>
+    <AbiBanc>MPS BANCA PERSONALE SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3141</AbiAbi>
+    <AbiBanc>BANCA DI TREVISO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3142</AbiAbi>
+    <AbiBanc>BANCA SANPAOLO INVEST S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3143</AbiAbi>
+    <AbiBanc>MAPLE PARTNERS BANKHAUS GMBH</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3145</AbiAbi>
+    <AbiBanc>BANCA DEL TITANO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3147</AbiAbi>
+    <AbiBanc>BANCA OPI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3149</AbiAbi>
+    <AbiBanc>BER - BANCO EMILIANO ROMAGNOLO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3150</AbiAbi>
+    <AbiBanc>DEUTSCHE BANK MUTUI SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3151</AbiAbi>
+    <AbiBanc>HYPO TIROL BANK AG - SUCCURSALE ITAL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3154</AbiAbi>
+    <AbiBanc>BANQUE INTERNATIONALE A' LUXEMBOURG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3155</AbiAbi>
+    <AbiBanc>BANCA DI CIVIDALE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3158</AbiAbi>
+    <AbiBanc>BANCA SISTEMA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3159</AbiAbi>
+    <AbiBanc>BANCA CONSULIA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3161</AbiAbi>
+    <AbiBanc>TRADINGLAB BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3162</AbiAbi>
+    <AbiBanc>MORGAN STANLEY BANK INTERNATIONAL LT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3163</AbiAbi>
+    <AbiBanc>STATE STREET BANK SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3165</AbiAbi>
+    <AbiBanc>IW BANK S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3167</AbiAbi>
+    <AbiBanc>OSTERREICHISCHE VOLKSBANKEN - AG</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3169</AbiAbi>
+    <AbiBanc>ING DIRECT N. V.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3170</AbiAbi>
+    <AbiBanc>FINANZA &amp; FUTURO BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3171</AbiAbi>
+    <AbiBanc>ISTITUTO BANCARIO SAMMARINESE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3174</AbiAbi>
+    <AbiBanc>BANCA SARA BANCA DELLA RETE S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3175</AbiAbi>
+    <AbiBanc>WESTDEUTSCHE LANDESBANK GIROZENTRALE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3177</AbiAbi>
+    <AbiBanc>BANCA SAI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3178</AbiAbi>
+    <AbiBanc>EURO COMMERCIAL BANK SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3179</AbiAbi>
+    <AbiBanc>BNP PARIBAS LEASE GROUP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3181</AbiAbi>
+    <AbiBanc>BNP PARIBAS SUCCURSALE ITALIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3183</AbiAbi>
+    <AbiBanc>MEDIOBANCA BANCA DI CREDITO FINANZIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3185</AbiAbi>
+    <AbiBanc>BANCA IFIGEST SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3186</AbiAbi>
+    <AbiBanc>BANCA 24-7 SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3187</AbiAbi>
+    <AbiBanc>CORTAL CONSORS</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3189</AbiAbi>
+    <AbiBanc>NATIXIS S.A. - SUCCURSALE DI MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3190</AbiAbi>
+    <AbiBanc>EUROBANCA DEL TRENTINO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3191</AbiAbi>
+    <AbiBanc>SANTANDER CONSUMER BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3194</AbiAbi>
+    <AbiBanc>BANCO DESIO TOSCANA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3195</AbiAbi>
+    <AbiBanc>BANCA COMM.SAMMARINESE SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3197</AbiAbi>
+    <AbiBanc>BANCA DEL GOTTARDO ITALIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3198</AbiAbi>
+    <AbiBanc>UNICREDIT BANCA PER LA CASA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3199</AbiAbi>
+    <AbiBanc>ARCA BIM S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3201</AbiAbi>
+    <AbiBanc>BANCA MB SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3202</AbiAbi>
+    <AbiBanc>ANTONVENETA ABN AMRO BANK SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3203</AbiAbi>
+    <AbiBanc>BANK INSINGER DE BEAUFORT N.V.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3204</AbiAbi>
+    <AbiBanc>BANCA DI LEGNANO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3205</AbiAbi>
+    <AbiBanc>BANCA IFIS SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3206</AbiAbi>
+    <AbiBanc>THE ROYAL BANK OF SCOTLAND</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3207</AbiAbi>
+    <AbiBanc>CAPITALIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3209</AbiAbi>
+    <AbiBanc>BSI ITALIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3210</AbiAbi>
+    <AbiBanc>BANCA M. PASCHI LEASING &amp; FACTORING</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3211</AbiAbi>
+    <AbiBanc>BANCA PATRIMONI SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3213</AbiAbi>
+    <AbiBanc>BANCA PRIMAVERA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3214</AbiAbi>
+    <AbiBanc>UNICREDIT XELION BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3215</AbiAbi>
+    <AbiBanc>BANCA FINECO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3217</AbiAbi>
+    <AbiBanc>EUROHIPPO AKTIENGESELLSCHAFT</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3218</AbiAbi>
+    <AbiBanc>CLARIMA BANCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3219</AbiAbi>
+    <AbiBanc>MPS GESTIONE CREDITI BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3221</AbiAbi>
+    <AbiBanc>BANCA BNL INVESTIMENTI S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3222</AbiAbi>
+    <AbiBanc>SGB FINANCE S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3223</AbiAbi>
+    <AbiBanc>UNICREDIT PRIVATE BANKING S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3225</AbiAbi>
+    <AbiBanc>BANCA CENTRALE DELLA REPUBBLICA DI S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3226</AbiAbi>
+    <AbiBanc>UNICREDIT BANCA D'IMPRESA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3227</AbiAbi>
+    <AbiBanc>CNH CAPITAL EUROPE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3229</AbiAbi>
+    <AbiBanc>BANCA MODENESE SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3230</AbiAbi>
+    <AbiBanc>DEPFA BANKMPLC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3231</AbiAbi>
+    <AbiBanc>BANCO DESIO LAZIO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3235</AbiAbi>
+    <AbiBanc>BANCA DI SCONTO S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3237</AbiAbi>
+    <AbiBanc>BANCA PARTNER SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3239</AbiAbi>
+    <AbiBanc>INTESA SANPAOLO PRIVATE BANKING S.P.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3240</AbiAbi>
+    <AbiBanc>BANCA DI TRENTO E BOLZANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3241</AbiAbi>
+    <AbiBanc>BANQUE POPULAIRE COTE D'AZUR</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3242</AbiAbi>
+    <AbiBanc>BANCO DI LUCCA E DEL TIRRENO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3243</AbiAbi>
+    <AbiBanc>STATE STREET BANK GMBH</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3244</AbiAbi>
+    <AbiBanc>BANCA DI VALLE CAMONICA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3245</AbiAbi>
+    <AbiBanc>CREVERBANCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3247</AbiAbi>
+    <AbiBanc>COMPAGNIE GENERALE DE LOCATION</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3249</AbiAbi>
+    <AbiBanc>BANCA IMI S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3250</AbiAbi>
+    <AbiBanc>CREDEM - EUROMOBILIARE PRIVATE  BANK</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3251</AbiAbi>
+    <AbiBanc>UNIPOL MERCHANT S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3253</AbiAbi>
+    <AbiBanc>B.CA FEDERICO DEL VECCHIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3257</AbiAbi>
+    <AbiBanc>HYPO REAL ESTATE BANK INTERNATIONAL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3258</AbiAbi>
+    <AbiBanc>ERSEL S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3259</AbiAbi>
+    <AbiBanc>NORDEST BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3262</AbiAbi>
+    <AbiBanc>ASSET BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3263</AbiAbi>
+    <AbiBanc>IBL BANCA IST.BANCARIO DEL LAVORO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3265</AbiAbi>
+    <AbiBanc>BANCA PROMOS S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3266</AbiAbi>
+    <AbiBanc>BANCA FININT S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3267</AbiAbi>
+    <AbiBanc>BANCA GALILEO S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3268</AbiAbi>
+    <AbiBanc>BANCA SELLA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3269</AbiAbi>
+    <AbiBanc>BANCA DELLA NUOVA TERRA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3271</AbiAbi>
+    <AbiBanc>ALLFUNDS BANK S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3273</AbiAbi>
+    <AbiBanc>SOLUTION BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3275</AbiAbi>
+    <AbiBanc>RETI BANCARIE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3277</AbiAbi>
+    <AbiBanc>CREDITO SAMMARINESE S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3278</AbiAbi>
+    <AbiBanc>BANCA EMILVENETA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3279</AbiAbi>
+    <AbiBanc>SANTANDER PRIVATE BANKING S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3281</AbiAbi>
+    <AbiBanc>GENERAL ELECTRIC CAPITAL BANK S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3283</AbiAbi>
+    <AbiBanc>SEDICI BANCA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3285</AbiAbi>
+    <AbiBanc>MACQUARIE BANK LIMITED</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3287</AbiAbi>
+    <AbiBanc>BANCA SAMMARINESE DI INVESTIMENTO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3291</AbiAbi>
+    <AbiBanc>BANCA ITALO ROMENA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3296</AbiAbi>
+    <AbiBanc>FIDEURAM - INTESA SANPAOLO      PRIV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3298</AbiAbi>
+    <AbiBanc>DEUTSCHE BANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3299</AbiAbi>
+    <AbiBanc>IXS CORPORATE &amp; INVESTIMENT BANK</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3300</AbiAbi>
+    <AbiBanc>CREDITO DEL LAZIO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3301</AbiAbi>
+    <AbiBanc>CASSA DEI RISPARMI DI MI E DELLA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3303</AbiAbi>
+    <AbiBanc>LEHMAN BROTHERS BANKHAUS</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3305</AbiAbi>
+    <AbiBanc>NATEXIS LEASE S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3306</AbiAbi>
+    <AbiBanc>PRADER BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3307</AbiAbi>
+    <AbiBanc>SOCIETE' GENERALE SECURITIES SERVICE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3309</AbiAbi>
+    <AbiBanc>BANCA INFRASTRUTT.INNOV.SVILUPPOSPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3310</AbiAbi>
+    <AbiBanc>ETICREDITO-BANCA ETICA ADRIATICA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3311</AbiAbi>
+    <AbiBanc>BANCA SELLA HOLDING S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3313</AbiAbi>
+    <AbiBanc>BANCA IMPRESA LAZIO S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3314</AbiAbi>
+    <AbiBanc>FORTIS PRIME FUND SOLUTIONS BANK LTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3315</AbiAbi>
+    <AbiBanc>DEUTSCHE PFANDBRIEFBANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3317</AbiAbi>
+    <AbiBanc>BANCA MACERATA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3318</AbiAbi>
+    <AbiBanc>BANCA DI CRED.E RISP.DI ROMAGNA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3319</AbiAbi>
+    <AbiBanc>IKB DEUTSCHE INDUSTRIEBANK</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3321</AbiAbi>
+    <AbiBanc>RBC INVESTOR SERVICE BANK S.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3322</AbiAbi>
+    <AbiBanc>JOH.BERENBERG GOSSELER &amp; CP.KG.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3323</AbiAbi>
+    <AbiBanc>GBM BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3325</AbiAbi>
+    <AbiBanc>BANCA MORGAN STANLEY SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3327</AbiAbi>
+    <AbiBanc>BANCO DESIO VENETO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3329</AbiAbi>
+    <AbiBanc>KARNTNER SPARKASSE AG</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3330</AbiAbi>
+    <AbiBanc>BANCA INTERREGIONALE S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3331</AbiAbi>
+    <AbiBanc>CENTRO LEASING BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3332</AbiAbi>
+    <AbiBanc>BANCA PASSADORE &amp; C.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3333</AbiAbi>
+    <AbiBanc>GE CORPORATE FINANCE BANK</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3334</AbiAbi>
+    <AbiBanc>TOYOTA KREDITBANK GMBH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3336</AbiAbi>
+    <AbiBanc>CREDITO BERGAMASCO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3337</AbiAbi>
+    <AbiBanc>SUMITOMO MITSUI BANKING CORPORATION</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3338</AbiAbi>
+    <AbiBanc>SERFINA BANCA- S.P.A</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3339</AbiAbi>
+    <AbiBanc>ING REAL ESTATE FINANCE E.F.C. S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3342</AbiAbi>
+    <AbiBanc>AMERICAN EXPRESS BANK GMBH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3343</AbiAbi>
+    <AbiBanc>PICTET &amp; CIE - EUROPE S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3345</AbiAbi>
+    <AbiBanc>FLASHBANK S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3346</AbiAbi>
+    <AbiBanc>MIZUHO BANK, LTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3347</AbiAbi>
+    <AbiBanc>BANQUE PRIVEE EDMOND DE ROTHSCHILD</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3349</AbiAbi>
+    <AbiBanc>CNH INDUSTRIAL FINANCIAL SERVICES S.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3350</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO DEI FARMACISTI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3351</AbiAbi>
+    <AbiBanc>BANK OF NEW YORK</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3353</AbiAbi>
+    <AbiBanc>BANCA DEL SUD S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3355</AbiAbi>
+    <AbiBanc>DZ BANK AG DEUTSCHE ZENTRAL GENOSSEN</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3357</AbiAbi>
+    <AbiBanc>BANCA A.G.C.I.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3358</AbiAbi>
+    <AbiBanc>CLAAS FINANCIAL SERVICES</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3359</AbiAbi>
+    <AbiBanc>BANCA PROSSIMA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3361</AbiAbi>
+    <AbiBanc>MELIORBANCA PRIVATE S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3362</AbiAbi>
+    <AbiBanc>DE LAGE LANDEN INTERNATIONAL B V</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3365</AbiAbi>
+    <AbiBanc>CHERRY BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3367</AbiAbi>
+    <AbiBanc>BANCA SANTA GIULIA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3369</AbiAbi>
+    <AbiBanc>NOMURA BANK INT. PLC ITALIAN BRANCH</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3370</AbiAbi>
+    <AbiBanc>J.P. MORGAN SE-MILAN BRANCH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3371</AbiAbi>
+    <AbiBanc>AS PRIVATBANK</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3373</AbiAbi>
+    <AbiBanc>KBC BANK N.V.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3374</AbiAbi>
+    <AbiBanc>SUEDTIROL BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3378</AbiAbi>
+    <AbiBanc>SOCIETE' GENERALE MUTUI ITALIA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3380</AbiAbi>
+    <AbiBanc>BANK OF AMERICA EUROPE DAC, SUCCURSA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3381</AbiAbi>
+    <AbiBanc>BANK SEPAH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3385</AbiAbi>
+    <AbiBanc>ISYBANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3386</AbiAbi>
+    <AbiBanc>J C B  FINANCE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3387</AbiAbi>
+    <AbiBanc>BANQUE CHAABI DU MAROC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3388</AbiAbi>
+    <AbiBanc>BANCA STABIESE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3389</AbiAbi>
+    <AbiBanc>BANCO SANTANDER S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3393</AbiAbi>
+    <AbiBanc>BANCA SVILUPPO ECONOMICO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3394</AbiAbi>
+    <AbiBanc>MAINFIRST BANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3395</AbiAbi>
+    <AbiBanc>ILLIMITY BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3398</AbiAbi>
+    <AbiBanc>BANCA SIMETICA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3399</AbiAbi>
+    <AbiBanc>EXTRABANCA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3400</AbiAbi>
+    <AbiBanc>BANCA TOSCANA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3401</AbiAbi>
+    <AbiBanc>STANDARD CHARTERED BANK</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3402</AbiAbi>
+    <AbiBanc>WEBANK SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3403</AbiAbi>
+    <AbiBanc>IMPREBANCA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3405</AbiAbi>
+    <AbiBanc>SAXO BANK A/S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3406</AbiAbi>
+    <AbiBanc>BANK OF THE PHILIPPINE ISLANDS  PLC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3407</AbiAbi>
+    <AbiBanc>EDMOND DE ROTSCHILD BANQUE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3411</AbiAbi>
+    <AbiBanc>INDUSTRIAL AND COMMERCIAL BANK  OF C</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3415</AbiAbi>
+    <AbiBanc>ATTIJARIWAFA BANK EUROPE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3417</AbiAbi>
+    <AbiBanc>BANCA PRIVATA LEASING S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3418</AbiAbi>
+    <AbiBanc>BANKERS TRUST INTERNATIONAL PLC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3419</AbiAbi>
+    <AbiBanc>J.P. MORGAN SECURITIES PLC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3421</AbiAbi>
+    <AbiBanc>CARREFOUR BANQUE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3422</AbiAbi>
+    <AbiBanc>AKF BANK GMBH &amp; CO KG</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3423</AbiAbi>
+    <AbiBanc>BINCKBANK NV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3424</AbiAbi>
+    <AbiBanc>BANCO DI CHIAVARI E DELLA RIVIERA LIGURE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3425</AbiAbi>
+    <AbiBanc>B.CO CREDITO P. AZZOAGLIO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3426</AbiAbi>
+    <AbiBanc>TYCHE BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3427</AbiAbi>
+    <AbiBanc>UNION BANCAIRE PRIVEE SUCC.MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3430</AbiAbi>
+    <AbiBanc>CREDITO LOMBARDO VENETO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3431</AbiAbi>
+    <AbiBanc>BANCA CARIGE ITALIA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3432</AbiAbi>
+    <AbiBanc>CREDIT AGRICOLE - CORPORATE AND INVE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3433</AbiAbi>
+    <AbiBanc>EFG BANK (LUXEMBOURG) S.A.      SUCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3434</AbiAbi>
+    <AbiBanc>BMW BANK GMBH SUCCURSALE ITALIANA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3435</AbiAbi>
+    <AbiBanc>BANCA FARMAFACTORING SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3437</AbiAbi>
+    <AbiBanc>BANCA TRANSILVANIA S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3438</AbiAbi>
+    <AbiBanc>CACEIS BANK LUXEMBURG MILAN BRANCH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3439</AbiAbi>
+    <AbiBanc>STATE STREET BANK INTERNATIONAL GMBH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3440</AbiAbi>
+    <AbiBanc>B.O DESIO E DELLA BRIANZA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3441</AbiAbi>
+    <AbiBanc>BLU BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3442</AbiAbi>
+    <AbiBanc>BANCA WIDIBA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3443</AbiAbi>
+    <AbiBanc>CREDIT AGRICOLE LUXEMBOUG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3445</AbiAbi>
+    <AbiBanc>CA AUTO BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3446</AbiAbi>
+    <AbiBanc>WESTERN UNION INTERNATIONAL BANKGMBH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3456</AbiAbi>
+    <AbiBanc>BANCAPULIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3465</AbiAbi>
+    <AbiBanc>BANCO DO BRASIL AG SUCCURSALE IN ITA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3466</AbiAbi>
+    <AbiBanc>BANCO HISPANO AMERICANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3475</AbiAbi>
+    <AbiBanc>ING BANK N.V.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3479</AbiAbi>
+    <AbiBanc>BNP PARIBAS SA - SUCCURSALE ITALIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3481</AbiAbi>
+    <AbiBanc>CITCO BANK NEDERLAND N.V</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3482</AbiAbi>
+    <AbiBanc>RABO BANK NEDERLAND</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3487</AbiAbi>
+    <AbiBanc>MUFG BANK LTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3488</AbiAbi>
+    <AbiBanc>CASSA LOMBARDA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3489</AbiAbi>
+    <AbiBanc>MIZUHO CORPORATE BANK LTD</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3492</AbiAbi>
+    <AbiBanc>MEDIOCREVAL SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3493</AbiAbi>
+    <AbiBanc>CASSA CENTRALE RAIFFEISEN DELL'ALTO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3494</AbiAbi>
+    <AbiBanc>JPMORGAN CHASE BANK</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3497</AbiAbi>
+    <AbiBanc>CREDIT LYONNAIS</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3500</AbiAbi>
+    <AbiBanc>BANCO DI BRESCIA S. PAOLO CAB SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3502</AbiAbi>
+    <AbiBanc>BANCO SANTANDER CENTRAL HISPANO S.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3512</AbiAbi>
+    <AbiBanc>CREDITO ARTIGIANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3530</AbiAbi>
+    <AbiBanc>CRED.INDUSTR. SAMMARINESE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3556</AbiAbi>
+    <AbiBanc>ROLO BANCA 1473 S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3561</AbiAbi>
+    <AbiBanc>ABC INTERNATIONAL BANK PLC MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3563</AbiAbi>
+    <AbiBanc>DRESDNER BANK A.G.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3566</AbiAbi>
+    <AbiBanc>CITIBANK N.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3576</AbiAbi>
+    <AbiBanc>BANCO BILBAO VIZCAYA ARGENTARIA S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3579</AbiAbi>
+    <AbiBanc>FUJI BANK LIMITED - TOKYO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3581</AbiAbi>
+    <AbiBanc>THE SANWA BANK LTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3583</AbiAbi>
+    <AbiBanc>BANQUE WORMS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3584</AbiAbi>
+    <AbiBanc>BANCA NAZIONALE DELLE           COMUNICA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3586</AbiAbi>
+    <AbiBanc>WESTDEUTSCHE LANDESBANK</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3589</AbiAbi>
+    <AbiBanc>ALLIANZ BANK FINANCIAL ADVISORS SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3591</AbiAbi>
+    <AbiBanc>THE SAKURA BANK LTD - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3593</AbiAbi>
+    <AbiBanc>SOCIETE' GENERALE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3595</AbiAbi>
+    <AbiBanc>FORTIS BANK SA - NV</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3598</AbiAbi>
+    <AbiBanc>BANCA UBAE S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3599</AbiAbi>
+    <AbiBanc>CASSA CENTRALE BANCA - CREDITO COOPE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3600</AbiAbi>
+    <AbiBanc>NUOVA BANCA DI CREDITO DI TRIESTE NOVA T</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3620</AbiAbi>
+    <AbiBanc>CHINA CONSTRUCTION BANKS.A MILAN BR</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3623</AbiAbi>
+    <AbiBanc>BANK OF COMMUNICATIONS LUX. (S.A.)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3625</AbiAbi>
+    <AbiBanc>AIDEXA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3628</AbiAbi>
+    <AbiBanc>BANCA PSA ITALIA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3629</AbiAbi>
+    <AbiBanc>CREDIT SUISSE INTERNATIONAL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3638</AbiAbi>
+    <AbiBanc>YOUNITED</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3641</AbiAbi>
+    <AbiBanc>HEWLETT PACKARD INT. BANK PLC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3643</AbiAbi>
+    <AbiBanc>CHEBANCA! S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3645</AbiAbi>
+    <AbiBanc>LOMBARD ODIER S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3646</AbiAbi>
+    <AbiBanc>N26 BANK GMBH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3647</AbiAbi>
+    <AbiBanc>BUNQ B.V.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3654</AbiAbi>
+    <AbiBanc>TOYOTA MATERIAL HANDLING COMMERCIAL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3655</AbiAbi>
+    <AbiBanc>GRENKE BANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3656</AbiAbi>
+    <AbiBanc>GUBER BANCA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3658</AbiAbi>
+    <AbiBanc>GOLDMAN SACHS BANK EUROPE SE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3660</AbiAbi>
+    <AbiBanc>PERSIA INTERNATIONAL BANK</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3661</AbiAbi>
+    <AbiBanc>MGF</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3662</AbiAbi>
+    <AbiBanc>AK NORDIK AB</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3664</AbiAbi>
+    <AbiBanc>HYUNDAI CAPITAL BANK EUROPE GMBH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3665</AbiAbi>
+    <AbiBanc>SOLARISBANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3666</AbiAbi>
+    <AbiBanc>CREDIT SUISSE BANK (EUROPE) S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3667</AbiAbi>
+    <AbiBanc>ZURICH ITALY BANK SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3668</AbiAbi>
+    <AbiBanc>CAIXABANK, S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3669</AbiAbi>
+    <AbiBanc>REVOLUT BANK UAB - SUCCURSALE ITALIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3671</AbiAbi>
+    <AbiBanc>COFIDIS SA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3672</AbiAbi>
+    <AbiBanc>CREDIT AGRICOLE LEASING &amp;       FACT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3673</AbiAbi>
+    <AbiBanc>PEAC (GERMANY) GMBH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>3674</AbiAbi>
+    <AbiBanc>TRADE REPUBLIC BANK GMBH</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5000</AbiAbi>
+    <AbiBanc>BFF BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5010</AbiAbi>
+    <AbiBanc>CREDITO PIEMONTESE SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5012</AbiAbi>
+    <AbiBanc>BANCA AGRICOLA DI CEREA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5013</AbiAbi>
+    <AbiBanc>BANCA VALORI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5014</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI SESTO SAN GIOVANNI S.C</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5015</AbiAbi>
+    <AbiBanc>BANCA PROGETTO S.P.A</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5018</AbiAbi>
+    <AbiBanc>BANCA POPOLARE ETICA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5019</AbiAbi>
+    <AbiBanc>BANCA POP.DI CIVIDALE SOC.COOP.X AZ.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5022</AbiAbi>
+    <AbiBanc>BANCA POPOLARE CREDIEURONORD S.C.A.R.L.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5023</AbiAbi>
+    <AbiBanc>BANCA REGIONALE DI SVILUPPO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5024</AbiAbi>
+    <AbiBanc>BANCA AGRICOLA MANTOVANA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5025</AbiAbi>
+    <AbiBanc>BANCA FARNESE S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5026</AbiAbi>
+    <AbiBanc>UNIONE DI BANCHE ITALIANE S.C.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5027</AbiAbi>
+    <AbiBanc>BANCA POP.VALLE ITRIA E MAGNA GRECIA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5029</AbiAbi>
+    <AbiBanc>IGEA DIGITAL BANK S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5030</AbiAbi>
+    <AbiBanc>VIVIBANCA S.P.A</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5031</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI GARANZIA S.C.X AZ.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5033</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DELLE PROVINCIE MOLIS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5034</AbiAbi>
+    <AbiBanc>BANCO BPM S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5035</AbiAbi>
+    <AbiBanc>VENETO BANCA S.C.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5036</AbiAbi>
+    <AbiBanc>BANCA AGRICOLA POPOLARE DI      SICI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5037</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DELLE PROV.CALABRE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5038</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DEL MEDITERRANEO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5040</AbiAbi>
+    <AbiBanc>B.CA ANTONIANA POP.VENETA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5048</AbiAbi>
+    <AbiBanc>B.POP.COMMERCIO INDUSTRIA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5060</AbiAbi>
+    <AbiBanc>B.A COOPERATIVA CATTOLICA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5080</AbiAbi>
+    <AbiBanc>BANCA DI IMOLA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5104</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DEL LAZIO SOC. COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5116</AbiAbi>
+    <AbiBanc>BANCA VALSABBINA S.C.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5132</AbiAbi>
+    <AbiBanc>BANCA NUOVA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5142</AbiAbi>
+    <AbiBanc>B. CRED. POP. TORRE GRECO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5156</AbiAbi>
+    <AbiBanc>BANCA DI PIACENZA SOC. COOP. PER AZI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5164</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI LODI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5188</AbiAbi>
+    <AbiBanc>BANCA POP. DI VERONA - BPV-SGSP SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5200</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI BELPASSO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5204</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI MANTOVA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5216</AbiAbi>
+    <AbiBanc>CREDITO VALTELLINESE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5228</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI CREMA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5232</AbiAbi>
+    <AbiBanc>BANCA POP. DI LAJATICO S.C.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5256</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DEL MEZZOGIORNO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5262</AbiAbi>
+    <AbiBanc>BANCA POP. PUGLIESE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5290</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DEL TRENTINO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5296</AbiAbi>
+    <AbiBanc>BANCA POP. FONDI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5297</AbiAbi>
+    <AbiBanc>BANCA POP. FRUSINATE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5308</AbiAbi>
+    <AbiBanc>BANCA POP. ANCONA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5332</AbiAbi>
+    <AbiBanc>NUOVA BANCA MEDITERRANEA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5336</AbiAbi>
+    <AbiBanc>BANCA POP. FRIULADRIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5352</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI TODI S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5372</AbiAbi>
+    <AbiBanc>BANCA POP. CASSINATE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5385</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI PUGLIA E BASILICAT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5387</AbiAbi>
+    <AbiBanc>BPER BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5390</AbiAbi>
+    <AbiBanc>NUOVA BANCA POP.ETRURIA E LAZIO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5392</AbiAbi>
+    <AbiBanc>BANCA DELLA CAMPANIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5398</AbiAbi>
+    <AbiBanc>BANCA POP. MATERANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5414</AbiAbi>
+    <AbiBanc>BANCA POP. APRILIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5418</AbiAbi>
+    <AbiBanc>VENETO BANCA SOC.COOP.PER AZIONI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5420</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI AUGUSTA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5424</AbiAbi>
+    <AbiBanc>BDM BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5428</AbiAbi>
+    <AbiBanc>B.POP.BERGAMO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5437</AbiAbi>
+    <AbiBanc>BIPOP-CARIRE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5452</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI CARINI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5484</AbiAbi>
+    <AbiBanc>BANCA DI CIVIDALE S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5496</AbiAbi>
+    <AbiBanc>BANCA POP. CORTONA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5512</AbiAbi>
+    <AbiBanc>BANCA POP. DI CREMONA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5526</AbiAbi>
+    <AbiBanc>BANCO DI SAN GIORGIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5548</AbiAbi>
+    <AbiBanc>BANCA POP. INTRA SOC.COOP.PER AZIONI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5550</AbiAbi>
+    <AbiBanc>B.POP.LANCIANO E SULMONA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5556</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI LUINO E DI VARESE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5572</AbiAbi>
+    <AbiBanc>BANCA POP. MAROSTICA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5584</AbiAbi>
+    <AbiBanc>BANCA POP. MILANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5597</AbiAbi>
+    <AbiBanc>B.CA POP. MONZA E BRIANZA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5602</AbiAbi>
+    <AbiBanc>BANCA POPOLARE COMMERCIALE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5608</AbiAbi>
+    <AbiBanc>NUOVA BANCA POP. DI NOVARA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5630</AbiAbi>
+    <AbiBanc>BANCA BIPIELLE NETWORK SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5636</AbiAbi>
+    <AbiBanc>BANCA REGIONALE CALABRESE S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5640</AbiAbi>
+    <AbiBanc>BANCA POP. RAVENNA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5650</AbiAbi>
+    <AbiBanc>BANCA POP. ROMA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5652</AbiAbi>
+    <AbiBanc>SANFELICE 1893 BANCA POPOLARE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5662</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI VENEZIA SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5676</AbiAbi>
+    <AbiBanc>BIBANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5696</AbiAbi>
+    <AbiBanc>BANCA POP. SONDRIO SOC.COOP. X AZ.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5704</AbiAbi>
+    <AbiBanc>BANCA POP. SPOLETO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5728</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI VICENZA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5747</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DELLA PENISOLA SORRENTINA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5748</AbiAbi>
+    <AbiBanc>BANCA DELL'ADRIATICO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5764</AbiAbi>
+    <AbiBanc>BANCA POPOLARE SAN MATTEO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5772</AbiAbi>
+    <AbiBanc>BANCA POPOLARE SANT'ANGELO SCPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5776</AbiAbi>
+    <AbiBanc>BANCA POPOLARE SANTA VENERA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5786</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DI CALABRIA - COSENZA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5787</AbiAbi>
+    <AbiBanc>BANCA APULIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5792</AbiAbi>
+    <AbiBanc>BANCA POP. VALCONCA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5824</AbiAbi>
+    <AbiBanc>CASSA DI SOVVENZIONI E RISPARMIO FRA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5856</AbiAbi>
+    <AbiBanc>BANCA POPOLARE DELL'ALTO ADIGE  S.P.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>5998</AbiAbi>
+    <AbiBanc>ARCA MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6000</AbiAbi>
+    <AbiBanc>IST. CENTRALE DELLE BANCHE POPOLARI ITAL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6010</AbiAbi>
+    <AbiBanc>CASSA DEI RISPARMI FORLI'E ROMAGNA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6015</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMI DI LIVORNO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6020</AbiAbi>
+    <AbiBanc>CARIPRATO-CASSA DI RISP.DI PRATO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6030</AbiAbi>
+    <AbiBanc>CASSA RISP. SPEZIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6035</AbiAbi>
+    <AbiBanc>CASSAMARCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6040</AbiAbi>
+    <AbiBanc>CARISPAQ-C.R.PROV.L'AQUILA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6045</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DI BOLZANO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6050</AbiAbi>
+    <AbiBanc>BANCA TEATINA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6055</AbiAbi>
+    <AbiBanc>NUOVA BANCA DELLE MARCHE S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6060</AbiAbi>
+    <AbiBanc>CASSA RISP. PROV. TERAMO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6065</AbiAbi>
+    <AbiBanc>CASSA RISP. PROV. VITERBO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6067</AbiAbi>
+    <AbiBanc>CASSA RISP.REP.SAN MARINO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6070</AbiAbi>
+    <AbiBanc>CARIPLO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6075</AbiAbi>
+    <AbiBanc>CASSA RISP. ALESSANDRIA  SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6080</AbiAbi>
+    <AbiBanc>CASSA RISP. ASCOLI PICENO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6085</AbiAbi>
+    <AbiBanc>BANCA C.R. ASTI SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6090</AbiAbi>
+    <AbiBanc>BIVERBANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6095</AbiAbi>
+    <AbiBanc>CASSA RISP. BRA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6105</AbiAbi>
+    <AbiBanc>CASSA RISP. CARPI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6110</AbiAbi>
+    <AbiBanc>CASSA RISP. CARRARA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6115</AbiAbi>
+    <AbiBanc>CASSA RISP. CENTO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6120</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DI CESENA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6125</AbiAbi>
+    <AbiBanc>CASSA R. CITTA' CASTELLO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6130</AbiAbi>
+    <AbiBanc>CASSA RISP. CIVITAVECCHIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6140</AbiAbi>
+    <AbiBanc>CASSA R.FABRIANO CUPRAMONTANA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6145</AbiAbi>
+    <AbiBanc>CARIFANO - C.R. DI FANO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6150</AbiAbi>
+    <AbiBanc>CASSA RISP. DI FERMO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6155</AbiAbi>
+    <AbiBanc>NUOVA CASSA DI RISP.DI FERRARA S.P.A</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6160</AbiAbi>
+    <AbiBanc>CASSA RISP. FIRENZE SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6165</AbiAbi>
+    <AbiBanc>CASSA RISP. FOLIGNO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6170</AbiAbi>
+    <AbiBanc>CASSA RISP. FOSSANO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6175</AbiAbi>
+    <AbiBanc>B.CARIGE-C.R.GENOVA IMPERIA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6180</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DI GORIZIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6185</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DI IMOLA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6195</AbiAbi>
+    <AbiBanc>CARILO - C.R. DI LORETO  SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6200</AbiAbi>
+    <AbiBanc>CASSA RISP. LUCCA PISA LIVORNO S.P.A</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6205</AbiAbi>
+    <AbiBanc>BANCA DI ROMAGNA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6220</AbiAbi>
+    <AbiBanc>CASSA RISP. ORVIETO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6225</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DEL VENETO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6230</AbiAbi>
+    <AbiBanc>CREDIT AGRICOLE ITALIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6235</AbiAbi>
+    <AbiBanc>BANCA DELL'UMBRIA 1462 SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6245</AbiAbi>
+    <AbiBanc>CASSA RISP.PESCARA LORETO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6255</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DI PISA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6260</AbiAbi>
+    <AbiBanc>CASSA RISP.PISTOIA-PESCIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6270</AbiAbi>
+    <AbiBanc>LA CASSA DI RAVENNA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6280</AbiAbi>
+    <AbiBanc>CASSA RISP. RIETI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6285</AbiAbi>
+    <AbiBanc>BANCA CARIM-CASSA RISP.DI RIMINI SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6295</AbiAbi>
+    <AbiBanc>CASSA RISP. SALUZZO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6300</AbiAbi>
+    <AbiBanc>CASSA RISP. SAN MINIATO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6305</AbiAbi>
+    <AbiBanc>CASSA RISP. DI SAVIGLIANO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6310</AbiAbi>
+    <AbiBanc>CASSA RISP. SAVONA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6315</AbiAbi>
+    <AbiBanc>CASSE DI RISPARMIO DELL'UMBRIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6320</AbiAbi>
+    <AbiBanc>BANCA CASSA DI RISPARMIO DI TORINO S.P.A</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6325</AbiAbi>
+    <AbiBanc>BANCA CASSA DI RISPARMIO DI TORTONA S.P.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6330</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DI TRENTO E ROVERETO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6335</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DI TRIESTE - BANCA SP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6340</AbiAbi>
+    <AbiBanc>CASSA RISP.DEL FRIULI VENEZIA GIULIA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6345</AbiAbi>
+    <AbiBanc>CASSA RISP. VENEZIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6355</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO DI VERONA, VICENZA, B</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6365</AbiAbi>
+    <AbiBanc>BANCA CRV-C.R.VIGNOLA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6370</AbiAbi>
+    <AbiBanc>CASSA RISP. VOLTERRA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6375</AbiAbi>
+    <AbiBanc>CASSA DI RISPARMIO E MONTE DI CREDITO SU</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6380</AbiAbi>
+    <AbiBanc>CASSA RISP. TERNI E NARNI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6385</AbiAbi>
+    <AbiBanc>CASSA RISP. IN BOLOGNA   SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6390</AbiAbi>
+    <AbiBanc>INTESA GESTIONE CREDITI S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6906</AbiAbi>
+    <AbiBanc>BANCA REGIONALE EUROPEA  SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6915</AbiAbi>
+    <AbiBanc>BANCA DEL MONTE DI LUCCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>6930</AbiAbi>
+    <AbiBanc>BANCA MONTE PARMA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7004</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI LISSONE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7010</AbiAbi>
+    <AbiBanc>C.R.A. MAIERATO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7012</AbiAbi>
+    <AbiBanc>BANCA DI BARI E TARANTO CREDITO COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7014</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DEL MISCANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7017</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DELCIRC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7024</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO    "FOR</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7026</AbiAbi>
+    <AbiBanc>BANCA DI TERAMO CRED.COOP.-SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7027</AbiAbi>
+    <AbiBanc>B.C.C. MONOPOLI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7041</AbiAbi>
+    <AbiBanc>BANCA DI ARICCIA DI CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7043</AbiAbi>
+    <AbiBanc>BCA DI CREDITOCOOPERATIVO DEL TIRRENO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7048</AbiAbi>
+    <AbiBanc>BANCA DELL'ELBA CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7049</AbiAbi>
+    <AbiBanc>B.C.C. GOLFO DI GELA SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7052</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO VALLE DELL'</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7053</AbiAbi>
+    <AbiBanc>BIESSE-BANCA SAMBENEDETTESE C.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7055</AbiAbi>
+    <AbiBanc>BANCA DI LUCCA DI CREDITO COOPERATIVO S.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7056</AbiAbi>
+    <AbiBanc>BANCA DELL'ALTA MURGIA CRED.COOP.VO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7057</AbiAbi>
+    <AbiBanc>CREDIVENETO CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7058</AbiAbi>
+    <AbiBanc>BANCA REGGIANA DI CRED.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7059</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO SOFIGE - GE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7060</AbiAbi>
+    <AbiBanc>B.C.C. DEL GARIGLIANO SCPARL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7061</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DELLA PRE-S</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7062</AbiAbi>
+    <AbiBanc>CREDITO COOP. MEDIOCRATI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7064</AbiAbi>
+    <AbiBanc>B.C.C. GENOVESE SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7065</AbiAbi>
+    <AbiBanc>BANCA FORTORINA DI CREDITO COOPERATIVO S</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7066</AbiAbi>
+    <AbiBanc>BCC MAGNA GRECIA S.C.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7067</AbiAbi>
+    <AbiBanc>BANCA DELLA TUSCIA C.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7068</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI CATANZAR</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7069</AbiAbi>
+    <AbiBanc>CRERIBANCO CREDITO COOPERATIVO  DI ALESS</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7070</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO ROMAGNOLO - BCC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7071</AbiAbi>
+    <AbiBanc>BANCA DELLA VALSASSINA C.C. SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7072</AbiAbi>
+    <AbiBanc>EMIL BANCA - CREDITO COOPERATIVO - S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7073</AbiAbi>
+    <AbiBanc>BANCA ROMAGNA COOPERATIVA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7074</AbiAbi>
+    <AbiBanc>BANCA DI MONASTIER E DEL SILE C.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7075</AbiAbi>
+    <AbiBanc>BANCA CENTRO - CREDITO COOPERATIVO T</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7076</AbiAbi>
+    <AbiBanc>BANCA CREMASCA E MANTOVANA CRED.COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7077</AbiAbi>
+    <AbiBanc>B.C.C. DEL CREMASCO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7078</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DEI CAS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7079</AbiAbi>
+    <AbiBanc>BANCA CATONE DI CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7080</AbiAbi>
+    <AbiBanc>CREDITO ETNEO B.C.C. SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7081</AbiAbi>
+    <AbiBanc>BANCA DI ASCOLI DI CREDITO COOPERATIVO S</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7082</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO BOLOGNESE SCARL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7083</AbiAbi>
+    <AbiBanc>BANCA DI C. C. PRIVERNATE SCPARL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7084</AbiAbi>
+    <AbiBanc>BANCA DELLA MARCA CREDITO COOPERATIV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7085</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO FRIULI SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7086</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DELL'AD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7087</AbiAbi>
+    <AbiBanc>BANCA DI TARANTO E MASSAFRA     BANC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7088</AbiAbi>
+    <AbiBanc>BANCA DI PERUGIA-CRED.COOP-SOC.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7089</AbiAbi>
+    <AbiBanc>B.C.C. DI TERNI E DELLA VALNERINA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7090</AbiAbi>
+    <AbiBanc>BANCA MALATESTIANA - CREDITO COOPERA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7091</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO    DELL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7092</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DEI CAS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7093</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOP. DEL NORD BARESE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7094</AbiAbi>
+    <AbiBanc>B.C.C. DI MASSAFRA SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7095</AbiAbi>
+    <AbiBanc>BANCA APUANA C.C. MASSA CARRARA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7096</AbiAbi>
+    <AbiBanc>B.C.C. DI CAGLIARI SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7097</AbiAbi>
+    <AbiBanc>BANCA PMI DI BERGAMO CREDITO COOP.VO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7098</AbiAbi>
+    <AbiBanc>BCC ANTONELLO DA MESSINA SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7099</AbiAbi>
+    <AbiBanc>CREDITO ARETUSEO B.C.C.SOC.COP.A.R.L</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7100</AbiAbi>
+    <AbiBanc>B.CRED.COOP.DELLA CONTEA DI MODICA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7101</AbiAbi>
+    <AbiBanc>BANCA DI ANDRIA DI CRED.COOP.SCPARL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7102</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOP.DI AVERSA SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7103</AbiAbi>
+    <AbiBanc>BANCA DI C.COOP.DELLA COSTA ETRUSCA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7104</AbiAbi>
+    <AbiBanc>BCC - BANCA DI SIRACUSA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7105</AbiAbi>
+    <AbiBanc>BCC LUIGI STURZO DI CALTAGIRONE S.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7106</AbiAbi>
+    <AbiBanc>BANCA DEL COMPRENSORIO DEL CUOIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7107</AbiAbi>
+    <AbiBanc>BANCA DEL FERMANO-CREDITO COOP.VO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7108</AbiAbi>
+    <AbiBanc>B C C AGRIGENTINO SOC. COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7109</AbiAbi>
+    <AbiBanc>B C C BANCA BRUTIA - SOC. COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7110</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOP. DI NAPOLI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7111</AbiAbi>
+    <AbiBanc>BANCA DI FRASCATI DI CRED.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7112</AbiAbi>
+    <AbiBanc>BANCA DI VIGEVANO CRED.COOPERATIVO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7113</AbiAbi>
+    <AbiBanc>BANCA DI CRED.COOP.VO DI PUTIGNANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7114</AbiAbi>
+    <AbiBanc>BCC DEGLI ERNICI SOC.COOP.PA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7115</AbiAbi>
+    <AbiBanc>CRED.COOP.DI SCANDICCI BANCO FIORENT</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7116</AbiAbi>
+    <AbiBanc>BANCA DEL GRAN SASSO D'ITALIA - BANC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7117</AbiAbi>
+    <AbiBanc>BCC DI RIVAROLO CANAVESE,RIVARA SC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7118</AbiAbi>
+    <AbiBanc>BANCA DI PARMA-CRED.COOP.-SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7535</AbiAbi>
+    <AbiBanc>BANCA DEL MONTE DI FOGGIA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7600</AbiAbi>
+    <AbiBanc>POSTE ITALIANE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7601</AbiAbi>
+    <AbiBanc>POSTE ITALIANE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>7602</AbiAbi>
+    <AbiBanc>CASSA DEPOSITI E PRESTITI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8000</AbiAbi>
+    <AbiBanc>ICCREA BANCA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8001</AbiAbi>
+    <AbiBanc>MANTOVABANCA 1896 CRED.COOP.S.C.R.L.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8003</AbiAbi>
+    <AbiBanc>VIVAL BANCA - BCC DI MONTECATINITERM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8010</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN VAL BADIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8011</AbiAbi>
+    <AbiBanc>CASSA RURALE VALLAGARINA -B.C.C . S.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8013</AbiAbi>
+    <AbiBanc>C.R.A. ALDENO E CADINE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8015</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI ANDRIANO S.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8016</AbiAbi>
+    <AbiBanc>CASSA RURALE ALTOGARDA - ROVERETO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8019</AbiAbi>
+    <AbiBanc>BANCA DELLO JONIO - ALBIDONA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8020</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN ALTA PUSTERIA S.A.R</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8024</AbiAbi>
+    <AbiBanc>CASSA RURALE ADAMELLO BCC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8026</AbiAbi>
+    <AbiBanc>C.RUR. DI LEDRO B.C.C. SCPAARL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8030</AbiAbi>
+    <AbiBanc>B.C.C.BORGHETTO LODIGIANO SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8031</AbiAbi>
+    <AbiBanc>C.R.A. BRENTONICO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8033</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI BRONZOLO-ORA S.C</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8035</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI BRUNICO SOC.COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8039</AbiAbi>
+    <AbiBanc>B.C.C.DI SASSANO SC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8042</AbiAbi>
+    <AbiBanc>C.R.A. RABBI E CALDES    B.C.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8043</AbiAbi>
+    <AbiBanc>C.R.A. CALDONAZZO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8044</AbiAbi>
+    <AbiBanc>CASSA RURALE DI CAMPITELLO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8055</AbiAbi>
+    <AbiBanc>C.RUR. CASTELLO TESINO BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8056</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN CASTELROTTO - ORTIS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8057</AbiAbi>
+    <AbiBanc>C.R.A. CENTROFIEMME - CAVALESE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8058</AbiAbi>
+    <AbiBanc>CASSA RURALE DI CAVARENO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8060</AbiAbi>
+    <AbiBanc>CASSA RAFFEISEN D CIARDES SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8063</AbiAbi>
+    <AbiBanc>C.R.A. CONDINO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8065</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN SCHLERN-ROSENGARTEN</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8066</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN ALTA VENOSTA SOC. C</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8071</AbiAbi>
+    <AbiBanc>C.R.A. VALLEDOLMO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8078</AbiAbi>
+    <AbiBanc>LA CASSA RURALE - CC ADAMELLO GIUDIC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8079</AbiAbi>
+    <AbiBanc>CASSA RURALE D'ANAUNIA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8080</AbiAbi>
+    <AbiBanc>C. RAIFFEISEN DI DOBBIACO SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8081</AbiAbi>
+    <AbiBanc>CASSA RURALE DI BOLZANO - RAIFFEISEN</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8083</AbiAbi>
+    <AbiBanc>C.R.A DI FISCIANO B.C.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8086</AbiAbi>
+    <AbiBanc>BANCA DI ANCONA E FALCONARA MARITTIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8088</AbiAbi>
+    <AbiBanc>C.RUR. QUADRA E FIAVE' BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8089</AbiAbi>
+    <AbiBanc>C. RAFFEISEN FIE' ALLO SCILIAR</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8091</AbiAbi>
+    <AbiBanc>C.RUR. FOLGARIA BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8094</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI FUNES SC RAIFFEI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8095</AbiAbi>
+    <AbiBanc>CRED.COOP. REGGIANO SCARL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8100</AbiAbi>
+    <AbiBanc>C.RUR.GIOVO BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8102</AbiAbi>
+    <AbiBanc>CASSA RURALE VALSUGANA E TESINO BCC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8105</AbiAbi>
+    <AbiBanc>CASSA RURALE DI IAVRE'</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8107</AbiAbi>
+    <AbiBanc>CASSA RURALE DI ISERA B.CRED.COOP.VA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8110</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI LACES SCRL RAIFF</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8112</AbiAbi>
+    <AbiBanc>C.R.A. LAGUNDO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8113</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN BASSA VALL'ISARCO S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8114</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN BASSA ATESINA  S.C.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8115</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI LANA S.C. RAIFFE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8117</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI LASA S.C. RAIFFE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8120</AbiAbi>
+    <AbiBanc>CASSA RURALE LAVIS-VALLE DI CEMBRA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8121</AbiAbi>
+    <AbiBanc>C.R.A. LEVICO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8123</AbiAbi>
+    <AbiBanc>C.R.A. LIZZANA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8126</AbiAbi>
+    <AbiBanc>BANCA MONTEPAONE CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8129</AbiAbi>
+    <AbiBanc>B.C.C. DEL BELICE SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8130</AbiAbi>
+    <AbiBanc>B.C.C. FENIS NUS S.MARCELLO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8132</AbiAbi>
+    <AbiBanc>C.R.A. VALLE DEI LAGHI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8133</AbiAbi>
+    <AbiBanc>C.R.A. MERANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8134</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI MARLENGO SOC. CO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8135</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI MELTINA SOC.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8138</AbiAbi>
+    <AbiBanc>CASSA RURALE DI MEZZOCORONA B.C.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8139</AbiAbi>
+    <AbiBanc>CASSA RURALE ROTALIANA E GIOVO  BANC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8140</AbiAbi>
+    <AbiBanc>FPB CASSA DI FASSA PRIMIERO BELLUNO-</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8145</AbiAbi>
+    <AbiBanc>C.RUR.DI MORI-BRENTONICO-VAL GRESTA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8147</AbiAbi>
+    <AbiBanc>BANCA DI CRED.COOP.LUCANIA SUD</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8148</AbiAbi>
+    <AbiBanc>CASSA RUR.MONGUELFO-CASIES-TESIDO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8149</AbiAbi>
+    <AbiBanc>BANCA DI CRED.COOP.VO DI BASCIANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8153</AbiAbi>
+    <AbiBanc>CASSA RURALE BASSA FIEMME</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8154</AbiAbi>
+    <AbiBanc>BANCA 2021-CRED.COOP. DEL CILENTO, V</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8155</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI NALLES SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8157</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN BASSA VENOSTA SC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8161</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN NOVA LEVANTE S.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8162</AbiAbi>
+    <AbiBanc>C.RAIFFEISEN NOVA PONENTE-ALDINO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8163</AbiAbi>
+    <AbiBanc>CASSA RURALE VAL DI SOLE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8167</AbiAbi>
+    <AbiBanc>CASSA RUR.OLLE-SAMONE-SCURELLE BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8168</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO DELL'ALTO   GARDA S.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8175</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI PARCINES S.C.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8178</AbiAbi>
+    <AbiBanc>CASSA RURALE ALTA VALSUGANA BANCA DI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8179</AbiAbi>
+    <AbiBanc>C.R.A. PINZOLO B.C.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8182</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN WIPPTAL SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8183</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN PRATO-TUBRE SOC.COO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8184</AbiAbi>
+    <AbiBanc>CASSA RURALE VAL DI FIEMME      BANC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8186</AbiAbi>
+    <AbiBanc>BANCA ATESINA DI CR.COOP. SRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8187</AbiAbi>
+    <AbiBanc>CASSA RURALE RENON SOC. COOP. RAIFFE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8189</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DELLA V</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8191</AbiAbi>
+    <AbiBanc>B.C.C.SAN MARTINO IN PENSILIS</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8192</AbiAbi>
+    <AbiBanc>CASSA RURALE GIUDICARIE         PAGANELL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8200</AbiAbi>
+    <AbiBanc>CASSA RURALE NOVELLA E ALTA ANAUNIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8201</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI RIFIANO-CAINES SOC.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8206</AbiAbi>
+    <AbiBanc>C.R.A. RONCEGNO  B.C.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8209</AbiAbi>
+    <AbiBanc>C.R.A. ROVERE' DELLA LUNA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8210</AbiAbi>
+    <AbiBanc>CASSA RURALE DI ROVERETO - BANCADI C</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8214</AbiAbi>
+    <AbiBanc>B.C.C.DI CERNUSCO SUL NAVIGLIO S.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8220</AbiAbi>
+    <AbiBanc>C.R.A. SALORNO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8221</AbiAbi>
+    <AbiBanc>CASSA RURALE DI SAMONE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8226</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI SAN MARTINO IN P</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8231</AbiAbi>
+    <AbiBanc>CASSA RURALE DI ULTIMO - S. PANCRAZI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8232</AbiAbi>
+    <AbiBanc>C.R.A. SAONE BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8233</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN VAL SARENTINO S.C.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8234</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI SCENA SC RAIFFEI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8235</AbiAbi>
+    <AbiBanc>CASSA RURALE DI SCURELLE BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8238</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN VAL GARDENA SOCIETA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8239</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI SENALES</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8244</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN SILANDRO SCRL RAIFF</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8245</AbiAbi>
+    <AbiBanc>C.R.A. SOPRAMONTE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8248</AbiAbi>
+    <AbiBanc>CASSA RUR.DI SPIAZZO E IAVRE'- B.C.C</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8249</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN CAMPO DI TRENS SOC.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8251</AbiAbi>
+    <AbiBanc>C.R.A. STREMBO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8252</AbiAbi>
+    <AbiBanc>C.R.A. STRIGNO E SPERA   BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8255</AbiAbi>
+    <AbiBanc>C.R.A. OLTRADIGE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8258</AbiAbi>
+    <AbiBanc>BANCA CENTRO CALABRIA CREDITO   COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8263</AbiAbi>
+    <AbiBanc>C.R.A. D'ANAUNIA B.C.C.  SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8264</AbiAbi>
+    <AbiBanc>C.R.A. TASSULLO E NANNO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8269</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN ETSCHTAL SOCIETA' C</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8273</AbiAbi>
+    <AbiBanc>C.R.A. TESIMO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8276</AbiAbi>
+    <AbiBanc>CASSA RURALE DI TIONE, RAGOLI E MONTAGNE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8277</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI TIRES SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8278</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN TIROLO SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8279</AbiAbi>
+    <AbiBanc>C.RUR.VALLI DI PRIMIERO E VANOI BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8281</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI TUBRE S.C.R.L.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8282</AbiAbi>
+    <AbiBanc>CASSA RURALE VAL DI NON - ROTALIANA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8285</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN TURES - AURINA S.CO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8295</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI VANDOIES SOC. CO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8301</AbiAbi>
+    <AbiBanc>CASSA RURALE DEL LOMASO BCC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8302</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DI VILLABASSA SC -</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8304</AbiAbi>
+    <AbiBanc>BANCA PER IL TRENTINO ALTO ADIGE-BAN</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8305</AbiAbi>
+    <AbiBanc>CASSA RURALE ALTA VALLAGARINA E LIZZ</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8307</AbiAbi>
+    <AbiBanc>C.RAFFEISEN VALLE ISARCO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8309</AbiAbi>
+    <AbiBanc>BANCA DI ROMANO E S.CATERINA C.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8311</AbiAbi>
+    <AbiBanc>BENACO BANCA CRED.COOP.COSTERMANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8315</AbiAbi>
+    <AbiBanc>VALPOLICELLA BENACO BANCA CREDITO CO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8316</AbiAbi>
+    <AbiBanc>C.R.A. PINETANA B.C.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8320</AbiAbi>
+    <AbiBanc>BCC ALTAVILLA SILENTINA E CALABRITTO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8322</AbiAbi>
+    <AbiBanc>BANCA VERONESE - CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8324</AbiAbi>
+    <AbiBanc>BANCA CENTROPADANA C.COOP.SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8325</AbiAbi>
+    <AbiBanc>BANCO FIORENTINO-MUGELLO IMPRUNETA S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8326</AbiAbi>
+    <AbiBanc>B.C.C.CATTEDRALE DI ADRIA - SOC.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8327</AbiAbi>
+    <AbiBanc>B.C.C. DI ROMA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8329</AbiAbi>
+    <AbiBanc>BCC BRIANZA E LAGHI SOCIETA' COOPERA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8330</AbiAbi>
+    <AbiBanc>B.C.C. BASSA FRIULANA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8331</AbiAbi>
+    <AbiBanc>B.C.C. DELL'ALTO RENO SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8332</AbiAbi>
+    <AbiBanc>BANCA PICENA TRUENTINA C.COOP.S.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8334</AbiAbi>
+    <AbiBanc>B.C.C. S.FELICITA -AFFILE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8338</AbiAbi>
+    <AbiBanc>B.C.C.ALBEROBELLO E S.MICHELE DI B.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8340</AbiAbi>
+    <AbiBanc>CASSA PADANA BCC SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8341</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI ALTO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8342</AbiAbi>
+    <AbiBanc>B.C.C. DI AQUARA SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8344</AbiAbi>
+    <AbiBanc>B.C.C. DI ANAGNI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8345</AbiAbi>
+    <AbiBanc>BANCA DI ANGHIARI E STIA CRED.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8351</AbiAbi>
+    <AbiBanc>BANCASCIANO CREDITO COOPRATIVO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8354</AbiAbi>
+    <AbiBanc>B.C.C. AVETRANA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8356</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO PORDENO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8358</AbiAbi>
+    <AbiBanc>BANCA DI PESCIA E CASCINA CREDITO CO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8362</AbiAbi>
+    <AbiBanc>B.C.C. ARBOREA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8365</AbiAbi>
+    <AbiBanc>BCC ALTO TIRRENO CALABRIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8374</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI BARL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8375</AbiAbi>
+    <AbiBanc>B.C.C. DI BASILIANO SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8378</AbiAbi>
+    <AbiBanc>BCC CAMPANIA CENTRO-CASSA RURALE ED</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8379</AbiAbi>
+    <AbiBanc>BANCA DI BEDIZZOLE TURANO VALVESTINO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8381</AbiAbi>
+    <AbiBanc>B.C.C. DI BELLEGRA  SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8382</AbiAbi>
+    <AbiBanc>BENE BANCA CREDITO COOPERATIVO  DI B</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8385</AbiAbi>
+    <AbiBanc>BANCA DI BIENTINA CRED.COOP.SOC.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8386</AbiAbi>
+    <AbiBanc>CASSA RUR.E ART.DI BINASCO-CRED.COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8393</AbiAbi>
+    <AbiBanc>CASSA RURALE ED ARTIGIANA DI BORGO S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8396</AbiAbi>
+    <AbiBanc>B.C.C. VALTROMPIA-BOVEGNO SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8397</AbiAbi>
+    <AbiBanc>C.R.A. DI BOVES - BANCA DI CREDITO C</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8399</AbiAbi>
+    <AbiBanc>BANCA DELLE TERRE VENETE SOCIETA' CO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8404</AbiAbi>
+    <AbiBanc>B.C.C. BUSTO GAROLFO E BUGUGGIATE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8406</AbiAbi>
+    <AbiBanc>C.R.A. BARBARANO ROMANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8407</AbiAbi>
+    <AbiBanc>BANCA DI CRED.COOP.DEL VENEZIANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8409</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI BUON</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8411</AbiAbi>
+    <AbiBanc>B.C.C. COLOBRARO VALSINNI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8414</AbiAbi>
+    <AbiBanc>BANCA MOLISANA DI CRED.COOP.VO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8416</AbiAbi>
+    <AbiBanc>BANCA DI VERONA CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8422</AbiAbi>
+    <AbiBanc>B.C.C. VERGATO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8425</AbiAbi>
+    <AbiBanc>BANCA CAMBIANO 1884 SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8427</AbiAbi>
+    <AbiBanc>BCC FIORENTINO CAMPI BISENZIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8428</AbiAbi>
+    <AbiBanc>B.C.C. CAMPIGLIA BERICI SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8429</AbiAbi>
+    <AbiBanc>BANCA PADOVANA CREDITO COOP.VO S.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8430</AbiAbi>
+    <AbiBanc>CASSA RURALE ED ARTIGIANA DI    CANT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8431</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI CAPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8434</AbiAbi>
+    <AbiBanc>BANCA DI CRED.COOP.ABRUZZESE S.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8436</AbiAbi>
+    <AbiBanc>B.CAPRANICA E BASSANO R. S.C.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8437</AbiAbi>
+    <AbiBanc>B.C.C. DELBASSO SEBINO S.C.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8439</AbiAbi>
+    <AbiBanc>BANCA DI CARAGLIO, DEL CUNEESE E DEL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8440</AbiAbi>
+    <AbiBanc>B.C.C.  CARATE BRIANZA SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8441</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO DI CARAVAGGIO AD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8445</AbiAbi>
+    <AbiBanc>B.C.C. TERRA D'OTRANTO SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8446</AbiAbi>
+    <AbiBanc>CRED.COOP.VO AREA PRATESE S.C.R.L.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8448</AbiAbi>
+    <AbiBanc>BANCA VENETA 1896-C.C.PROV.VR E RO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8450</AbiAbi>
+    <AbiBanc>BANCA ALPI MARITTIME CREDITO COOPERA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8452</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI VENE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8453</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI MILA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8454</AbiAbi>
+    <AbiBanc>CREDITO PADANO BANCA DI CREDITO COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8456</AbiAbi>
+    <AbiBanc>BANCA DEI SIBILLINI CREDITO COOPERAT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8457</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO VALDARNO FIORENT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8458</AbiAbi>
+    <AbiBanc>BANCA DI CASCINA CRED.COOP.SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8460</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI CASS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8461</AbiAbi>
+    <AbiBanc>CASTAGNETO BANCA 1910 - CREDITO COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8462</AbiAbi>
+    <AbiBanc>B.C.C ROMAGNA OCCIDENTALE SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8466</AbiAbi>
+    <AbiBanc>B.C.C.DI CASTEL GOFFREDO SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8467</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO POLESINE OC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8469</AbiAbi>
+    <AbiBanc>C.R.A. CASTELLANA GROTTE CRED.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8472</AbiAbi>
+    <AbiBanc>BCC FELSINEA - BCC DAL 1902 - SOCIET</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8473</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOP. DI CASTIGLION</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8474</AbiAbi>
+    <AbiBanc>BANCA DEL PICENO CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8481</AbiAbi>
+    <AbiBanc>CEREABANCA 1897 - CREDITO COOPERATIV</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8485</AbiAbi>
+    <AbiBanc>BANCA DI CHIANCIANO TERME S.C.R.L.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8486</AbiAbi>
+    <AbiBanc>BANCA DI PISTOIA CRED.COOP.SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8487</AbiAbi>
+    <AbiBanc>B.C.C. CHERASCO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8489</AbiAbi>
+    <AbiBanc>BANCA VALDICHIANA CREDITO COOPERATIV</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8491</AbiAbi>
+    <AbiBanc>BANCO MARCHIGIANO CREDITO COOPERATIV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8492</AbiAbi>
+    <AbiBanc>B.C.C. CITTANOVA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8499</AbiAbi>
+    <AbiBanc>B.C.C. BARIANO E COLOGNO AL SERIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8503</AbiAbi>
+    <AbiBanc>B.C.C. DI CONVERSANO SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8508</AbiAbi>
+    <AbiBanc>B.C.C. DI CORINALDO S.C.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8509</AbiAbi>
+    <AbiBanc>BANCA CENTRO EMILIA - CREDITO COOPER</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8511</AbiAbi>
+    <AbiBanc>CORTINABANCA - CREDITO COOPERATIVO -</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8514</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DELL'OG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8515</AbiAbi>
+    <AbiBanc>BANCA DELLA VALSASSINA CREDITO COOPE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8517</AbiAbi>
+    <AbiBanc>B.C.C.CRETA-C.COOP.PIACENTINO S.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8519</AbiAbi>
+    <AbiBanc>B.C.C.  DI FANO SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8522</AbiAbi>
+    <AbiBanc>BANCA DELLA COSTA D'ARGENTO-C.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8530</AbiAbi>
+    <AbiBanc>BANCA D'ALBA CREDITO COOPERATIVO SC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8531</AbiAbi>
+    <AbiBanc>BANCA DI COSENZA CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8532</AbiAbi>
+    <AbiBanc>B.C.C. DI DOBERDO' SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8537</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO C.R.A. DI ERCHIE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8538</AbiAbi>
+    <AbiBanc>B.C.C. CAMUNA SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8540</AbiAbi>
+    <AbiBanc>BANCA DI SAN MARINO S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8542</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO RAVENNATE FORLIV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8549</AbiAbi>
+    <AbiBanc>BANCA DI FILOTTRANO - CREDITO COOPER</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8550</AbiAbi>
+    <AbiBanc>B.C.C. DI FIUGGI SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8551</AbiAbi>
+    <AbiBanc>B.C.C.FIUMICELLO E AIELLO SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8553</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI FLUM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8554</AbiAbi>
+    <AbiBanc>B.C.C. DI GAUDIANO DI LAVELLO S.COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8556</AbiAbi>
+    <AbiBanc>BANCA DI FORLI'-CRED.COOP. SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8561</AbiAbi>
+    <AbiBanc>BANCA DI SALERNO CRED.COOP.SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8562</AbiAbi>
+    <AbiBanc>BANCA DI PISA E FORNACETTE CREDITO C</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8565</AbiAbi>
+    <AbiBanc>B.C.C. DI BUCCINO SC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8568</AbiAbi>
+    <AbiBanc>CASSA RURALE ED ARTIGIANA DI CRUCOLI TOR</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8572</AbiAbi>
+    <AbiBanc>B.C.C. GAMBATESA SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8574</AbiAbi>
+    <AbiBanc>B.C.C. GATTEO SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8575</AbiAbi>
+    <AbiBanc>BCC AGROBRESCIANO SOC. COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8578</AbiAbi>
+    <AbiBanc>BANCA DI CRED.COOP.DI GRADARA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8586</AbiAbi>
+    <AbiBanc>B.C.C. DI GHISALBA SOC.COOPERATIVA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8587</AbiAbi>
+    <AbiBanc>BCC VALDOSTANA COOP.DE CREDIT VALDOT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8590</AbiAbi>
+    <AbiBanc>BVR BANCA VENETO CENTRALE  CREDITO C</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8591</AbiAbi>
+    <AbiBanc>B.C.C. DI IMPRUNETA SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8592</AbiAbi>
+    <AbiBanc>B.C.C.DI INZAGO SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8595</AbiAbi>
+    <AbiBanc>LA BCC DEL CROTONESE CREDITO COOPERA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8596</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO SAN MARCO -</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8597</AbiAbi>
+    <AbiBanc>BCC BASILICATA - CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8601</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO    VALL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8603</AbiAbi>
+    <AbiBanc>B.C.C. LEVERANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8606</AbiAbi>
+    <AbiBanc>BCC DI CANOSA LOCONIO SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8607</AbiAbi>
+    <AbiBanc>B.C.C. DI LOCOROTONDO SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8610</AbiAbi>
+    <AbiBanc>BANCA DEI COLLI EUGANEI CC</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8616</AbiAbi>
+    <AbiBanc>BANCA ADIGE PO CRED.COOP.LUSIA SOC.C</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8618</AbiAbi>
+    <AbiBanc>B.C.C.  DI LEZZENO SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8619</AbiAbi>
+    <AbiBanc>B.C.C. DI LESMO SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8622</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO - CASSA RURALE E</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8623</AbiAbi>
+    <AbiBanc>BANCO EMILIANO CREDITO COOP.SOC.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8626</AbiAbi>
+    <AbiBanc>B.C.C. MACERONE SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8630</AbiAbi>
+    <AbiBanc>BANCA DI MANTIGNANA C.C. UMBRO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8631</AbiAbi>
+    <AbiBanc>BANCA 360 CREDITO COOPERATIVO FVG -</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8633</AbiAbi>
+    <AbiBanc>B.C.C. DELLA MONTAGNA PISTOIESE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8636</AbiAbi>
+    <AbiBanc>B.C.C. DELLA MAREMMA GROSSETANA SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8637</AbiAbi>
+    <AbiBanc>PRIMACASSA - CREDITO COOPERATIV O FV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8639</AbiAbi>
+    <AbiBanc>B.C.C. MASIANO SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8657</AbiAbi>
+    <AbiBanc>BANCA DI PALERMO SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8661</AbiAbi>
+    <AbiBanc>B.C.C. IRPINA SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8662</AbiAbi>
+    <AbiBanc>B.C.C. MONTECORVINO ROVELLA SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8669</AbiAbi>
+    <AbiBanc>BVR BANCA - BANCHE VENETE RIUNITE CR</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8670</AbiAbi>
+    <AbiBanc>B.C.C. MONTEPULCIANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8671</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO MONTEREALE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8672</AbiAbi>
+    <AbiBanc>B.C.C. MONTERENZIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8673</AbiAbi>
+    <AbiBanc>CHIANTIBANCA - CREDITO COOPERATIVO -</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8676</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO COLLI M</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8679</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI MOZZ</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8682</AbiAbi>
+    <AbiBanc>B.C.C.ALTO CASERTANO-BASSO FRUSINATE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8685</AbiAbi>
+    <AbiBanc>B.C.C. GARFAGNANA SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8688</AbiAbi>
+    <AbiBanc>B.C.C. MARINA DI GINOSA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8689</AbiAbi>
+    <AbiBanc>B.C.C.  DI MARCON SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8690</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO    ALTO CIL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8692</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI BRES</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8693</AbiAbi>
+    <AbiBanc>B.C.C  DI NETTUNOSCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8699</AbiAbi>
+    <AbiBanc>B.C.C. DI OFFANENGO SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8700</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DEL MET</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8703</AbiAbi>
+    <AbiBanc>B.C.C. DI OSPEDALETTO EUGANEO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8704</AbiAbi>
+    <AbiBanc>B.C.C. DI OSTRA E MORRO D'ALBA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8705</AbiAbi>
+    <AbiBanc>B.C.C. DI OSTRA VETERE S.C.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8706</AbiAbi>
+    <AbiBanc>B.C.C. DI OSTUNI SOC. COOP.VA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8708</AbiAbi>
+    <AbiBanc>BCC LUCANO E RIPACANDIDA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8712</AbiAbi>
+    <AbiBanc>B.C.C. SENAT.P.GRAMMATICO DI PACECO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8713</AbiAbi>
+    <AbiBanc>B.C.C. PACHINO SC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8715</AbiAbi>
+    <AbiBanc>BANCA DI UDINE CREDITO COOPERATIVO S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8716</AbiAbi>
+    <AbiBanc>BANCA CENTRO LAZIO CREDITO COOPERATI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8717</AbiAbi>
+    <AbiBanc>C.R.A. PALIANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8720</AbiAbi>
+    <AbiBanc>B.C.C. PEDEMONTE SCARL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8726</AbiAbi>
+    <AbiBanc>BANCA VERSILIA LUNIGIANA E GARFAGNAN</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8728</AbiAbi>
+    <AbiBanc>BANCA PATAVINA CREDITO COOPERATIVO D</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8730</AbiAbi>
+    <AbiBanc>C.R.A. PITIGLIANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8731</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI PERG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8732</AbiAbi>
+    <AbiBanc>BCC VICENTINO-POIANA MAGGIORE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8735</AbiAbi>
+    <AbiBanc>BANCA DEL TERRITORIO LOMBARDO CREDIT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8736</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI PONT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8738</AbiAbi>
+    <AbiBanc>CASSA RURALE ED ARTIGIANA DELL'AGRO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8743</AbiAbi>
+    <AbiBanc>B.C.C.  DEL VELINO SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8744</AbiAbi>
+    <AbiBanc>B.C.C. POSTINO E DOVERA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8745</AbiAbi>
+    <AbiBanc>B.C.C. VALLE SERIANA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8747</AbiAbi>
+    <AbiBanc>B.C.C. PRATOLA PELIGNA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8749</AbiAbi>
+    <AbiBanc>CENTROMARCA BANCA CREDITO COOPERATIV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8753</AbiAbi>
+    <AbiBanc>BCC PIANFEI E ROCCA BALDI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8757</AbiAbi>
+    <AbiBanc>B.C.C. QUINTO VICENTINO SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8765</AbiAbi>
+    <AbiBanc>CRA RECANATI E COLMURANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8769</AbiAbi>
+    <AbiBanc>BANCA DI RIPATRANSONE E DEL FERMANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8770</AbiAbi>
+    <AbiBanc>C.R.A. DI RIVAROLO B.C.C.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8771</AbiAbi>
+    <AbiBanc>BANCA DELL'ADDA-CRED.COOP.SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8772</AbiAbi>
+    <AbiBanc>C.R.A. DI ROANA  B.C.C.  SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8777</AbiAbi>
+    <AbiBanc>B.C.C. TUSCOLO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8778</AbiAbi>
+    <AbiBanc>B.C.C. DI RONCIGLIONE E BARBARANO R.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8784</AbiAbi>
+    <AbiBanc>BANCA MONTE PRUNO CREDITO COOPERATIV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8787</AbiAbi>
+    <AbiBanc>BCC DELLA PROVINCIA ROMANA SOC. COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8792</AbiAbi>
+    <AbiBanc>B.C.C. SALA DI CESENATICO SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8794</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO LODI S.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8796</AbiAbi>
+    <AbiBanc>C.R.A. SAMBUCA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8800</AbiAbi>
+    <AbiBanc>B.C.C. SAN BIAGIO PLATANI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8802</AbiAbi>
+    <AbiBanc>B.C.C. CHIANTI FIORENTINO SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8805</AbiAbi>
+    <AbiBanc>FRIULOVEST BANCA-CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8807</AbiAbi>
+    <AbiBanc>BCC VENETA - CREDITO COOPERATIVO - S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8810</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI SAN</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8811</AbiAbi>
+    <AbiBanc>BANCA DEL VALDARNO C.C.SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8812</AbiAbi>
+    <AbiBanc>BANCA FORMELLO-TREVIGNANO ROMANOC.C</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8817</AbiAbi>
+    <AbiBanc>CRA S.MARZANO DI S.GIUSEPPE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8824</AbiAbi>
+    <AbiBanc>C.R.A. SERINO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8826</AbiAbi>
+    <AbiBanc>BANCA DI PESARO B.C.C.   SCRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8829</AbiAbi>
+    <AbiBanc>B.C.C. S.PIETRO IN VINCIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8833</AbiAbi>
+    <AbiBanc>BANCA TERRITORI DEL MONVISO S.C.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8839</AbiAbi>
+    <AbiBanc>C.R.A. S. ANDREA DI SUASA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8843</AbiAbi>
+    <AbiBanc>B.C.C.  DI S. ELENA SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8844</AbiAbi>
+    <AbiBanc>B.C.C. SANTERAMO IN COLLE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8847</AbiAbi>
+    <AbiBanc>C.R.A S.VINCENZO LA COSTA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8850</AbiAbi>
+    <AbiBanc>B.C.C.  DI SARSINA SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8851</AbiAbi>
+    <AbiBanc>TERRE ETRUSCHE DI VALDICHIANA E DI M</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8852</AbiAbi>
+    <AbiBanc>ROMAGNABANCA CREDITO COOPERATIVO S.C</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8855</AbiAbi>
+    <AbiBanc>B.C.C. SCAFATI E CETARA SOC.COOP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8859</AbiAbi>
+    <AbiBanc>CASSA RURALE ED ARTIGIANA DI SEGNI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8865</AbiAbi>
+    <AbiBanc>B.C.C. SESTO S.GIOVANNI SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8866</AbiAbi>
+    <AbiBanc>B.C.C. SIGNA SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8867</AbiAbi>
+    <AbiBanc>B.C.C. DELLA SILA PICCOLA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8869</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI BERG</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8871</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI SPEL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8872</AbiAbi>
+    <AbiBanc>B.C.C. SIBARITIDE SPEZZANO ALBANESE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8873</AbiAbi>
+    <AbiBanc>BCC APPULO LUCANA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8877</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO VENEZIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8883</AbiAbi>
+    <AbiBanc>BANCA DI BOLOGNA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8885</AbiAbi>
+    <AbiBanc>BANCA CRAS - CRED. COOP. SOVICILLE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8887</AbiAbi>
+    <AbiBanc>CREDITO COOPERATIVO DI SAN CALOGERO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8888</AbiAbi>
+    <AbiBanc>B.C.C. SAN GIORGIO LUCANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8892</AbiAbi>
+    <AbiBanc>BANCA DEI DUE MARI DI CALABRIA-C.COP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8894</AbiAbi>
+    <AbiBanc>B.C.C. CARNIA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8899</AbiAbi>
+    <AbiBanc>CASSA RURALE - BANCA DI CREDITO COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8900</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI TREVIGNA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8901</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI TRIU</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8903</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI TURR</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8904</AbiAbi>
+    <AbiBanc>BANCA PREALPI SANBIAGIO CREDITO COOP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8905</AbiAbi>
+    <AbiBanc>C.RUR.ED ART.BCC DEL SANNIO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8907</AbiAbi>
+    <AbiBanc>B.C.C.   DI SCANDALE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8910</AbiAbi>
+    <AbiBanc>C.R.A. VESTENANOVA SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8913</AbiAbi>
+    <AbiBanc>B.C.C. VALLE DEL FITALIA SOC.COOP.VA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8916</AbiAbi>
+    <AbiBanc>BANCA DI ANCONA-CREDITO COOP.SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8917</AbiAbi>
+    <AbiBanc>CREDITO TREVIGIANO-B.C.C.-SOC.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8919</AbiAbi>
+    <AbiBanc>B.C.C. DI VEROLAVECCHIA  SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8921</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI VEZZA D'</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8922</AbiAbi>
+    <AbiBanc>BANCA ALTA TOSCANA CREDITO COOPERATI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8927</AbiAbi>
+    <AbiBanc>C.R.A DI TREVISO CRED.COOP.-SOC.COOP</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8928</AbiAbi>
+    <AbiBanc>ZKB CREDITO COOPERATIVO DI TRIESTE E</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8929</AbiAbi>
+    <AbiBanc>B.C.C. VILLESSE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8930</AbiAbi>
+    <AbiBanc>BANCA DEL CANAVESE-BCC VISCHE V.C.O.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8931</AbiAbi>
+    <AbiBanc>BANCA LAZIO NORD CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8933</AbiAbi>
+    <AbiBanc>BANCA DI CRED.COOP.DEL POLESINE-RO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8934</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI VILLAPIA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8940</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO BERGAMA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8941</AbiAbi>
+    <AbiBanc>B.C.C  SAN MARCO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8946</AbiAbi>
+    <AbiBanc>BANCA DON RIZZO - CREDITO COOPERATIV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8947</AbiAbi>
+    <AbiBanc>BANCA DI CRED.COOP.VO DON STELLA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8948</AbiAbi>
+    <AbiBanc>B.C.C. ERICINA-VALDERICE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8951</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DEI COL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8952</AbiAbi>
+    <AbiBanc>B.C.C. "G.TONIOLO" E SAN MICHELEDI S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8953</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO "LA CONCORD</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8954</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO LA RISC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8958</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO MUTUO S</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8962</AbiAbi>
+    <AbiBanc>B.C.C.DI MONTEMAGGIORE BELSITO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8964</AbiAbi>
+    <AbiBanc>B.C.C S.BARNABA DI MARINO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8965</AbiAbi>
+    <AbiBanc>B.S.BIAGIO DEL VENETO ORIENTALE</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8967</AbiAbi>
+    <AbiBanc>B.C.C. TARSIA SOC.COOP.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8968</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DI ABRU</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8969</AbiAbi>
+    <AbiBanc>BANCA S. FRANCESCO - CREDITO COOPERA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8970</AbiAbi>
+    <AbiBanc>BANCA DI RIMINI B.C.C.   SCRL</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8972</AbiAbi>
+    <AbiBanc>C.R.A. "S. GIORGIO"</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8973</AbiAbi>
+    <AbiBanc>CRA S.GIUSEPPE CRED.COOP.CAMERANO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8975</AbiAbi>
+    <AbiBanc>BCC S.GIUSEPPE -MUSSOMELI</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8976</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DELLE M</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8979</AbiAbi>
+    <AbiBanc>BANCA DI C.C.S.MICHELE DI CALTANISET</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8982</AbiAbi>
+    <AbiBanc>BANCA ADRIA COLLI EUGANEI - CREDITO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8985</AbiAbi>
+    <AbiBanc>SICILBANCA - CREDITO COOPERATIVOITAL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8986</AbiAbi>
+    <AbiBanc>ROVIGOBANCA CREDITO COOPERATIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8987</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO TERRA D</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8988</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO DEGLI U</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8990</AbiAbi>
+    <AbiBanc>C.R.A. "SANTO STEFANO"</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8991</AbiAbi>
+    <AbiBanc>BANCA DI CREDITO COOPERATIVO EGUSEA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8995</AbiAbi>
+    <AbiBanc>RIVIERABANCA CREDITO COOPERATIVO DI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8997</AbiAbi>
+    <AbiBanc>BCC DI S.MARCO DEI CAVOTI E DEL SANN</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>8998</AbiAbi>
+    <AbiBanc>CASSA RAIFFEISEN DELLA VAL PASSIRIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9500</AbiAbi>
+    <AbiBanc>MOONEY S.P.A. (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9501</AbiAbi>
+    <AbiBanc>MONEYNET (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9502</AbiAbi>
+    <AbiBanc>MOONEY S.P.A. (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9503</AbiAbi>
+    <AbiBanc>EURONET (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9504</AbiAbi>
+    <AbiBanc>IPAGOO LLP (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9505</AbiAbi>
+    <AbiBanc>PAYMOVE S.P.A. (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9506</AbiAbi>
+    <AbiBanc>A-TONO PAYMENT INSTITUTE S.P.A. (PER</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9507</AbiAbi>
+    <AbiBanc>NEXI PAYMENTS (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9508</AbiAbi>
+    <AbiBanc>UNICREDIT MONETICA (X MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9509</AbiAbi>
+    <AbiBanc>POSTE PAY SPA PER MONETICA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9510</AbiAbi>
+    <AbiBanc>TELEPASS PAY SPA PER MONETICA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9511</AbiAbi>
+    <AbiBanc>SISALPAY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9512</AbiAbi>
+    <AbiBanc>SIAPAY S.R.L. (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9513</AbiAbi>
+    <AbiBanc>MACCORP FINANCIAL SERVICES SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9514</AbiAbi>
+    <AbiBanc>AXEPTA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9515</AbiAbi>
+    <AbiBanc>NUMIA SPA (X MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9516</AbiAbi>
+    <AbiBanc>PPRO PAYMENT SERVICES S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9517</AbiAbi>
+    <AbiBanc>NEXI PAYMENTS (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9518</AbiAbi>
+    <AbiBanc>LIS PAY S.P.A. (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9520</AbiAbi>
+    <AbiBanc>VIVA PAYMENT SERVICES S.A. (PER MONE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9522</AbiAbi>
+    <AbiBanc>MARKET PAY SA (PER MONETICA)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9998</AbiAbi>
+    <AbiBanc>BDS-BSS PER STORNO MOVIMENTI BANCA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>9999</AbiAbi>
+    <AbiBanc>IST.FED.CRED.AGR.PIEM/LIG/V.D'AOSTA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10005</AbiAbi>
+    <AbiBanc>CREDITO AGRICOLO &amp; INDUSTRIALE SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10006</AbiAbi>
+    <AbiBanc>BANCO DI NAPOLI SEZIONE DI CREDITO A</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10007</AbiAbi>
+    <AbiBanc>BANCO DI SICILIA - SEZIONE DI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10008</AbiAbi>
+    <AbiBanc>MELIORBANCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10009</AbiAbi>
+    <AbiBanc>CASSA RISPARMIO PROVINCE LOMBARDE SE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10013</AbiAbi>
+    <AbiBanc>ISTITUTO BANCARIO SAN PAOLO TORINO S</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10301</AbiAbi>
+    <AbiBanc>ITALFONDIARIO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10303</AbiAbi>
+    <AbiBanc>CREDITO FONDIARIO DELL'ISTITUTO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10304</AbiAbi>
+    <AbiBanc>CREDITO FONDIARIO DELLA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10308</AbiAbi>
+    <AbiBanc>CREDITO FONDIARIO DELLA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10309</AbiAbi>
+    <AbiBanc>MONTE PASCHI FONDIARIO E</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10310</AbiAbi>
+    <AbiBanc>BANCO DI NAPOLI SEZIONE DI CREDITO F</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10311</AbiAbi>
+    <AbiBanc>BANCO DI SICILIA SEZIONE DI CREDITO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10312</AbiAbi>
+    <AbiBanc>CREDITO FONDIARIO S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10316</AbiAbi>
+    <AbiBanc>CREDITO FONDIARIO DELLA CASSA CENTRA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10325</AbiAbi>
+    <AbiBanc>BNL - CREDITO FONDIARIO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10326</AbiAbi>
+    <AbiBanc>BNL - CREDITO INDUSTRIALE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10603</AbiAbi>
+    <AbiBanc>ISTITUTO DI CREDITO PER LE IMPRESE D</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10610</AbiAbi>
+    <AbiBanc>BANCO DI NAPOLI SEZIONE DI CREDITO I</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10611</AbiAbi>
+    <AbiBanc>BANCO DI NAPOLI-SEZ.AUT.FINAN.OO.PP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10615</AbiAbi>
+    <AbiBanc>BANCO DI SICILIA - SEZIONE DI CREDIT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10616</AbiAbi>
+    <AbiBanc>BANCO DI SICILIA SEZIONE DI CREDITO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10620</AbiAbi>
+    <AbiBanc>B.N.L.-SEZ. AUT. PER IL CREDITO CINE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10621</AbiAbi>
+    <AbiBanc>B.N.L.- SEZ. AUT. ESERCIZIO  CRED. A</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10622</AbiAbi>
+    <AbiBanc>B.N.L.- SEZ.SPECIALE PER IL CREDITO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10625</AbiAbi>
+    <AbiBanc>B.N.L.- SEZ. AUT. PER IL CREDITOTEAT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10628</AbiAbi>
+    <AbiBanc>IST.CRED.FOND.PIEMONTE VALLE D'AOSTA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10630</AbiAbi>
+    <AbiBanc>IST. PER IL CREDITO SPORTIVO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10631</AbiAbi>
+    <AbiBanc>MEDIOBANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10632</AbiAbi>
+    <AbiBanc>EFIBANCA S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10633</AbiAbi>
+    <AbiBanc>CENTROBANCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10635</AbiAbi>
+    <AbiBanc>CARIPLO SEZ. AUT. FINANZIAM. OO.PP.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10636</AbiAbi>
+    <AbiBanc>2S BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10637</AbiAbi>
+    <AbiBanc>BANCA INTESA MEDIOCREDITO S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10638</AbiAbi>
+    <AbiBanc>MEDIOCREDITO TRENTINO ALTO ADIGE SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10639</AbiAbi>
+    <AbiBanc>DOBANK S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10640</AbiAbi>
+    <AbiBanc>BCC FINANCING S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10643</AbiAbi>
+    <AbiBanc>MPS CAPITAL SERVICES BANCA PER LE IM</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10647</AbiAbi>
+    <AbiBanc>ISTITUTO PER LO SVILUPPO ECONOMICO D</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10648</AbiAbi>
+    <AbiBanc>IRFIS MEDIOCREDITO SICILIA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10654</AbiAbi>
+    <AbiBanc>BANCO DI SICILIA - SEZ.AUT.FINANZ.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10655</AbiAbi>
+    <AbiBanc>CREDITO FONDIARIO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10658</AbiAbi>
+    <AbiBanc>IST.CRED.FOND. DELLA LIGURIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10659</AbiAbi>
+    <AbiBanc>C.C.R. V.E. PROV.SICIL.-SEZ. AUT.FIN</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10662</AbiAbi>
+    <AbiBanc>ISTITUTO ITALIANO CREDITO FONDIARIO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10680</AbiAbi>
+    <AbiBanc>MCC S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10681</AbiAbi>
+    <AbiBanc>BANCA AGEVOLARTI S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10685</AbiAbi>
+    <AbiBanc>INTERBANCA SPA</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10687</AbiAbi>
+    <AbiBanc>MEDIOCREDITO ABRUZZESE E        MOLI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>10750</AbiAbi>
+    <AbiBanc>ISTITUTO MOBILIARE ITALIANO SEZIONI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>12431</AbiAbi>
+    <AbiBanc>S.I.A.- GESTIONE PROCEDURE RETE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>12600</AbiAbi>
+    <AbiBanc>FONDO INTERBANCARIO DI TUTELA DEI DE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>12928</AbiAbi>
+    <AbiBanc>S.S.B.-SOCIETA' PER SERVIZI BANCARI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>12930</AbiAbi>
+    <AbiBanc>MONTE TITOLI SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>12935</AbiAbi>
+    <AbiBanc>NEXI PAYMENTS SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>12936</AbiAbi>
+    <AbiBanc>CONSORZIO NAZIONALE             CONC</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>12940</AbiAbi>
+    <AbiBanc>BCC SISTEMI INFORMATICI S.C.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16000</AbiAbi>
+    <AbiBanc>A.B.P. SIM SPA - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16020</AbiAbi>
+    <AbiBanc>CABOTO SIM - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16022</AbiAbi>
+    <AbiBanc>CENTROSIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16026</AbiAbi>
+    <AbiBanc>COFIRI SIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16073</AbiAbi>
+    <AbiBanc>MONTE PASCHI MERCATO SIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16084</AbiAbi>
+    <AbiBanc>ROLO SIM - ANZOLA EMILIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16085</AbiAbi>
+    <AbiBanc>ROMA SIM - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16091</AbiAbi>
+    <AbiBanc>IMI SIM SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16135</AbiAbi>
+    <AbiBanc>LEHMAN BROTHERS SIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16162</AbiAbi>
+    <AbiBanc>CREDIT SUISSE FIRST BOSTON ITALI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16188</AbiAbi>
+    <AbiBanc>SAVE SIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16194</AbiAbi>
+    <AbiBanc>SALOMON BROTHERS SIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16196</AbiAbi>
+    <AbiBanc>GOLDMAN SACHS SIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16222</AbiAbi>
+    <AbiBanc>MEDIO SIM - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16228</AbiAbi>
+    <AbiBanc>J. P. MORGAN SIM SPA - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16243</AbiAbi>
+    <AbiBanc>CIMO SIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16256</AbiAbi>
+    <AbiBanc>NUOVI INVESTIMENTI SIM</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16257</AbiAbi>
+    <AbiBanc>SPF PROMOTIO SIM SPA - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16262</AbiAbi>
+    <AbiBanc>AKROS ATTIMO SIM SPA  - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16271</AbiAbi>
+    <AbiBanc>EPTASIM SPA - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16277</AbiAbi>
+    <AbiBanc>IMI SIGECO SIM SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>16279</AbiAbi>
+    <AbiBanc>CABOTO HOLDING SIM - MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>18103</AbiAbi>
+    <AbiBanc>FINOM PAYMENTS B.V. SUCCURSALE  ITAL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>18128</AbiAbi>
+    <AbiBanc>FNMPAY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>18147</AbiAbi>
+    <AbiBanc>ITAS PAY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>18164</AbiAbi>
+    <AbiBanc>XOLDY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>18175</AbiAbi>
+    <AbiBanc>ZPAY S.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>18301</AbiAbi>
+    <AbiBanc>BKN301 S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>18400</AbiAbi>
+    <AbiBanc>SALVE FINANCIAL HUB S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>18999</AbiAbi>
+    <AbiBanc>THE 3ROOKS MONEY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19103</AbiAbi>
+    <AbiBanc>ABF FACTORING</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19235</AbiAbi>
+    <AbiBanc>ESALEASING SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19257</AbiAbi>
+    <AbiBanc>SARDALEASING LOCAZIONE FINANZIARIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19264</AbiAbi>
+    <AbiBanc>ABF LEASING SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19275</AbiAbi>
+    <AbiBanc>COMPASS BANCA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19355</AbiAbi>
+    <AbiBanc>LEASINVEST SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19423</AbiAbi>
+    <AbiBanc>SCANIA FINANCE ITALY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19432</AbiAbi>
+    <AbiBanc>EMILIA ROMAGNA FACTOR SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>19562</AbiAbi>
+    <AbiBanc>ASCOMFIDI PIEMONTE SOCIETA' COOPERAT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21002</AbiAbi>
+    <AbiBanc>BNP PARIBAS SECURITIES SERVICES</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21005</AbiAbi>
+    <AbiBanc>BNP PARIBAS PARIS SA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21054</AbiAbi>
+    <AbiBanc>DEUTSCHE BANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21096</AbiAbi>
+    <AbiBanc>COMMERZBANK AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21101</AbiAbi>
+    <AbiBanc>HSBC BANK PLC LONDON</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21112</AbiAbi>
+    <AbiBanc>BARCLAYS BANK LONDON</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21141</AbiAbi>
+    <AbiBanc>SOCIETE GENERALE PARIS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21175</AbiAbi>
+    <AbiBanc>RABOBANK INTERNATIONAL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21177</AbiAbi>
+    <AbiBanc>COMMERZBANK AG -FRANKFURT-</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21192</AbiAbi>
+    <AbiBanc>SALOMON BROTHERS AG - FRANKFURT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21211</AbiAbi>
+    <AbiBanc>BANCA DEL GOTTARDO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21212</AbiAbi>
+    <AbiBanc>BANK OF AMERICA HOUSE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21258</AbiAbi>
+    <AbiBanc>HSBC FRANCE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21267</AbiAbi>
+    <AbiBanc>FORTIS BANK SANV</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21323</AbiAbi>
+    <AbiBanc>BANQUE CENTRAL DE COMPENSATION</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21463</AbiAbi>
+    <AbiBanc>VOLKSWAGEN BANK GMBH GERMANIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21637</AbiAbi>
+    <AbiBanc>J.P. MORGAN AG</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21638</AbiAbi>
+    <AbiBanc>UNIONE BANCHE SVIZZERE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21690</AbiAbi>
+    <AbiBanc>VIVABANK SINGLE MEMBER BANKING  S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>21938</AbiAbi>
+    <AbiBanc>J.P. MORGAN A.G</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>22001</AbiAbi>
+    <AbiBanc>J.P. MORGAN SECURITIES LTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>22124</AbiAbi>
+    <AbiBanc>CREDIT SUISSE FIRST BOSTON EUROPE LI</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>22125</AbiAbi>
+    <AbiBanc>GOLDMAN SACHS INTERNATIONAL LONDON</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>22133</AbiAbi>
+    <AbiBanc>SALOMON BROTHERS INTERNATIONAL LONDO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>28127</AbiAbi>
+    <AbiBanc>ABF FACTORING SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>31007</AbiAbi>
+    <AbiBanc>ESTENSE CPT COVERED BOND SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>31159</AbiAbi>
+    <AbiBanc>LEASINT SERVIZI INTEGRATI SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>32447</AbiAbi>
+    <AbiBanc>ITALFONDIARIO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>32532</AbiAbi>
+    <AbiBanc>MOONEY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>32669</AbiAbi>
+    <AbiBanc>ABF LEASING *</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>32687</AbiAbi>
+    <AbiBanc>MUTINA SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>32698</AbiAbi>
+    <AbiBanc>LIS ISTITUTO DI PAGAMENTO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>32728</AbiAbi>
+    <AbiBanc>GRECALE ABS SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>32840</AbiAbi>
+    <AbiBanc>CASA D'ESTE FINANCE SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>32875</AbiAbi>
+    <AbiBanc>NEXI PAYMENTS S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>33053</AbiAbi>
+    <AbiBanc>AIRPLUS INTERNATIONAL SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>33111</AbiAbi>
+    <AbiBanc>AXEPTA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>33425</AbiAbi>
+    <AbiBanc>BANCA POP. DELL'EMILIA ROMAGNA *</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>33500</AbiAbi>
+    <AbiBanc>SISAL GROUP S.P.A.</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>33604</AbiAbi>
+    <AbiBanc>SIAPAY S.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>33664</AbiAbi>
+    <AbiBanc>GRECALE RMBS 2011 SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>33677</AbiAbi>
+    <AbiBanc>SME GRECALE 2017 SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>33693</AbiAbi>
+    <AbiBanc>ESTENSE COVERED BOND SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>35001</AbiAbi>
+    <AbiBanc>DEDALO FINANCE SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>35021</AbiAbi>
+    <AbiBanc>ICARO FINANCE SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>35046</AbiAbi>
+    <AbiBanc>AVIA PERVIA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>35048</AbiAbi>
+    <AbiBanc>ESTENSE SME</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>35057</AbiAbi>
+    <AbiBanc>MULTI LEASE AS SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>35210</AbiAbi>
+    <AbiBanc>GRECALE RMBS 2015 SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>35385</AbiAbi>
+    <AbiBanc>SARDEGNA RE-FINANCE SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36000</AbiAbi>
+    <AbiBanc>LIS PAY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36001</AbiAbi>
+    <AbiBanc>MOBILMAT IMEL SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36002</AbiAbi>
+    <AbiBanc>ISTITUTO DI MONETA ELETTRON.EUROPEO</AbiBanc>
+    <AbiAbichk>1</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36003</AbiAbi>
+    <AbiBanc>FLOWE S.P.A. - SOCIETA' BENEFIT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36014</AbiAbi>
+    <AbiBanc>C-CARD S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36017</AbiAbi>
+    <AbiBanc>MOONEY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36018</AbiAbi>
+    <AbiBanc>SCALAPAY IP S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36019</AbiAbi>
+    <AbiBanc>AMERICAN EXPRESS PAYMENT SERVICE LTD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36024</AbiAbi>
+    <AbiBanc>MOONEY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36033</AbiAbi>
+    <AbiBanc>MONEYNET SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36039</AbiAbi>
+    <AbiBanc>CCN SERVIZI DI PAGAMENTO S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36040</AbiAbi>
+    <AbiBanc>INTERCARD FINANCE AD</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36041</AbiAbi>
+    <AbiBanc>SOCIETA' SERVIZI DI PAGAMENTO SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36042</AbiAbi>
+    <AbiBanc>ICONTO SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36044</AbiAbi>
+    <AbiBanc>BMCE EUROSERVICE S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36047</AbiAbi>
+    <AbiBanc>SOGEFIN S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36048</AbiAbi>
+    <AbiBanc>EDENRED ITALIA FIN S.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36049</AbiAbi>
+    <AbiBanc>IPAGOO LLP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36050</AbiAbi>
+    <AbiBanc>PAYMOVE S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36051</AbiAbi>
+    <AbiBanc>2PAY IST.DI MONETICA ELETTRONICA SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36063</AbiAbi>
+    <AbiBanc>BUFFETTI FINANCE S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36064</AbiAbi>
+    <AbiBanc>A-TONO PAYMENT INSTITUTE S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36068</AbiAbi>
+    <AbiBanc>TELEPASS PAY SPA (IMEL)</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36071</AbiAbi>
+    <AbiBanc>AFONE PAIEMENT</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36072</AbiAbi>
+    <AbiBanc>MACCORP FINANCIAL SERVICES SRL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36080</AbiAbi>
+    <AbiBanc>ADMIRAL PAY IP S.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36081</AbiAbi>
+    <AbiBanc>POSTEPAY SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36085</AbiAbi>
+    <AbiBanc>MOONEY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36087</AbiAbi>
+    <AbiBanc>VIVA PAYMENT SERVICES S.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36092</AbiAbi>
+    <AbiBanc>QONTO - OLINDA MILANO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36330</AbiAbi>
+    <AbiBanc>UNIFIEDPOST PAYMENTS SA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36593</AbiAbi>
+    <AbiBanc>TREEZOR SAS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36772</AbiAbi>
+    <AbiBanc>HYPE S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36778</AbiAbi>
+    <AbiBanc>MARKET PAY SA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36816</AbiAbi>
+    <AbiBanc>TEAMSYSTEM PAYMENTS S.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36832</AbiAbi>
+    <AbiBanc>SWAN SAS</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36925</AbiAbi>
+    <AbiBanc>FLOWPAY S.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36928</AbiAbi>
+    <AbiBanc>TPPAY S.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36935</AbiAbi>
+    <AbiBanc>AXERVE S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36944</AbiAbi>
+    <AbiBanc>TERRA PAYMENT SERVICES ITALY S.R.L.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36960</AbiAbi>
+    <AbiBanc>UNIPOLPAY S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>36964</AbiAbi>
+    <AbiBanc>NUMIA S.P.A.</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>81660</AbiAbi>
+    <AbiBanc>LCH.CLEARNET LIMITED</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>86000</AbiAbi>
+    <AbiBanc>NEXI PAYMENTS SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>88018</AbiAbi>
+    <AbiBanc>UCAMP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>88101</AbiAbi>
+    <AbiBanc>EUROCCP</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>88102</AbiAbi>
+    <AbiBanc>EUROPEAN MULTILATERAL CLEARING FACIL</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>88103</AbiAbi>
+    <AbiBanc>EQUENS ITALIA SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>88199</AbiAbi>
+    <AbiBanc>GLOBAL PAYMENTS SPA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>89000</AbiAbi>
+    <AbiBanc>CEDBORSA</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>89025</AbiAbi>
+    <AbiBanc>CONSORZIO TRIVENETO</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI>
+    <AbiAbi>90000</AbiAbi>
+    <AbiBanc>CASSA DI COMPENSAZIONE</AbiBanc>
+    <AbiAbichk>0</AbiAbichk>
+  </ABI>
+  <ABI_version>
+    <version>20250305</version>
+    <major>23</major>
+    <minor>282</minor>
+    <minorc>59</minorc>
+  </ABI_version>
+</NewDataSet>

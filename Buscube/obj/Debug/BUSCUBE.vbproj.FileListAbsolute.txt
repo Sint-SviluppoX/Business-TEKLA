@@ -1,0 +1,48 @@
+C:\BIZ2017_FE\Buscube\obj\Debug\BUSCUBE.exe
+C:\BIZ2017_FE\Buscube\obj\Debug\BUSCUBE.pdb
+C:\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.exe
+C:\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.pdb
+C:\BIZ2017_PLP\TEST\BUSCUBE.exe
+C:\BIZ2017_PLP\TEST\BUSCUBE.pdb
+C:\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.vbprojResolveAssemblyReference.cache
+C:\BIZ2017_PLP\Buscube\obj\Debug\NTSInformatica.FRMBUSCUBE.resources
+C:\BIZ2017_PLP\Buscube\obj\Debug\NTSInformatica.MyResources.resources
+C:\BIZ2017_PLP\Buscube\obj\Debug\NTSInformatica.Resources.resources
+C:\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.vbproj.GenerateResource.Cache
+C:\BIZ2017\TEST\BUSCUBE.exe
+C:\BIZ2017\TEST\BUSCUBE.pdb
+C:\BIZ2017\Buscube\obj\Debug\NTSInformatica.FRMBUSCUBE.resources
+C:\BIZ2017\Buscube\obj\Debug\NTSInformatica.MyResources.resources
+C:\BIZ2017\Buscube\obj\Debug\NTSInformatica.Resources.resources
+C:\BIZ2017\Buscube\obj\Debug\BUSCUBE.vbproj.GenerateResource.cache
+C:\BIZ2017\Buscube\obj\Debug\BUSCUBE.vbproj.CoreCompileInputs.cache
+C:\BIZ2017\Buscube\obj\Debug\BUSCUBE.exe
+C:\BIZ2017\Buscube\obj\Debug\BUSCUBE.pdb
+C:\Sorgenti\BIZ2017_PLP\TEST\BUSCUBE.exe
+C:\Sorgenti\BIZ2017_PLP\TEST\BUSCUBE.pdb
+C:\Sorgenti\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.vbproj.AssemblyReference.cache
+C:\Sorgenti\BIZ2017_PLP\Buscube\obj\Debug\NTSInformatica.FRMBUSCUBE.resources
+C:\Sorgenti\BIZ2017_PLP\Buscube\obj\Debug\NTSInformatica.MyResources.resources
+C:\Sorgenti\BIZ2017_PLP\Buscube\obj\Debug\NTSInformatica.Resources.resources
+C:\Sorgenti\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.vbproj.GenerateResource.cache
+C:\Sorgenti\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.vbproj.CoreCompileInputs.cache
+C:\Sorgenti\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.exe
+C:\Sorgenti\BIZ2017_PLP\Buscube\obj\Debug\BUSCUBE.pdb
+C:\Sorgenti\BIZ2017_TEKLA\TEST\BUSCUBE.exe
+C:\Sorgenti\BIZ2017_TEKLA\TEST\BUSCUBE.pdb
+C:\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\NTSInformatica.FRMBUSCUBE.resources
+C:\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\NTSInformatica.MyResources.resources
+C:\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\NTSInformatica.Resources.resources
+C:\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\BUSCUBE.vbproj.GenerateResource.cache
+C:\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\BUSCUBE.vbproj.CoreCompileInputs.cache
+C:\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\BUSCUBE.exe
+C:\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\BUSCUBE.pdb
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\TEST\BUSCUBE.exe
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\TEST\BUSCUBE.pdb
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\NTSInformatica.FRMBUSCUBE.resources
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\NTSInformatica.MyResources.resources
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\NTSInformatica.Resources.resources
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\BUSCUBE.vbproj.GenerateResource.cache
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\BUSCUBE.vbproj.CoreCompileInputs.cache
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\BUSCUBE.exe
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\Buscube\obj\Debug\BUSCUBE.pdb

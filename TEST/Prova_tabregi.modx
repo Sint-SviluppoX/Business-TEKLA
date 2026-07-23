@@ -1,0 +1,215 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TABREGI">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tb_codregi" type="xs:short" minOccurs="0" />
+                <xs:element name="tb_desregi" type="xs:string" minOccurs="0" />
+                <xs:element name="tb_zonag" type="xs:short" minOccurs="0" />
+                <xs:element name="tb_region" type="xs:string" minOccurs="0" />
+                <xs:element name="tb_cdregi" type="xs:string" minOccurs="0" />
+                <xs:element name="tb_rlregi" type="xs:short" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TABREGI_version">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="version" type="xs:string" minOccurs="0" />
+                <xs:element name="major" type="xs:int" minOccurs="0" />
+                <xs:element name="minor" type="xs:int" minOccurs="0" />
+                <xs:element name="minorc" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TABREGI>
+    <tb_codregi>1</tb_codregi>
+    <tb_desregi>ABRUZZO</tb_desregi>
+    <tb_zonag>2</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>2</tb_codregi>
+    <tb_desregi>BASILICATA</tb_desregi>
+    <tb_zonag>3</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>3</tb_codregi>
+    <tb_desregi>BOLZANO</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>N</tb_region>
+    <tb_cdregi>3</tb_cdregi>
+    <tb_rlregi>22</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>4</tb_codregi>
+    <tb_desregi>CALABRIA</tb_desregi>
+    <tb_zonag>3</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>5</tb_codregi>
+    <tb_desregi>CAMPANIA</tb_desregi>
+    <tb_zonag>3</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>6</tb_codregi>
+    <tb_desregi>EMILIA ROMAGNA</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>7</tb_codregi>
+    <tb_desregi>FRIULI VENEZIA GIULIA</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>7</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>8</tb_codregi>
+    <tb_desregi>LAZIO</tb_desregi>
+    <tb_zonag>2</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>9</tb_codregi>
+    <tb_desregi>LIGURIA</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>10</tb_codregi>
+    <tb_desregi>LOMBARDIA</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>11</tb_codregi>
+    <tb_desregi>MARCHE</tb_desregi>
+    <tb_zonag>2</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>12</tb_codregi>
+    <tb_desregi>MOLISE</tb_desregi>
+    <tb_zonag>3</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>13</tb_codregi>
+    <tb_desregi>PIEMONTE</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>14</tb_codregi>
+    <tb_desregi>PUGLIA</tb_desregi>
+    <tb_zonag>3</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>15</tb_codregi>
+    <tb_desregi>SARDEGNA</tb_desregi>
+    <tb_zonag>3</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>16</tb_codregi>
+    <tb_desregi>SICILIA</tb_desregi>
+    <tb_zonag>3</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>17</tb_codregi>
+    <tb_desregi>TOSCANA</tb_desregi>
+    <tb_zonag>2</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>18</tb_codregi>
+    <tb_desregi>TRENTO</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>N</tb_region>
+    <tb_cdregi>18</tb_cdregi>
+    <tb_rlregi>22</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>19</tb_codregi>
+    <tb_desregi>UMBRIA</tb_desregi>
+    <tb_zonag>2</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>20</tb_codregi>
+    <tb_desregi>VALLE D'AOSTA</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>20</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>21</tb_codregi>
+    <tb_desregi>VENETO</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI>
+    <tb_codregi>22</tb_codregi>
+    <tb_desregi>TRENTINO ALTO ADIGE</tb_desregi>
+    <tb_zonag>1</tb_zonag>
+    <tb_region>S</tb_region>
+    <tb_cdregi>99</tb_cdregi>
+    <tb_rlregi>0</tb_rlregi>
+  </TABREGI>
+  <TABREGI_version>
+    <version>20240125</version>
+    <major>23</major>
+    <minor>1124</minor>
+    <minorc>0</minorc>
+  </TABREGI_version>
+</NewDataSet>

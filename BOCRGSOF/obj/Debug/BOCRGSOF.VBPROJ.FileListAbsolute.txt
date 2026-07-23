@@ -1,0 +1,7 @@
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\BOCRGSOF\obj\Debug\NTSInformatica.Resources.resources
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\BOCRGSOF\obj\Debug\BOCRGSOF.VBPROJ.GenerateResource.cache
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\BOCRGSOF\obj\Debug\BOCRGSOF.VBPROJ.CoreCompileInputs.cache
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\TEST\BOCRGSOF.dll
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\TEST\BOCRGSOF.pdb
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\BOCRGSOF\obj\Debug\BOCRGSOF.dll
+C:\Users\Utente\OneDrive - Sintesi srl\Sorgenti\BIZ2017_TEKLA\BOCRGSOF\obj\Debug\BOCRGSOF.pdb

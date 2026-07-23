@@ -1,0 +1,693 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TABPROV">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tb_codprov" type="xs:string" minOccurs="0" />
+                <xs:element name="tb_desprov" type="xs:string" minOccurs="0" />
+                <xs:element name="tb_codregi" type="xs:short" minOccurs="0" />
+                <xs:element name="tb_bolvir" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TABPROV_version">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="version" type="xs:string" minOccurs="0" />
+                <xs:element name="major" type="xs:int" minOccurs="0" />
+                <xs:element name="minor" type="xs:int" minOccurs="0" />
+                <xs:element name="minorc" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TABPROV>
+    <tb_codprov>AG</tb_codprov>
+    <tb_desprov>Agrigento</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>AL</tb_codprov>
+    <tb_desprov>Alessandria</tb_desprov>
+    <tb_codregi>13</tb_codregi>
+    <tb_bolvir>AL: aut. n. 11140 del 02.02.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>AN</tb_codprov>
+    <tb_desprov>Ancona</tb_desprov>
+    <tb_codregi>11</tb_codregi>
+    <tb_bolvir>AN: aut. n. 2/9805 del 23.03.1993</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>AO</tb_codprov>
+    <tb_desprov>Valle d'Aosta</tb_desprov>
+    <tb_codregi>20</tb_codregi>
+    <tb_bolvir>AO: aut. n. 3338/19.3.98,  789/10.2.99, 16844/13.12.99, 11702/7.8.00</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>AP</tb_codprov>
+    <tb_desprov>Ascoli Piceno</tb_desprov>
+    <tb_codregi>11</tb_codregi>
+    <tb_bolvir>AP: prot. n. 12519 del 11.12.1978 e succ. integrazioni</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>AQ</tb_codprov>
+    <tb_desprov>Aquila</tb_desprov>
+    <tb_codregi>1</tb_codregi>
+    <tb_bolvir>AQ: aut. n. 15443 del 10.04.2002</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>AR</tb_codprov>
+    <tb_desprov>Arezzo</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>AR: aut. n. 25667 del 04.05.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>AT</tb_codprov>
+    <tb_desprov>Asti</tb_desprov>
+    <tb_codregi>13</tb_codregi>
+    <tb_bolvir>AT: aut. n. 2001005894 del 02.04.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>AV</tb_codprov>
+    <tb_desprov>Avellino</tb_desprov>
+    <tb_codregi>5</tb_codregi>
+    <tb_bolvir>AV: prot. n.97330/01 del 07.12.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BA</tb_codprov>
+    <tb_desprov>Bari</tb_desprov>
+    <tb_codregi>14</tb_codregi>
+    <tb_bolvir>BA: aut. n. 576/83/2T del 10.01.1983 e succ. integrazioni</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BG</tb_codprov>
+    <tb_desprov>Bergamo</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>BG: aut. n. 4334 del 25.2.1989 , 2436/2001 del 23.03.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BI</tb_codprov>
+    <tb_desprov>Biella</tb_desprov>
+    <tb_codregi>13</tb_codregi>
+    <tb_bolvir>BI: aut. n. 5576/94 del 6.4.1994 , 8651 del 07.03.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BL</tb_codprov>
+    <tb_desprov>Belluno</tb_desprov>
+    <tb_codregi>21</tb_codregi>
+    <tb_bolvir>BL: aut. n. 487/95 del 23.01.1995</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BN</tb_codprov>
+    <tb_desprov>Benevento</tb_desprov>
+    <tb_codregi>5</tb_codregi>
+    <tb_bolvir>BN: aut. n. 20627 del 29.11.1986 e succ. integrazioni</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BO</tb_codprov>
+    <tb_desprov>Bologna</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>BO: aut. n. 39353 del 14.09.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BR</tb_codprov>
+    <tb_desprov>Brindisi</tb_desprov>
+    <tb_codregi>14</tb_codregi>
+    <tb_bolvir>BR: aut. n. 1537/92 del 17.10.1992</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BS</tb_codprov>
+    <tb_desprov>Brescia</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>BS: aut. n. 10055/80/111 del 6.5.1980 , 38598/98 del 24.02.99</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BT</tb_codprov>
+    <tb_desprov>Barletta-Andria-Trani</tb_desprov>
+    <tb_codregi>14</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>BZ</tb_codprov>
+    <tb_desprov>Bolzano</tb_desprov>
+    <tb_codregi>3</tb_codregi>
+    <tb_bolvir>BZ: aut. n. 1423/2000/2/SS rep. 2^ del 19.09.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CA</tb_codprov>
+    <tb_desprov>Cagliari</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+    <tb_bolvir>CA: aut n. 10369/92/2T del 17.06.1992</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CB</tb_codprov>
+    <tb_desprov>Campobasso</tb_desprov>
+    <tb_codregi>12</tb_codregi>
+    <tb_bolvir>CB: aut. n. 8857/92 del 14.08.1992 e succ.integrazioni</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CE</tb_codprov>
+    <tb_desprov>Caserta</tb_desprov>
+    <tb_codregi>5</tb_codregi>
+    <tb_bolvir>CE: aut. n. 76374 del 03.11.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CH</tb_codprov>
+    <tb_desprov>Chieti</tb_desprov>
+    <tb_codregi>1</tb_codregi>
+    <tb_bolvir>CH: aut n. 5160 rep. 2^ del 05.12.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CI</tb_codprov>
+    <tb_desprov>Carbonia-Iglesias</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CL</tb_codprov>
+    <tb_desprov>Caltanisetta</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+    <tb_bolvir>CL: prot. n. 41756 del 12.11.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CN</tb_codprov>
+    <tb_desprov>Cuneo</tb_desprov>
+    <tb_codregi>13</tb_codregi>
+    <tb_bolvir>CN: aut. n. 11981/2000/2 del 29.12.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CO</tb_codprov>
+    <tb_desprov>Como</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>CO: aut. n. 2181/2000/2 del 14.06.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CR</tb_codprov>
+    <tb_desprov>Cremona</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>CR: aut. n. 2/99009060 del 06/09/1999</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CS</tb_codprov>
+    <tb_desprov>Cosenza</tb_desprov>
+    <tb_codregi>4</tb_codregi>
+    <tb_bolvir>CS: aut. n. 4673/2001 - rep. 2^ del 04.04.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CT</tb_codprov>
+    <tb_desprov>Catania</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+    <tb_bolvir>CT: aut. n. 106430 del 21.12.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>CZ</tb_codprov>
+    <tb_desprov>Catanzaro</tb_desprov>
+    <tb_codregi>4</tb_codregi>
+    <tb_bolvir>CZ: aut. n. 16887 del 15.05.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>EN</tb_codprov>
+    <tb_desprov>Enna</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>FC</tb_codprov>
+    <tb_desprov>Forlì-Cesena</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>FO: aut. n. 8231/2000/II del 14.06.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>FE</tb_codprov>
+    <tb_desprov>Ferrara</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>FE: aut. n. 6519/00/II del 21.07.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>FG</tb_codprov>
+    <tb_desprov>Foggia</tb_desprov>
+    <tb_codregi>14</tb_codregi>
+    <tb_bolvir>FG: aut. n.  9138/98/2T del 21.05.1998</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>FI</tb_codprov>
+    <tb_desprov>Firenze</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>FI: aut n.10882/2001/T2 del 13.03.2001 A.E. Dir. Reg. Toscana</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>FM</tb_codprov>
+    <tb_desprov>Fermo</tb_desprov>
+    <tb_codregi>11</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>FR</tb_codprov>
+    <tb_desprov>Frosinone</tb_desprov>
+    <tb_codregi>8</tb_codregi>
+    <tb_bolvir>FR: aut. n. 4358/95 del 08.03.1995</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>GE</tb_codprov>
+    <tb_desprov>Genova</tb_desprov>
+    <tb_codregi>9</tb_codregi>
+    <tb_bolvir>GE: aut. n. 17119 del 16.05.2002</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>GO</tb_codprov>
+    <tb_desprov>Gorizia</tb_desprov>
+    <tb_codregi>7</tb_codregi>
+    <tb_bolvir>GO: aut. n. 2001/10224 del 28.03.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>GR</tb_codprov>
+    <tb_desprov>Grosseto</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>GR: prot. n.1395/93/8 del 08.02.1993 e succ. integrazioni</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>IM</tb_codprov>
+    <tb_desprov>Imperia</tb_desprov>
+    <tb_codregi>9</tb_codregi>
+    <tb_bolvir>IM: aut. n. 14627/96 del 22.01.1997</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>IS</tb_codprov>
+    <tb_desprov>Isernia</tb_desprov>
+    <tb_codregi>12</tb_codregi>
+    <tb_bolvir>IS: aut. n. 6242/95 rep.2/T del 28.11.1995</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>KR</tb_codprov>
+    <tb_desprov>Crotone</tb_desprov>
+    <tb_codregi>4</tb_codregi>
+    <tb_bolvir>KR: aut. n. 7793 del 10.05.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>LC</tb_codprov>
+    <tb_desprov>Lecco</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>LC: aut. n. 116292/2000 del 27.12.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>LE</tb_codprov>
+    <tb_desprov>Lecce</tb_desprov>
+    <tb_codregi>14</tb_codregi>
+    <tb_bolvir>LE: aut. n. 5384 del 21.04.1978 , 5901 del 19.05.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>LI</tb_codprov>
+    <tb_desprov>Livorno</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>LI: aut. n. 11333/2000 del 22.01.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>LO</tb_codprov>
+    <tb_desprov>Lodi</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>LO: aut. n. 3/15195/93 del 24.12.1993</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>LT</tb_codprov>
+    <tb_desprov>Latina</tb_desprov>
+    <tb_codregi>8</tb_codregi>
+    <tb_bolvir>LT: aut. n. 49261/01</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>LU</tb_codprov>
+    <tb_desprov>Lucca</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>LU: aut. n. 9449 rep. 2^ del 11.06.1990, 6846 rep. 3^ del 21.05.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>MB</tb_codprov>
+    <tb_desprov>Monza e Brianza</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>MC</tb_codprov>
+    <tb_desprov>Macerata</tb_desprov>
+    <tb_codregi>11</tb_codregi>
+    <tb_bolvir>MC: aut. n. 12495 del 24.05.1989 e succ. integrazioni</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>ME</tb_codprov>
+    <tb_desprov>Messina</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+    <tb_bolvir>ME: aut. n. 16031 del 17.07.1997, int.n.4623/01 del 16.05.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>MI</tb_codprov>
+    <tb_desprov>Milano</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>MI: aut. n. 3/4774/2000 del 19.07.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>MN</tb_codprov>
+    <tb_desprov>Mantova</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>MN: aut. n. 22998/91 del 20.09.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>MO</tb_codprov>
+    <tb_desprov>Modena</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>MO: aut. n. 25047 del 26.10.1989, 15614 del 08.02.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>MS</tb_codprov>
+    <tb_desprov>Massa-Carrara</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>MS: prot. n. 47775 del 10.11.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>MT</tb_codprov>
+    <tb_desprov>Matera</tb_desprov>
+    <tb_codregi>2</tb_codregi>
+    <tb_bolvir>MT: prot.n. 23650/S.C. del 04.12.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>NA</tb_codprov>
+    <tb_desprov>Napoli</tb_desprov>
+    <tb_codregi>5</tb_codregi>
+    <tb_bolvir>NA: aut. n. 38220/80Bis del 22.10.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>NO</tb_codprov>
+    <tb_desprov>Novara</tb_desprov>
+    <tb_codregi>13</tb_codregi>
+    <tb_bolvir>NO: aut. n. 7108/2 del 18.10.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>NU</tb_codprov>
+    <tb_desprov>Nuoro</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+    <tb_bolvir xml:space="preserve">                                                                      </tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>OG</tb_codprov>
+    <tb_desprov>Ogliastra</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>OR</tb_codprov>
+    <tb_desprov>Oristano</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+    <tb_bolvir xml:space="preserve">                                                                      </tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>OT</tb_codprov>
+    <tb_desprov>Olbia-Tempio</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PA</tb_codprov>
+    <tb_desprov>Palermo</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+    <tb_bolvir xml:space="preserve">                                                                      </tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PC</tb_codprov>
+    <tb_desprov>Piacenza</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>PC: aut. n. 7539 del 14.02.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PD</tb_codprov>
+    <tb_desprov>Padova</tb_desprov>
+    <tb_codregi>21</tb_codregi>
+    <tb_bolvir>PD: aut. n. 58253/00/2T del 30.11.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PE</tb_codprov>
+    <tb_desprov>Pescara</tb_desprov>
+    <tb_codregi>1</tb_codregi>
+    <tb_bolvir>PE: prot. n. 218 del 03.01.2002</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PG</tb_codprov>
+    <tb_desprov>Perugia</tb_desprov>
+    <tb_codregi>19</tb_codregi>
+    <tb_bolvir>PG: aut. n. 159194 del 23.11.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PI</tb_codprov>
+    <tb_desprov>Pisa</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>PI: aut. n. 6187 del 26.01.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PN</tb_codprov>
+    <tb_desprov>Pordenone</tb_desprov>
+    <tb_codregi>7</tb_codregi>
+    <tb_bolvir>PN: aut. n. 5458/2000 del 24.06.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PO</tb_codprov>
+    <tb_desprov>Prato</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>PO: aut. n. 17/2001 del 2.1.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PR</tb_codprov>
+    <tb_desprov>Parma</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>PR: aut. n. 28063/89 , 6616/2000 del 12.07.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PT</tb_codprov>
+    <tb_desprov>Pistoia</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>PT: aut. n. 7562/00 del 04.10.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PU</tb_codprov>
+    <tb_desprov>Pesaro Urbino</tb_desprov>
+    <tb_codregi>11</tb_codregi>
+    <tb_bolvir>PS: aut. n. 5501 del 16/10/1982 e succ. integrazioni</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PV</tb_codprov>
+    <tb_desprov>Pavia</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>PV: aut. n. 2/3973/01 del 27.04.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>PZ</tb_codprov>
+    <tb_desprov>Potenza</tb_desprov>
+    <tb_codregi>2</tb_codregi>
+    <tb_bolvir>PZ: prot. n. 23031/S.C. del 04.12.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>RA</tb_codprov>
+    <tb_desprov>Ravenna</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>RA: aut. n. 1506/2001 rep.3^ del 27.03.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>RC</tb_codprov>
+    <tb_desprov>Reggio Calabria</tb_desprov>
+    <tb_codregi>4</tb_codregi>
+    <tb_bolvir>RC: aut. n. 39014/01</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>RE</tb_codprov>
+    <tb_desprov>Reggio Emilia</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>RE: aut. n. 10/E del 15.02.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>RG</tb_codprov>
+    <tb_desprov>Ragusa</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+    <tb_bolvir xml:space="preserve">                                                                      </tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>RI</tb_codprov>
+    <tb_desprov>Rieti</tb_desprov>
+    <tb_codregi>8</tb_codregi>
+    <tb_bolvir>RI: aut.  n. 31730 del 01.07.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>RM</tb_codprov>
+    <tb_desprov>Roma</tb_desprov>
+    <tb_codregi>8</tb_codregi>
+    <tb_bolvir>RM: prot. n. 204354/01 del 06.12.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>RN</tb_codprov>
+    <tb_desprov>Rimini</tb_desprov>
+    <tb_codregi>6</tb_codregi>
+    <tb_bolvir>RN: aut. n. 10294 del 27.03.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>RO</tb_codprov>
+    <tb_desprov>Rovigo</tb_desprov>
+    <tb_codregi>21</tb_codregi>
+    <tb_bolvir>RO: aut. n. 7838 del 21.05.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>SA</tb_codprov>
+    <tb_desprov>Salerno</tb_desprov>
+    <tb_codregi>5</tb_codregi>
+    <tb_bolvir>SA: aut. n. 14811 del 05.11.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>SI</tb_codprov>
+    <tb_desprov>Siena</tb_desprov>
+    <tb_codregi>17</tb_codregi>
+    <tb_bolvir>SI: aut. n. 3230 del 19.10.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>SO</tb_codprov>
+    <tb_desprov>Sondrio</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>SO: aut. n. 14806/89 del 05.01.1990, 3989/01 del 02.02.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>SP</tb_codprov>
+    <tb_desprov>La Spezia</tb_desprov>
+    <tb_codregi>9</tb_codregi>
+    <tb_bolvir>SP: aut. n. 2/15059/92 del 15.09.1992</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>SR</tb_codprov>
+    <tb_desprov>Siracusa</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+    <tb_bolvir xml:space="preserve">                                                                      </tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>SS</tb_codprov>
+    <tb_desprov>Sassari</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+    <tb_bolvir>SS: aut. n.4157 del 26.05.1977</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>SU</tb_codprov>
+    <tb_desprov>Sud Sardegna</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>SV</tb_codprov>
+    <tb_desprov>Savona</tb_desprov>
+    <tb_codregi>9</tb_codregi>
+    <tb_bolvir>SV: aut. n. 21848 del 23.03.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>TA</tb_codprov>
+    <tb_desprov>Taranto</tb_desprov>
+    <tb_codregi>14</tb_codregi>
+    <tb_bolvir>TA: aut. n. 4570/87 del 21.02.1987</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>TE</tb_codprov>
+    <tb_desprov>Teramo</tb_desprov>
+    <tb_codregi>1</tb_codregi>
+    <tb_bolvir>TE: aut. n. 7068/94 del 08.06.1994</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>TN</tb_codprov>
+    <tb_desprov>Trento</tb_desprov>
+    <tb_codregi>18</tb_codregi>
+    <tb_bolvir>TN: aut. n. 2390 del 25.01.1978</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>TO</tb_codprov>
+    <tb_desprov>Torino</tb_desprov>
+    <tb_codregi>13</tb_codregi>
+    <tb_bolvir>TO: aut. n. 2000/77727 del 26.09.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>TP</tb_codprov>
+    <tb_desprov>Trapani</tb_desprov>
+    <tb_codregi>16</tb_codregi>
+    <tb_bolvir xml:space="preserve">                                                                      </tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>TR</tb_codprov>
+    <tb_desprov>Terni</tb_desprov>
+    <tb_codregi>19</tb_codregi>
+    <tb_bolvir>TR: aut. n. 9425/2002 del 10.04.2002</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>TS</tb_codprov>
+    <tb_desprov>Trieste</tb_desprov>
+    <tb_codregi>7</tb_codregi>
+    <tb_bolvir>TS: aut. n. 10943/598-II del 09.06.1988</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>TV</tb_codprov>
+    <tb_desprov>Treviso</tb_desprov>
+    <tb_codregi>21</tb_codregi>
+    <tb_bolvir>TV: aut. n. 18132 del 7.9.1973</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>UD</tb_codprov>
+    <tb_desprov>Udine</tb_desprov>
+    <tb_codregi>7</tb_codregi>
+    <tb_bolvir>UD: aut. n. 3826/87 del 21.03.1987</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VA</tb_codprov>
+    <tb_desprov>Varese</tb_desprov>
+    <tb_codregi>10</tb_codregi>
+    <tb_bolvir>VA: aut. n. 23058 del 27.03.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VB</tb_codprov>
+    <tb_desprov>Verbano-Cusio-Ossola</tb_desprov>
+    <tb_codregi>13</tb_codregi>
+    <tb_bolvir>VB: aut. n. 25896 del 25.08.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VC</tb_codprov>
+    <tb_desprov>Vercelli</tb_desprov>
+    <tb_codregi>13</tb_codregi>
+    <tb_bolvir>VC: aut. n. 1538/2001 rep. 2^ del 18.04.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VE</tb_codprov>
+    <tb_desprov>Venezia</tb_desprov>
+    <tb_codregi>21</tb_codregi>
+    <tb_bolvir>VE: aut. n. 18676/2000/A.S. del 24.08.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VI</tb_codprov>
+    <tb_desprov>Vicenza</tb_desprov>
+    <tb_codregi>21</tb_codregi>
+    <tb_bolvir>VI: aut. n. 11895 del 20.07.2000</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VR</tb_codprov>
+    <tb_desprov>Verona</tb_desprov>
+    <tb_codregi>21</tb_codregi>
+    <tb_bolvir>VR: prot. n. 43890/01 del 17.08.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VS</tb_codprov>
+    <tb_desprov>Medio Campidano</tb_desprov>
+    <tb_codregi>15</tb_codregi>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VT</tb_codprov>
+    <tb_desprov>Viterbo</tb_desprov>
+    <tb_codregi>8</tb_codregi>
+    <tb_bolvir>VT: aut. n. 1161 del 14.02.1995</tb_bolvir>
+  </TABPROV>
+  <TABPROV>
+    <tb_codprov>VV</tb_codprov>
+    <tb_desprov>Vibo Valentia</tb_desprov>
+    <tb_codregi>4</tb_codregi>
+    <tb_bolvir>VV: aut. n. 16451 del 24.04.2001</tb_bolvir>
+  </TABPROV>
+  <TABPROV_version>
+    <version>20240125</version>
+    <major>23</major>
+    <minor>1124</minor>
+    <minorc>0</minorc>
+  </TABPROV_version>
+</NewDataSet>

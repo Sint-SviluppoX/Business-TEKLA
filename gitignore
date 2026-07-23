@@ -1,0 +1,41 @@
+# Ignora tutto
+*
+
+# Non ignorare il file di progetto
+!GreenCube.sln
+!.gitattributes
+!.gitignore
+!AGENTS.md
+!docs/
+!docs/**
+
+# Non ignorare le cartelle che iniziano con BO, BP e le cartelle BN con HH e i loro contenuti
+!BO*
+!BP*
+!BNHH*
+!BN*HH*
+!BO*/**
+!BP*/**
+!BNHH*/**
+!BN*HH*/**
+
+# Non ignorare la cartella Buscube e i suoi contenuti
+!Buscube/
+!Buscube/**
+
+# Non ignorare le cartelle obj
+BO*/obj/**
+BP*/obj/**
+BNHH*/obj/**
+BN*HH*/obj/**
+Buscube/obj/**
+
+
+Buscube/BUSCUBE.vbproj.user
+
+#Personalizzazioni extra
+BO__CLIE_CONFERIMENTI
+BO__CLIE_CONFERIMENTI\*
+BOHHCLIE_CONFERIMENTI
+BOHHCLIE_CONFERIMENTI\*
+/BNHHRNTR/.codex-build
