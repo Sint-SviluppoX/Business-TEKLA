@@ -80,11 +80,11 @@ Partial Public Class CLFCRGSOF
                 Return False
             End If
 
-            Dim dttSemilavorati As DataTable = Nothing
-            If Not bImpegnoCommessa Then dttSemilavorati = CreaFabbisogniSemilavorati(dsImport)
+            Dim dttMateriali As DataTable = Nothing
+            If Not bImpegnoCommessa Then dttMateriali = CreaFabbisogniMateriali(dsImport)
             If Not bImpegnoCommessa AndAlso
-               (dttSemilavorati Is Nothing OrElse dttSemilavorati.Rows.Count = 0) Then
-                strMsg = "Non sono stati ricavati semilavorati per l'impegno di commessa."
+               (dttMateriali Is Nothing OrElse dttMateriali.Rows.Count = 0) Then
+                strMsg = "Non sono stati ricavati materiali per l'impegno di commessa."
                 Return False
             End If
 
@@ -94,7 +94,7 @@ Partial Public Class CLFCRGSOF
                Not CreaImpegno("R", nConto, nCommessa, strCodice, dttProdotti, strMsg) Then Return False
 
             If Not bImpegnoCommessa AndAlso
-               Not CreaImpegno("#", nConto, nCommessa, strCodice, dttSemilavorati, strMsg) Then Return False
+               Not CreaImpegno("#", nConto, nCommessa, strCodice, dttMateriali, strMsg) Then Return False
 
             If Not bOrdineProduzione AndAlso
                Not CreaImpegno("H", 9019999, nCommessa, strCodice, dttProdotti, strMsg) Then Return False
@@ -489,29 +489,27 @@ Partial Public Class CLFCRGSOF
             nControaArticolo = NTSCInt(oClhGsof.LeggiImpostazione("Controa_Artico", "51"))
             strClasseProdottoFinito = oClhGsof.LeggiImpostazione("CodCla1_ProdFin", "")
 
+            If Not ValidaProfiliTXO(dsImport, strMsg) Then Return False
+
             Dim oCleArti As CLEMGARTI = Nothing
             Dim oCleDiba As CLEDBDIBA = Nothing
             If Not InizializzaMGARTI(oCleArti, strMsg) Then Return False
 
             Dim nTotaleArticoli As Integer = 0
             For Each dtt As DataTable In dsImport.Tables
-                nTotaleArticoli += dtt.Rows.Count
-                If dtt.TableName = "OPTION" Then nTotaleArticoli += dtt.Rows.Count
+                If dtt.TableName <> "OPTION" Then nTotaleArticoli += dtt.Rows.Count
             Next
             Dim nArticolo As Integer = 0
             MostraAvanzamento("Generazione articoli...", 0)
             For Each dtt As DataTable In dsImport.Tables
+                'Il TXO descrive tagli e consumi delle barre censite nel TXB:
+                'non genera una seconda anagrafica articolo.
+                If dtt.TableName = "OPTION" Then Continue For
                 For Each dtr As DataRow In dtt.Rows
                     CreaArticolo(oCleArti, dtr, dtt.TableName)
                     nArticolo += 1
                     MostraAvanzamento("Generazione articoli: " & nArticolo.ToString() & " di " &
                                       nTotaleArticoli.ToString(), Percentuale(nArticolo, nTotaleArticoli))
-                    If dtt.TableName = "OPTION" Then
-                        CreaArticolo(oCleArti, dtr, "BAR_OPTION")
-                        nArticolo += 1
-                        MostraAvanzamento("Generazione articoli: " & nArticolo.ToString() & " di " &
-                                          nTotaleArticoli.ToString(), Percentuale(nArticolo, nTotaleArticoli))
-                    End If
                 Next
             Next
 
@@ -818,7 +816,8 @@ Partial Public Class CLFCRGSOF
                 AggiungiComponenti(oCleDiba, dsMovdis, dsImport, "GLASS", "NumeroVoce", NTSCStr(dtrJob!NumeroVoce), "NumeroPezzi", "GLASS", dDivisore)
                 AggiungiComponenti(oCleDiba, dsMovdis, dsImport, "FITMENT", "NumeroVoce", NTSCStr(dtrJob!NumeroVoce), "Moltiplicatore", "FITMENT", dDivisore)
                 AggiungiComponenti(oCleDiba, dsMovdis, dsImport, "PANEL", "NumeroVoce", NTSCStr(dtrJob!NumeroVoce), "NumeroPezzi", "PANEL", dDivisore)
-                AggiungiComponenti(oCleDiba, dsMovdis, dsImport, "OPTION", "IDPezzo", NTSCStr(dtrJob!NumeroVoce) & "-%", "NumeroPezzi", "OPTION", dDivisore, True)
+                AggiungiProfiliDaTXO(oCleDiba, dsMovdis, dsImport,
+                                    NTSCStr(dtrJob!NumeroVoce), dDivisore)
 
                 If Not oCleDiba.Salva(False, "!" & strPadre & vbLf & vbTab & strPadre, "") Then Return False
                 nDistinta += 1
@@ -826,7 +825,7 @@ Partial Public Class CLFCRGSOF
                                   nTotaleDistinte.ToString(), Percentuale(nDistinta, nTotaleDistinte))
             Next
 
-            Return CreaDistinteSemilavorati(oCleDiba, dsImport)
+            Return True
 
         Catch ex As Exception
             '-------------------------------------------------
@@ -859,50 +858,118 @@ Partial Public Class CLFCRGSOF
 
     End Sub
 
-    Private Function CreaDistinteSemilavorati(ByVal oCleDiba As CLEDBDIBA, ByVal dsImport As DataSet) As Boolean
-
-        CreaDistinteSemilavorati = False
+    Private Sub AggiungiProfiliDaTXO(ByVal oCleDiba As CLEDBDIBA, ByVal dsMovdis As DataSet,
+                                     ByVal dsImport As DataSet, ByVal strNumeroVoce As String,
+                                     ByVal dDivisore As Decimal)
 
         Try
 
-            Dim padri As New HashSet(Of String)(StringComparer.OrdinalIgnoreCase)
-            Dim padriTotali As New HashSet(Of String)(StringComparer.OrdinalIgnoreCase)
-            For Each dtrOpt As DataRow In dsImport.Tables("OPTION").Rows
-                Dim strPadreTotale As String = CodiceArticolo(dtrOpt, "OPTION")
-                If Not String.IsNullOrWhiteSpace(strPadreTotale) Then padriTotali.Add(strPadreTotale)
+            If Not dsImport.Tables.Contains("OPTION") OrElse
+               Not dsImport.Tables.Contains("BAR") Then Return
+
+            For Each dtrOpt As DataRow In dsImport.Tables("OPTION").Select(
+                    "IDPezzo LIKE " & CStrSQL(strNumeroVoce & "-%"))
+                Dim dtrBar As DataRow = TrovaBarraTXB(dsImport, dtrOpt)
+                If dtrBar Is Nothing Then Continue For
+
+                Dim dConsumo As Decimal = CalcolaConsumoBarre(dtrOpt)
+                If dDivisore <> 0D Then dConsumo /= dDivisore
+                AggiungiFiglio(dsMovdis, CodiceArticolo(dtrBar, "BAR"), dConsumo, "BAR")
+                oCleDiba.MovdisSalva(False)
             Next
-            Dim nDistinta As Integer = 0
-            MostraAvanzamento("Generazione distinte semilavorati...", 0)
-            For Each dtrOpt As DataRow In dsImport.Tables("OPTION").Rows
-                Dim strPadre As String = CodiceArticolo(dtrOpt, "OPTION")
-                If String.IsNullOrWhiteSpace(strPadre) OrElse Not padri.Add(strPadre) Then Continue For
-                Dim dsMovdis As DataSet = ApriDistinta(oCleDiba, strPadre)
-                If dsMovdis Is Nothing Then Return CreaDistinteSemilavorati
-
-                For Each dtr As DataRow In dsImport.Tables("OPTION").Select("IDPezzo = " & CStrSQL(dtrOpt!IDPezzo))
-                    Dim dTotale As Decimal = 0D
-                    For Each dtrSomma As DataRow In dsImport.Tables("OPTION").Select("IDBarra = " & CStrSQL(dtr!IDBarra))
-                        dTotale += NTSCDec(dtrSomma!NumeroPezzi)
-                    Next
-                    Dim dPezzi As Decimal = NTSCDec(dtr!NumeroPezzi)
-                    If dTotale <= 0D OrElse dPezzi <= 0D Then Continue For
-                    AggiungiFiglio(dsMovdis, CodiceArticolo(dtr, "BAR_OPTION"), 1D / (dTotale * dPezzi), "BAR")
-                    oCleDiba.MovdisSalva(False)
-                Next
-
-                If Not oCleDiba.Salva(False, "!" & strPadre & vbLf & vbTab & strPadre, "") Then Return CreaDistinteSemilavorati
-                nDistinta += 1
-                MostraAvanzamento("Generazione distinte semilavorati: " & nDistinta.ToString() & " di " &
-                                  padriTotali.Count.ToString(), Percentuale(nDistinta, padriTotali.Count))
-            Next
-
-            CreaDistinteSemilavorati = True
 
         Catch ex As Exception
             '-------------------------------------------------
             CLN__STD.GestErr(ex, Me, "")
             '-------------------------------------------------
         End Try
+
+    End Sub
+
+    Private Function TrovaBarraTXB(ByVal dsImport As DataSet, ByVal dtrOpt As DataRow) As DataRow
+
+        Try
+
+            If dsImport Is Nothing OrElse dtrOpt Is Nothing OrElse
+               Not dsImport.Tables.Contains("BAR") Then Return Nothing
+
+            Dim strFiltro As String =
+                "SerieProfilo = " & CStrSQL(NTSCStr(dtrOpt!Serie)) &
+                " AND CodiceProfilo = " & CStrSQL(NTSCStr(dtrOpt!Codice))
+            Dim righe As DataRow() = dsImport.Tables("BAR").Select(strFiltro)
+            If righe.Length = 1 Then Return righe(0)
+
+            If righe.Length > 1 Then
+                Dim strColore As String = NTSCStr(dtrOpt!CodiceColoreESTERNO).Trim()
+                If Not String.IsNullOrWhiteSpace(strColore) Then
+                    Dim righeColore As DataRow() = dsImport.Tables("BAR").Select(
+                        strFiltro & " AND CodiceColoreInterno = " & CStrSQL(strColore))
+                    If righeColore.Length = 1 Then Return righeColore(0)
+                End If
+            End If
+
+        Catch ex As Exception
+            '-------------------------------------------------
+            CLN__STD.GestErr(ex, Me, "")
+            '-------------------------------------------------
+        End Try
+
+        Return Nothing
+
+    End Function
+
+    Private Function ValidaProfiliTXO(ByVal dsImport As DataSet, ByRef strMsg As String) As Boolean
+
+        ValidaProfiliTXO = False
+
+        Try
+
+            If Not dsImport.Tables.Contains("OPTION") OrElse
+               Not dsImport.Tables.Contains("BAR") Then
+                strMsg = "I file TXO e TXB sono necessari per associare i tagli alle materie prime."
+                Return False
+            End If
+
+            For Each dtrOpt As DataRow In dsImport.Tables("OPTION").Rows
+                If TrovaBarraTXB(dsImport, dtrOpt) Is Nothing Then
+                    strMsg = "Il profilo TXO " & NTSCStr(dtrOpt!Serie) & " " &
+                             NTSCStr(dtrOpt!Codice) &
+                             " non corrisponde in modo univoco a una materia prima del TXB."
+                    Return False
+                End If
+                If CalcolaConsumoBarre(dtrOpt) <= 0D Then
+                    strMsg = "Il profilo TXO " & NTSCStr(dtrOpt!Serie) & " " &
+                             NTSCStr(dtrOpt!Codice) &
+                             " contiene numero pezzi, lunghezza pezzo o lunghezza barra non validi."
+                    Return False
+                End If
+            Next
+
+            Return True
+
+        Catch ex As Exception
+            '-------------------------------------------------
+            CLN__STD.GestErr(ex, Me, "")
+            '-------------------------------------------------
+        End Try
+
+    End Function
+
+    Private Function CalcolaConsumoBarre(ByVal dtrOpt As DataRow) As Decimal
+
+        Try
+
+            Dim dLunghezzaBarra As Decimal = NTSCDec(dtrOpt!LunghezzaBarra)
+            If dLunghezzaBarra <= 0D Then Return 0D
+            Return NTSCDec(dtrOpt!NumeroPezzi) * NTSCDec(dtrOpt!MisuraAlettaEsterna) / dLunghezzaBarra
+
+        Catch ex As Exception
+            '-------------------------------------------------
+            CLN__STD.GestErr(ex, Me, "")
+            '-------------------------------------------------
+        End Try
+
+        Return 0D
 
     End Function
 
@@ -1012,15 +1079,15 @@ Partial Public Class CLFCRGSOF
     End Sub
 #End Region
 
-#Region "Fabbisogni semilavorati"
-    Private Function CreaFabbisogniSemilavorati(ByVal dsImport As DataSet) As DataTable
+#Region "Fabbisogni materiali"
+    Private Function CreaFabbisogniMateriali(ByVal dsImport As DataSet) As DataTable
 
-        CreaFabbisogniSemilavorati = New DataTable("SEMILAVORATI")
+        CreaFabbisogniMateriali = New DataTable("MATERIALI")
 
         Try
-            CreaFabbisogniSemilavorati.Columns.Add("codart", GetType(String))
-            CreaFabbisogniSemilavorati.Columns.Add("descr", GetType(String))
-            CreaFabbisogniSemilavorati.Columns.Add("quant", GetType(Decimal))
+            CreaFabbisogniMateriali.Columns.Add("codart", GetType(String))
+            CreaFabbisogniMateriali.Columns.Add("descr", GetType(String))
+            CreaFabbisogniMateriali.Columns.Add("quant", GetType(Decimal))
             For Each dtrOfferta As DataRow In RigheOffertaAttive()
                 Dim dQuantitaOfferta As Decimal = NTSCDec(dtrOfferta!ec_quant)
                 If dQuantitaOfferta = 0D Then Continue For
@@ -1035,13 +1102,16 @@ Partial Public Class CLFCRGSOF
                 If dQuantitaOriginale = 0D Then dQuantitaOriginale = 1D
                 Dim dFattore As Decimal = dQuantitaOfferta / dQuantitaOriginale
 
-                AccumulaDaTabella(CreaFabbisogniSemilavorati, dsImport, "GLASS", "NumeroVoce", strVoce, "NumeroPezzi", "GLASS", dFattore)
-                AccumulaDaTabella(CreaFabbisogniSemilavorati, dsImport, "FITMENT", "NumeroVoce", strVoce, "Moltiplicatore", "FITMENT", dFattore)
-                AccumulaDaTabella(CreaFabbisogniSemilavorati, dsImport, "PANEL", "NumeroVoce", strVoce, "NumeroPezzi", "PANEL", dFattore)
+                AccumulaDaTabella(CreaFabbisogniMateriali, dsImport, "GLASS", "NumeroVoce", strVoce, "NumeroPezzi", "GLASS", dFattore)
+                AccumulaDaTabella(CreaFabbisogniMateriali, dsImport, "FITMENT", "NumeroVoce", strVoce, "Moltiplicatore", "FITMENT", dFattore)
+                AccumulaDaTabella(CreaFabbisogniMateriali, dsImport, "PANEL", "NumeroVoce", strVoce, "NumeroPezzi", "PANEL", dFattore)
                 If dsImport.Tables.Contains("OPTION") Then
                     For Each dtr As DataRow In dsImport.Tables("OPTION").Select("IDPezzo LIKE " & CStrSQL(strVoce & "-%"))
-                        AccumulaFabbisogno(CreaFabbisogniSemilavorati, CodiceArticolo(dtr, "OPTION"),
-                                          NTSCStr(dtr!Descrizione), NTSCDec(dtr!NumeroPezzi) * dFattore)
+                        Dim dtrBar As DataRow = TrovaBarraTXB(dsImport, dtr)
+                        If dtrBar Is Nothing Then Continue For
+                        AccumulaFabbisogno(CreaFabbisogniMateriali, CodiceArticolo(dtrBar, "BAR"),
+                                          NTSCStr(dtrBar!DescProfilo),
+                                          CalcolaConsumoBarre(dtr) * dFattore)
                     Next
                 End If
             Next

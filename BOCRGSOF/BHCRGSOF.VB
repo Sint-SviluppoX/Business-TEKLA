@@ -144,7 +144,12 @@ Public Class CLHCRGSOF
 
             Dim schemi As New Dictionary(Of String, String()) From {
                 {"JOB", {"NomeCommessa", "DesCommessa", "NumeroVoce", "Etichetta", "DesVoce", "MoltiplicatoreStrutture"}},
-                {"BAR", {"NomeCommessa", "SerieProfilo", "CodiceProfilo", "DescProfilo"}},
+                {"BAR", {"NomeCommessa", "SerieProfilo", "CodiceProfilo", "DescProfilo",
+                         "TipoColoreInterno", "CodiceColoreInterno", "DescrizioneColoreInterno",
+                         "TipoColoreEsterno", "CodiceColoreEsterno", "DescrizioneColoreEsterno",
+                         "Multibarra", "LunghezzaBarra", "QuantitaBarre", "PercentualeUtilizzo",
+                         "PercentualeScarto", "Peso", "Superficie", "Classe",
+                         "CampoLibero", "DataEsportazione", "NoName1"}},
                 {"GLASS", {"NomeCommessa", "NumeroVoce", "Etichetta", "Classe", "Serie", "Codice", "Descrizione", "TipoColore", "CodiceColore", "DesColore", "NumeroPezzi"}},
                 {"FITMENT", {"NomeCommessa", "NumeroVoce", "Etichetta", "Classe", "Marca", "Serie", "Codice", "Descrizione", "TipoColore", "CodColore", "DesColore", "Categoria", "Tipo", "UnitaVendita", "AccessorioTrattato", "Moltiplicatore"}},
                 {"PANEL", {"NomeCommessa", "NumeroVoce", "Etichetta", "Classe", "Serie", "Codice", "Descrizione", "TipoColore", "CodiceColore", "DesColore", "NumeroPezzi"}},

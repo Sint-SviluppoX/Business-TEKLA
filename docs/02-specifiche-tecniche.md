@@ -29,23 +29,38 @@ crea gli articoli usando le regole dell'import da file separati di `BNHHIMEX`:
 
 | Suffisso | Tabella interna | Tipologia | Composizione codice | Descrizione | Unità di misura |
 |---|---|---|---|---|---|
-| `TXB` | `BAR` | Barre | `F2 + " " + F3 + " " + F6` | `F4` | `BAR` |
+| `TXB` | `BAR` | Materie prime profilate | `F2 + " " + F3 + " " + F6` | `F4` | `BAR` |
 | `TXF` | `FITMENT` | Accessori | `F7` | `F8` | `PZ` |
 | `TXG` | `GLASS` | Vetri | `F6 + " " + F8` | `F7` | `MQ` |
-| `TXO` | `OPTION` | Profili | `F2 + " " + F3 + " " + F6` | `F4` | `BAR`, secondaria `ML` |
+| `TXO` | `OPTION` | Dettaglio tagli/consumi dei profili TXB | Nessun nuovo articolo | — | — |
 | `TXP` | `PANEL` | Pannelli | `F6` | `F7` | `MQ` |
 
-Per ogni riga `TXO` viene inoltre creato l'articolo tecnico `BAR_OPTION`,
-composto come `Serie.Codice`. Questo articolo rappresenta la barra elementare
-usata come componente della distinta del profilo `TXO`; non rappresenta il
-profilo completo, che comprende anche `F6`.
+Il file `TXB` costituisce l'anagrafica delle materie prime profilate. Il relativo
+schema applicativo comprende tutte le colonne necessarie, incluso il codice
+colore `F6`.
+
+Il file `TXO` non genera articoli distinti né distinte intermedie. Le sue righe
+descrivono i pezzi tagliati e vengono associate alla materia prima `TXB`
+mediante serie e codice. Se nel `TXB` esistono più finiture per la stessa coppia
+serie/codice, viene utilizzato anche il codice colore. Un'associazione mancante
+o non univoca interrompe l'importazione.
+
+Il consumo teorico, espresso in barre, è calcolato per ogni riga `TXO` come:
+
+```text
+NumeroPezzi * LunghezzaPezzo / LunghezzaBarra
+```
+
+Il consumo viene inserito direttamente nella distinta del prodotto finito e
+nei fabbisogni dell'impegno di commessa. Non vengono creati gli articoli tecnici
+legacy `BAR_OPTION` né le distinte artificiali `OPTION -> BAR_OPTION`.
 
 I codici generati dalle cinque tipologie conservano gli eventuali spazi,
 coerentemente con `BNHHIMEX`. Rimane attivo il limite massimo
 `CLN__STD.CodartMaxLen`; un codice più lungo viene troncato e l'operazione viene
 registrata nel log.
 
-Le altre tipologie (`JOB`, `LIST`, `BAR_OPTION` e le eventuali tipologie legacy)
+Le altre tipologie (`JOB`, `LIST` e le eventuali tipologie legacy)
 mantengono le precedenti regole di composizione e normalizzazione.
 
 ## Collegamento tra offerta e filiera
@@ -109,7 +124,7 @@ Per ogni commessa la procedura completa la seguente filiera:
 | Documento | `tipork` | Conto | `tipobf` | Contenuto |
 |---|---|---:|---:|---|
 | Impegno cliente | `R` | conto ricavato dal lead, con fallback configurato | `1` | prodotti finiti secondo l'offerta corrente |
-| Impegno di commessa | `#` | conto ricavato dal lead, con fallback configurato | `1` | fabbisogni semilavorati aggregati |
+| Impegno di commessa | `#` | conto ricavato dal lead, con fallback configurato | `1` | fabbisogni materiali aggregati |
 | Ordine di produzione | `H` | `9019999` | `3` | prodotti finiti secondo l'offerta corrente |
 
 La presenza dei tre documenti viene controllata separatamente per commessa. Se
@@ -125,13 +140,17 @@ associato al lead.
 
 Articoli e distinte vengono elaborati a ogni generazione della filiera, anche
 quando i documenti `R`, `#` e `H` risultano già presenti. Per ogni prodotto
-finito `TXJ` e per ogni semilavorato `TXO`:
+finito `TXJ`:
 
 - se la distinta non esiste, viene creata;
 - se esiste, viene aperta e viene generata una nuova versione;
 - i componenti ricavati dal pacchetto corrente vengono inseriti nella nuova
   versione;
 - la nuova versione viene impostata come versione corrente.
+
+I profili del `TXO` sono collegati direttamente agli articoli materia prima
+creati dal `TXB`; il `TXO` è un dettaglio di taglio e consumo, non una sorgente
+di semilavorati.
 
 Se non è possibile creare e salvare la nuova versione, l'elaborazione si
 interrompe prima della generazione dei documenti mancanti.
