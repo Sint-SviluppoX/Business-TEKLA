@@ -51,9 +51,11 @@ Il consumo teorico, espresso in barre, è calcolato per ogni riga `TXO` come:
 NumeroPezzi * LunghezzaPezzo / LunghezzaBarra
 ```
 
-Il consumo viene inserito direttamente nella distinta del prodotto finito e
-nei fabbisogni dell'impegno di commessa. Non vengono creati gli articoli tecnici
-legacy `BAR_OPTION` né le distinte artificiali `OPTION -> BAR_OPTION`.
+Il consumo viene inserito direttamente nella distinta del prodotto finito. La
+logica che lo utilizza nei fabbisogni dell'impegno di commessa resta disponibile
+ma la generazione del documento `#` è attualmente disabilitata. Non vengono
+creati gli articoli tecnici legacy `BAR_OPTION` né le distinte artificiali
+`OPTION -> BAR_OPTION`.
 
 I codici generati dalle cinque tipologie conservano gli eventuali spazi,
 coerentemente con `BNHHIMEX`. Rimane attivo il limite massimo
@@ -124,18 +126,19 @@ Per ogni commessa la procedura completa la seguente filiera:
 | Documento | `tipork` | Conto | `tipobf` | Contenuto |
 |---|---|---:|---:|---|
 | Impegno cliente | `R` | conto ricavato dal lead, con fallback configurato | `1` | prodotti finiti secondo l'offerta corrente |
-| Impegno di commessa | `#` | conto ricavato dal lead, con fallback configurato | `1` | fabbisogni materiali aggregati |
-| Ordine di produzione | `H` | `9019999` | `3` | Logica conservata; generazione attualmente disabilitata |
+| Impegno di commessa | `#` | conto ricavato dal lead, con fallback configurato | `1` | Logica conservata; generazione attualmente disabilitata |
+| Ordine di produzione | `H` | `19019999` | `3` | prodotti finiti secondo l'offerta corrente |
 
-La presenza degli impegni `R` e `#` viene controllata separatamente per
-commessa. Se un'elaborazione precedente ne ha già creato uno, il documento
-esistente non viene duplicato e viene generato soltanto quello mancante.
+La presenza dell'impegno cliente `R` e dell'ordine di produzione `H` viene
+controllata separatamente per commessa. Se un'elaborazione precedente ne ha già
+creato uno, il documento esistente non viene duplicato e viene generato soltanto
+quello mancante.
 
-La logica di creazione dell'ordine di produzione `H` è mantenuta nel codice ma
-non viene eseguita perché l'interruttore `GeneraOrdineProduzione` è impostato a
+La logica di creazione dell'impegno di commessa `#` è mantenuta nel codice ma
+non viene eseguita perché l'interruttore `GeneraImpegnoCommessa` è impostato a
 `False`. Per riattivarla è sufficiente impostare la costante a `True`.
 
-Il conto `9019999` e il `tipobf = 3` dell'ordine `H` vengono ripristinati anche
+Il conto `19019999` e il `tipobf = 3` dell'ordine `H` vengono ripristinati anche
 dopo la validazione della testata e immediatamente prima del salvataggio, così
 eventuali ricalcoli standard di Business non possono sostituirli con il conto
 associato al lead.
@@ -175,7 +178,6 @@ intestazione; in caso contrario viene controllata come normale riga dati. Una
 discordanza o un codice vuoto interrompono la procedura prima della creazione
 di commessa, articoli, distinte e documenti.
 
-Prima di creare il primo documento vengono ricavate e validate sia le righe
-dell'impegno cliente `R` sia quelle aggregate dell'impegno di commessa `#`. In
-questo modo l'assenza di fabbisogni non lascia il solo impegno `R` creato
-parzialmente.
+Prima di creare i documenti vengono ricavate e validate le righe prodotto
+collegate all'offerta. Le stesse righe alimentano sia l'impegno cliente `R` sia
+l'ordine di produzione `H`.

@@ -10,7 +10,8 @@ Partial Public Class CLFCRGSOF
 #Region "Configurazione entity"
   Private strUltimoEventoFiliera As String = ""
     Private Const ContoOrdineProduzione As Integer = 19019999
-    Private Const GeneraOrdineProduzione As Boolean = False
+    Private Const GeneraImpegnoCommessa As Boolean = False
+    Private Const GeneraOrdineProduzione As Boolean = True
     Public Event AvanzamentoFiliera(ByVal strMessaggio As String, ByVal nPercentuale As Integer)
 
     Public _oClhGsof As CLHCRGSOF
@@ -58,7 +59,8 @@ Partial Public Class CLFCRGSOF
                 Return False
             End If
             Dim bImpegnoCliente As Boolean = oClhGsof.EsisteImpegno(nCommessa, "R")
-            Dim bImpegnoCommessa As Boolean = oClhGsof.EsisteImpegno(nCommessa, "#")
+            Dim bImpegnoCommessa As Boolean =
+                Not GeneraImpegnoCommessa OrElse oClhGsof.EsisteImpegno(nCommessa, "#")
             Dim bOrdineProduzione As Boolean =
                 Not GeneraOrdineProduzione OrElse oClhGsof.EsisteImpegno(nCommessa, "H")
 
@@ -68,11 +70,7 @@ Partial Public Class CLFCRGSOF
 
             If bImpegnoCliente AndAlso bImpegnoCommessa AndAlso bOrdineProduzione Then
                 MostraAvanzamento("Gestione distinte base completata.", 100)
-                If GeneraOrdineProduzione Then
-                    strMsg = $"Aggiornate le distinte della commessa {nCommessa}; gli impegni e l'ordine di produzione erano già presenti."
-                Else
-                    strMsg = $"Gestite le distinte base della commessa {nCommessa}; gli impegni erano già presenti."
-                End If
+                strMsg = $"Gestite le distinte base della commessa {nCommessa}; l'impegno cliente e l'ordine di produzione erano già presenti."
                 Return True
             End If
 
@@ -87,30 +85,26 @@ Partial Public Class CLFCRGSOF
             End If
 
             Dim dttMateriali As DataTable = Nothing
-            If Not bImpegnoCommessa Then dttMateriali = CreaFabbisogniMateriali(dsImport)
-            If Not bImpegnoCommessa AndAlso
+            If GeneraImpegnoCommessa AndAlso Not bImpegnoCommessa Then
+                dttMateriali = CreaFabbisogniMateriali(dsImport)
+            End If
+            If GeneraImpegnoCommessa AndAlso Not bImpegnoCommessa AndAlso
                (dttMateriali Is Nothing OrElse dttMateriali.Rows.Count = 0) Then
                 strMsg = "Non sono stati ricavati materiali per l'impegno di commessa."
                 Return False
             End If
 
-            'Valida entrambe le raccolte prima di creare documenti, per evitare
-            'di lasciare il solo impegno R quando non è possibile generare il #.
             If Not bImpegnoCliente AndAlso
                Not CreaImpegno("R", nConto, nCommessa, strCodice, dttProdotti, strMsg) Then Return False
 
-            If Not bImpegnoCommessa AndAlso
+            If GeneraImpegnoCommessa AndAlso Not bImpegnoCommessa AndAlso
                Not CreaImpegno("#", nConto, nCommessa, strCodice, dttMateriali, strMsg) Then Return False
 
             If GeneraOrdineProduzione AndAlso Not bOrdineProduzione AndAlso
                Not CreaImpegno("H", 9019999, nCommessa, strCodice, dttProdotti, strMsg) Then Return False
 
             MostraAvanzamento("Elaborazione completata.", 100)
-            If GeneraOrdineProduzione Then
-                strMsg = $"Completata la filiera documentale per la commessa {nCommessa}: impegno cliente R, impegno di commessa # e ordine di produzione H."
-            Else
-                strMsg = $"Completata la filiera documentale per la commessa {nCommessa}: impegno cliente R e impegno di commessa #."
-            End If
+            strMsg = $"Completata la filiera documentale per la commessa {nCommessa}: impegno cliente R e ordine di produzione H."
 
             Return True
 

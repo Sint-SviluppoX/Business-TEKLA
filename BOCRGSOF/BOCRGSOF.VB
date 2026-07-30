@@ -131,7 +131,7 @@ Public Class FROCRGSOF
             If ckEt_confermato.Checked Then
 
                 If oApp.MsgBoxInfoYesNo_DefNo(
-                    "Desideri generare l'impegno cliente R e l'impegno di commessa #?") = DialogResult.Yes Then
+                    "Desideri generare l'impegno cliente R e l'ordine di produzione H?") = DialogResult.Yes Then
                     GeneraImpegniAssociati()
                 End If
 
