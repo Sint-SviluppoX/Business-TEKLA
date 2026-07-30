@@ -125,11 +125,15 @@ Per ogni commessa la procedura completa la seguente filiera:
 |---|---|---:|---:|---|
 | Impegno cliente | `R` | conto ricavato dal lead, con fallback configurato | `1` | prodotti finiti secondo l'offerta corrente |
 | Impegno di commessa | `#` | conto ricavato dal lead, con fallback configurato | `1` | fabbisogni materiali aggregati |
-| Ordine di produzione | `H` | `9019999` | `3` | prodotti finiti secondo l'offerta corrente |
+| Ordine di produzione | `H` | `9019999` | `3` | Logica conservata; generazione attualmente disabilitata |
 
-La presenza dei tre documenti viene controllata separatamente per commessa. Se
-un'elaborazione precedente ne ha già creato uno, il documento esistente non
-viene duplicato e vengono generati soltanto quelli mancanti.
+La presenza degli impegni `R` e `#` viene controllata separatamente per
+commessa. Se un'elaborazione precedente ne ha già creato uno, il documento
+esistente non viene duplicato e viene generato soltanto quello mancante.
+
+La logica di creazione dell'ordine di produzione `H` è mantenuta nel codice ma
+non viene eseguita perché l'interruttore `GeneraOrdineProduzione` è impostato a
+`False`. Per riattivarla è sufficiente impostare la costante a `True`.
 
 Il conto `9019999` e il `tipobf = 3` dell'ordine `H` vengono ripristinati anche
 dopo la validazione della testata e immediatamente prima del salvataggio, così

@@ -10,6 +10,7 @@ Partial Public Class CLFCRGSOF
 #Region "Configurazione entity"
   Private strUltimoEventoFiliera As String = ""
     Private Const ContoOrdineProduzione As Integer = 19019999
+    Private Const GeneraOrdineProduzione As Boolean = False
     Public Event AvanzamentoFiliera(ByVal strMessaggio As String, ByVal nPercentuale As Integer)
 
     Public _oClhGsof As CLHCRGSOF
@@ -58,15 +59,20 @@ Partial Public Class CLFCRGSOF
             End If
             Dim bImpegnoCliente As Boolean = oClhGsof.EsisteImpegno(nCommessa, "R")
             Dim bImpegnoCommessa As Boolean = oClhGsof.EsisteImpegno(nCommessa, "#")
-            Dim bOrdineProduzione As Boolean = oClhGsof.EsisteImpegno(nCommessa, "H")
+            Dim bOrdineProduzione As Boolean =
+                Not GeneraOrdineProduzione OrElse oClhGsof.EsisteImpegno(nCommessa, "H")
 
             'Gli articoli e le distinte vengono riallineati a ogni elaborazione.
             'Per una distinta esistente viene creata una nuova versione corrente.
             If Not CreaArticoliEDistinte(dsImport, nCommessa, strMsg) Then Return False
 
             If bImpegnoCliente AndAlso bImpegnoCommessa AndAlso bOrdineProduzione Then
-                MostraAvanzamento("Aggiornamento distinte completato.", 100)
-                strMsg = $"Aggiornate le distinte della commessa {nCommessa}; gli impegni e l'ordine di produzione erano già presenti."
+                MostraAvanzamento("Gestione distinte base completata.", 100)
+                If GeneraOrdineProduzione Then
+                    strMsg = $"Aggiornate le distinte della commessa {nCommessa}; gli impegni e l'ordine di produzione erano già presenti."
+                Else
+                    strMsg = $"Gestite le distinte base della commessa {nCommessa}; gli impegni erano già presenti."
+                End If
                 Return True
             End If
 
@@ -96,11 +102,15 @@ Partial Public Class CLFCRGSOF
             If Not bImpegnoCommessa AndAlso
                Not CreaImpegno("#", nConto, nCommessa, strCodice, dttMateriali, strMsg) Then Return False
 
-            If Not bOrdineProduzione AndAlso
+            If GeneraOrdineProduzione AndAlso Not bOrdineProduzione AndAlso
                Not CreaImpegno("H", 9019999, nCommessa, strCodice, dttProdotti, strMsg) Then Return False
 
             MostraAvanzamento("Elaborazione completata.", 100)
-            strMsg = $"Completata la filiera documentale per la commessa {nCommessa}: impegno cliente R, impegno di commessa # e ordine di produzione H."
+            If GeneraOrdineProduzione Then
+                strMsg = $"Completata la filiera documentale per la commessa {nCommessa}: impegno cliente R, impegno di commessa # e ordine di produzione H."
+            Else
+                strMsg = $"Completata la filiera documentale per la commessa {nCommessa}: impegno cliente R e impegno di commessa #."
+            End If
 
             Return True
 
@@ -500,7 +510,7 @@ Partial Public Class CLFCRGSOF
                 If dtt.TableName <> "OPTION" Then nTotaleArticoli += dtt.Rows.Count
             Next
             Dim nArticolo As Integer = 0
-            MostraAvanzamento("Generazione articoli...", 0)
+            MostraAvanzamento("Gestione articoli...", 0)
             For Each dtt As DataTable In dsImport.Tables
                 'Il TXO descrive tagli e consumi delle barre censite nel TXB:
                 'non genera una seconda anagrafica articolo.
@@ -508,7 +518,7 @@ Partial Public Class CLFCRGSOF
                 For Each dtr As DataRow In dtt.Rows
                     CreaArticolo(oCleArti, dtr, dtt.TableName)
                     nArticolo += 1
-                    MostraAvanzamento("Generazione articoli: " & nArticolo.ToString() & " di " &
+                    MostraAvanzamento("Gestione articoli: " & nArticolo.ToString() & " di " &
                                       nTotaleArticoli.ToString(), Percentuale(nArticolo, nTotaleArticoli))
                 Next
             Next
@@ -805,7 +815,7 @@ Partial Public Class CLFCRGSOF
 
             Dim nDistinta As Integer = 0
             Dim nTotaleDistinte As Integer = dsImport.Tables("JOB").Rows.Count
-            MostraAvanzamento("Generazione distinte prodotti finiti...", 0)
+            MostraAvanzamento("Gestione distinte base prodotti finiti...", 0)
             For Each dtrJob As DataRow In dsImport.Tables("JOB").Rows
                 Dim strPadre As String = CodiceArticolo(dtrJob, "JOB")
                 Dim dsMovdis As DataSet = ApriDistinta(oCleDiba, strPadre)
@@ -821,7 +831,7 @@ Partial Public Class CLFCRGSOF
 
                 If Not oCleDiba.Salva(False, "!" & strPadre & vbLf & vbTab & strPadre, "") Then Return False
                 nDistinta += 1
-                MostraAvanzamento("Generazione distinte prodotti finiti: " & nDistinta.ToString() & " di " &
+                MostraAvanzamento("Gestione distinte base prodotti finiti: " & nDistinta.ToString() & " di " &
                                   nTotaleDistinte.ToString(), Percentuale(nDistinta, nTotaleDistinte))
             Next
 
